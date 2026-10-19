@@ -1,0 +1,408 @@
+2026-04-23 03:25:16,734:INFO: Loading the datasets and model...
+2026-04-23 03:25:16,734:INFO: Loaded ViT-H-14 model config.
+2026-04-23 03:25:21,753:INFO: Loading pretrained ViT-H-14 weights (/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin).
+2026-04-23 03:25:48,935:INFO: Loaded ViT-H-14 model config.
+2026-04-23 03:25:53,923:INFO: Loading pretrained ViT-H-14 weights (/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin).
+2026-04-23 03:26:19,980:INFO: Resumed checkpoint from /data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageD_refcond/dress/dress_stageD_refcond_best_model.pt
+2026-04-23 03:26:19,984:INFO: Starting train for 16 epoch(s)
+2026-04-23 03:26:20,045:INFO: Dataset sizes: base=5985 mixed=5985 pseudo_path= pseudo_start_epoch=0 pseudo_repeat=1 pseudo_min_score=0.0000
+2026-04-23 03:26:20,045:INFO: Bank settings: bank_path=/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageP_bankdistill_20260423/banks_full/dress_bank_full.jsonl bank_soft_k=2 bank_start_epoch=2 soft_loss_weight=0.0800 conflict_loss_weight=0.0500 conflict_margin=0.0400 resume_checkpoint=/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageD_refcond/dress/dress_stageD_refcond_best_model.pt
+2026-04-23 03:26:20,046:INFO: Epoch 1/16
+2026-04-23 03:26:24,772:INFO: step=0 total_loss=0.087694 ranking=0.087694
+2026-04-23 03:26:26,107:INFO: step=5 total_loss=0.068743 ranking=0.068743
+2026-04-23 03:26:27,267:INFO: step=10 total_loss=0.015526 ranking=0.015526
+2026-04-23 03:26:28,373:INFO: step=15 total_loss=0.074563 ranking=0.074563
+2026-04-23 03:26:29,488:INFO: step=20 total_loss=0.063277 ranking=0.063277
+2026-04-23 03:26:30,564:INFO: step=25 total_loss=0.059443 ranking=0.059443
+2026-04-23 03:26:31,643:INFO: step=30 total_loss=0.060864 ranking=0.060864
+2026-04-23 03:26:32,745:INFO: step=35 total_loss=0.082703 ranking=0.082703
+2026-04-23 03:26:33,856:INFO: step=40 total_loss=0.041379 ranking=0.041379
+2026-04-23 03:26:34,982:INFO: step=45 total_loss=0.140274 ranking=0.140274
+2026-04-23 03:26:36,144:INFO: step=50 total_loss=0.057906 ranking=0.057906
+2026-04-23 03:26:37,316:INFO: step=55 total_loss=0.106277 ranking=0.106277
+2026-04-23 03:26:38,484:INFO: step=60 total_loss=0.067150 ranking=0.067150
+2026-04-23 03:26:39,660:INFO: step=65 total_loss=0.024802 ranking=0.024802
+2026-04-23 03:26:40,825:INFO: step=70 total_loss=0.046607 ranking=0.046607
+2026-04-23 03:26:41,976:INFO: step=75 total_loss=0.033470 ranking=0.033470
+2026-04-23 03:26:43,117:INFO: step=80 total_loss=0.060556 ranking=0.060556
+2026-04-23 03:26:44,230:INFO: step=85 total_loss=0.044459 ranking=0.044459
+2026-04-23 03:26:45,339:INFO: step=90 total_loss=0.076996 ranking=0.076996
+2026-04-23 03:26:46,461:INFO: step=95 total_loss=0.027830 ranking=0.027830
+2026-04-23 03:26:47,587:INFO: step=100 total_loss=0.018617 ranking=0.018617
+2026-04-23 03:26:48,717:INFO: step=105 total_loss=0.099150 ranking=0.099150
+2026-04-23 03:26:49,883:INFO: step=110 total_loss=0.061808 ranking=0.061808
+2026-04-23 03:26:51,054:INFO: step=115 total_loss=0.018956 ranking=0.018956
+2026-04-23 03:26:52,416:INFO: step=120 total_loss=0.079288 ranking=0.079288
+2026-04-23 03:26:53,592:INFO: step=125 total_loss=0.062037 ranking=0.062037
+2026-04-23 03:26:54,760:INFO: step=130 total_loss=0.109160 ranking=0.109160
+2026-04-23 03:26:55,861:INFO: step=135 total_loss=0.059813 ranking=0.059813
+2026-04-23 03:26:56,974:INFO: step=140 total_loss=0.077584 ranking=0.077584
+2026-04-23 03:26:58,098:INFO: step=145 total_loss=0.035976 ranking=0.035976
+2026-04-23 03:26:59,208:INFO: step=150 total_loss=0.099988 ranking=0.099988
+2026-04-23 03:27:00,325:INFO: step=155 total_loss=0.043076 ranking=0.043076
+2026-04-23 03:27:01,430:INFO: step=160 total_loss=0.018724 ranking=0.018724
+2026-04-23 03:27:02,578:INFO: step=165 total_loss=0.110394 ranking=0.110394
+2026-04-23 03:27:03,764:INFO: step=170 total_loss=0.031102 ranking=0.031102
+2026-04-23 03:27:04,933:INFO: step=175 total_loss=0.025415 ranking=0.025415
+2026-04-23 03:27:06,088:INFO: step=180 total_loss=0.092076 ranking=0.092076
+2026-04-23 03:27:07,268:INFO: step=185 total_loss=0.037173 ranking=0.037173
+2026-04-23 03:27:08,451:INFO: step=190 total_loss=0.064541 ranking=0.064541
+2026-04-23 03:27:09,618:INFO: step=195 total_loss=0.130784 ranking=0.130784
+2026-04-23 03:27:10,752:INFO: step=200 total_loss=0.102479 ranking=0.102479
+2026-04-23 03:27:11,869:INFO: step=205 total_loss=0.023717 ranking=0.023717
+2026-04-23 03:27:13,014:INFO: step=210 total_loss=0.042982 ranking=0.042982
+2026-04-23 03:27:14,180:INFO: step=215 total_loss=0.055133 ranking=0.055133
+2026-04-23 03:27:15,350:INFO: step=220 total_loss=0.082654 ranking=0.082654
+2026-04-23 03:27:16,503:INFO: step=225 total_loss=0.085012 ranking=0.085012
+2026-04-23 03:27:17,687:INFO: step=230 total_loss=0.104277 ranking=0.104277
+2026-04-23 03:27:18,873:INFO: step=235 total_loss=0.037596 ranking=0.037596
+2026-04-23 03:27:20,059:INFO: step=240 total_loss=0.046123 ranking=0.046123
+2026-04-23 03:27:21,247:INFO: step=245 total_loss=0.182265 ranking=0.182265
+2026-04-23 03:27:22,438:INFO: step=250 total_loss=0.034678 ranking=0.034678
+2026-04-23 03:27:23,627:INFO: step=255 total_loss=0.059060 ranking=0.059060
+2026-04-23 03:27:24,780:INFO: step=260 total_loss=0.067379 ranking=0.067379
+2026-04-23 03:27:25,941:INFO: step=265 total_loss=0.076492 ranking=0.076492
+2026-04-23 03:27:27,090:INFO: step=270 total_loss=0.068460 ranking=0.068460
+2026-04-23 03:27:28,250:INFO: step=275 total_loss=0.048779 ranking=0.048779
+2026-04-23 03:27:29,400:INFO: step=280 total_loss=0.054885 ranking=0.054885
+2026-04-23 03:27:30,556:INFO: step=285 total_loss=0.161026 ranking=0.161026
+2026-04-23 03:27:31,740:INFO: step=290 total_loss=0.131393 ranking=0.131393
+2026-04-23 03:27:32,921:INFO: step=295 total_loss=0.054599 ranking=0.054599
+2026-04-23 03:27:34,107:INFO: step=300 total_loss=0.055183 ranking=0.055183
+2026-04-23 03:27:35,308:INFO: step=305 total_loss=0.050916 ranking=0.050916
+2026-04-23 03:27:36,515:INFO: step=310 total_loss=0.031293 ranking=0.031293
+2026-04-23 03:27:37,688:INFO: step=315 total_loss=0.055976 ranking=0.055976
+2026-04-23 03:27:38,822:INFO: step=320 total_loss=0.065055 ranking=0.065055
+2026-04-23 03:27:39,955:INFO: step=325 total_loss=0.051124 ranking=0.051124
+2026-04-23 03:27:41,095:INFO: step=330 total_loss=0.017974 ranking=0.017974
+2026-04-23 03:27:42,240:INFO: step=335 total_loss=0.042129 ranking=0.042129
+2026-04-23 03:27:43,368:INFO: step=340 total_loss=0.029518 ranking=0.029518
+2026-04-23 03:27:44,511:INFO: step=345 total_loss=0.038757 ranking=0.038757
+2026-04-23 03:27:45,704:INFO: step=350 total_loss=0.056403 ranking=0.056403
+2026-04-23 03:27:46,900:INFO: step=355 total_loss=0.042706 ranking=0.042706
+2026-04-23 03:27:48,095:INFO: step=360 total_loss=0.073261 ranking=0.073261
+2026-04-23 03:27:49,280:INFO: step=365 total_loss=0.020535 ranking=0.020535
+2026-04-23 03:27:50,459:INFO: step=370 total_loss=0.027246 ranking=0.027246
+2026-04-23 03:27:51,583:INFO: step=375 total_loss=0.043651 ranking=0.043651
+2026-04-23 03:27:52,713:INFO: step=380 total_loss=0.044501 ranking=0.044501
+2026-04-23 03:27:53,830:INFO: step=385 total_loss=0.047859 ranking=0.047859
+2026-04-23 03:27:54,962:INFO: step=390 total_loss=0.077712 ranking=0.077712
+2026-04-23 03:27:56,106:INFO: step=395 total_loss=0.025498 ranking=0.025498
+2026-04-23 03:27:57,272:INFO: step=400 total_loss=0.046914 ranking=0.046914
+2026-04-23 03:27:58,428:INFO: step=405 total_loss=0.023964 ranking=0.023964
+2026-04-23 03:27:59,596:INFO: step=410 total_loss=0.088188 ranking=0.088188
+2026-04-23 03:28:00,763:INFO: step=415 total_loss=0.054325 ranking=0.054325
+2026-04-23 03:28:01,939:INFO: step=420 total_loss=0.031325 ranking=0.031325
+2026-04-23 03:28:03,116:INFO: step=425 total_loss=0.147127 ranking=0.147127
+2026-04-23 03:28:04,274:INFO: step=430 total_loss=0.032890 ranking=0.032890
+2026-04-23 03:28:05,377:INFO: step=435 total_loss=0.038731 ranking=0.038731
+2026-04-23 03:28:06,508:INFO: step=440 total_loss=0.100507 ranking=0.100507
+2026-04-23 03:28:07,657:INFO: step=445 total_loss=0.028167 ranking=0.028167
+2026-04-23 03:28:08,782:INFO: step=450 total_loss=0.078502 ranking=0.078502
+2026-04-23 03:28:09,903:INFO: step=455 total_loss=0.016332 ranking=0.016332
+2026-04-23 03:28:11,027:INFO: step=460 total_loss=0.110424 ranking=0.110424
+2026-04-23 03:28:12,162:INFO: step=465 total_loss=0.074390 ranking=0.074390
+2026-04-23 03:28:13,324:INFO: step=470 total_loss=0.023624 ranking=0.023624
+2026-04-23 03:28:14,490:INFO: step=475 total_loss=0.205884 ranking=0.205884
+2026-04-23 03:28:15,661:INFO: step=480 total_loss=0.015677 ranking=0.015677
+2026-04-23 03:28:16,829:INFO: step=485 total_loss=0.013205 ranking=0.013205
+2026-04-23 03:28:18,136:INFO: step=490 total_loss=0.151015 ranking=0.151015
+2026-04-23 03:28:19,266:INFO: step=495 total_loss=0.047737 ranking=0.047737
+2026-04-23 03:28:20,394:INFO: step=500 total_loss=0.035667 ranking=0.035667
+2026-04-23 03:28:21,513:INFO: step=505 total_loss=0.018544 ranking=0.018544
+2026-04-23 03:28:22,643:INFO: step=510 total_loss=0.057758 ranking=0.057758
+2026-04-23 03:28:23,762:INFO: step=515 total_loss=0.052327 ranking=0.052327
+2026-04-23 03:28:24,891:INFO: step=520 total_loss=0.016576 ranking=0.016576
+2026-04-23 03:28:26,037:INFO: step=525 total_loss=0.035974 ranking=0.035974
+2026-04-23 03:28:27,212:INFO: step=530 total_loss=0.060445 ranking=0.060445
+2026-04-23 03:28:28,393:INFO: step=535 total_loss=0.118372 ranking=0.118372
+2026-04-23 03:28:29,569:INFO: step=540 total_loss=0.111555 ranking=0.111555
+2026-04-23 03:28:30,745:INFO: step=545 total_loss=0.057925 ranking=0.057925
+2026-04-23 03:28:31,916:INFO: step=550 total_loss=0.031268 ranking=0.031268
+2026-04-23 03:28:33,045:INFO: step=555 total_loss=0.042918 ranking=0.042918
+2026-04-23 03:28:34,168:INFO: step=560 total_loss=0.042540 ranking=0.042540
+2026-04-23 03:28:35,293:INFO: step=565 total_loss=0.089198 ranking=0.089198
+2026-04-23 03:28:36,418:INFO: step=570 total_loss=0.027290 ranking=0.027290
+2026-04-23 03:28:37,549:INFO: step=575 total_loss=0.090505 ranking=0.090505
+2026-04-23 03:28:38,693:INFO: step=580 total_loss=0.165683 ranking=0.165683
+2026-04-23 03:28:39,842:INFO: step=585 total_loss=0.017455 ranking=0.017455
+2026-04-23 03:28:41,009:INFO: step=590 total_loss=0.020320 ranking=0.020320
+2026-04-23 03:28:42,179:INFO: step=595 total_loss=0.050178 ranking=0.050178
+2026-04-23 03:28:43,350:INFO: step=600 total_loss=0.061804 ranking=0.061804
+2026-04-23 03:28:44,520:INFO: step=605 total_loss=0.046777 ranking=0.046777
+2026-04-23 03:28:45,679:INFO: step=610 total_loss=0.033889 ranking=0.033889
+2026-04-23 03:28:46,793:INFO: step=615 total_loss=0.137937 ranking=0.137937
+2026-04-23 03:28:47,953:INFO: step=620 total_loss=0.192288 ranking=0.192288
+2026-04-23 03:28:49,090:INFO: step=625 total_loss=0.049550 ranking=0.049550
+2026-04-23 03:28:50,245:INFO: step=630 total_loss=0.024884 ranking=0.024884
+2026-04-23 03:28:51,369:INFO: step=635 total_loss=0.031546 ranking=0.031546
+2026-04-23 03:28:52,492:INFO: step=640 total_loss=0.075920 ranking=0.075920
+2026-04-23 03:28:53,637:INFO: step=645 total_loss=0.076680 ranking=0.076680
+2026-04-23 03:28:54,794:INFO: step=650 total_loss=0.024587 ranking=0.024587
+2026-04-23 03:28:55,941:INFO: step=655 total_loss=0.127557 ranking=0.127557
+2026-04-23 03:28:57,087:INFO: step=660 total_loss=0.055853 ranking=0.055853
+2026-04-23 03:28:58,254:INFO: step=665 total_loss=0.048588 ranking=0.048588
+2026-04-23 03:28:59,384:INFO: step=670 total_loss=0.093837 ranking=0.093837
+2026-04-23 03:29:00,495:INFO: step=675 total_loss=0.059497 ranking=0.059497
+2026-04-23 03:29:01,614:INFO: step=680 total_loss=0.039592 ranking=0.039592
+2026-04-23 03:29:02,729:INFO: step=685 total_loss=0.060034 ranking=0.060034
+2026-04-23 03:29:03,957:INFO: step=690 total_loss=0.064023 ranking=0.064023
+2026-04-23 03:29:05,070:INFO: step=695 total_loss=0.076139 ranking=0.076139
+2026-04-23 03:29:06,191:INFO: step=700 total_loss=0.034703 ranking=0.034703
+2026-04-23 03:29:07,357:INFO: step=705 total_loss=0.073307 ranking=0.073307
+2026-04-23 03:29:08,522:INFO: step=710 total_loss=0.115849 ranking=0.115849
+2026-04-23 03:29:09,692:INFO: step=715 total_loss=0.082154 ranking=0.082154
+2026-04-23 03:29:10,868:INFO: step=720 total_loss=0.039910 ranking=0.039910
+2026-04-23 03:29:12,040:INFO: step=725 total_loss=0.022152 ranking=0.022152
+2026-04-23 03:29:13,198:INFO: step=730 total_loss=0.055980 ranking=0.055980
+2026-04-23 03:29:14,285:INFO: step=735 total_loss=0.059838 ranking=0.059838
+2026-04-23 03:29:15,394:INFO: step=740 total_loss=0.045354 ranking=0.045354
+2026-04-23 03:29:16,484:INFO: step=745 total_loss=0.028040 ranking=0.028040
+2026-04-23 03:30:26,409:INFO: [('dress_r1', 21.715418939018345), ('dress_r10', 53.148239960337136), ('dress_r50', 75.95438770451165)]
+2026-04-23 03:30:32,280:INFO: Epoch 2/16
+2026-04-23 03:30:33,849:INFO: step=0 total_loss=0.020280 ranking=0.020280
+2026-04-23 03:30:34,982:INFO: step=5 total_loss=0.028191 ranking=0.028191
+2026-04-23 03:30:36,145:INFO: step=10 total_loss=0.046371 ranking=0.046371
+2026-04-23 03:30:37,297:INFO: step=15 total_loss=0.040757 ranking=0.040757
+2026-04-23 03:30:38,486:INFO: step=20 total_loss=0.023113 ranking=0.023113
+2026-04-23 03:30:39,663:INFO: step=25 total_loss=0.026279 ranking=0.026279
+2026-04-23 03:30:40,835:INFO: step=30 total_loss=0.115676 ranking=0.115676
+2026-04-23 03:30:41,994:INFO: step=35 total_loss=0.027672 ranking=0.027672
+2026-04-23 03:30:43,131:INFO: step=40 total_loss=0.094661 ranking=0.094661
+2026-04-23 03:30:44,285:INFO: step=45 total_loss=0.118442 ranking=0.118442
+2026-04-23 03:30:45,442:INFO: step=50 total_loss=0.045907 ranking=0.045907
+2026-04-23 03:30:46,598:INFO: step=55 total_loss=0.031548 ranking=0.031548
+2026-04-23 03:30:47,764:INFO: step=60 total_loss=0.042871 ranking=0.042871
+2026-04-23 03:30:48,924:INFO: step=65 total_loss=0.117551 ranking=0.117551
+2026-04-23 03:30:50,063:INFO: step=70 total_loss=0.032993 ranking=0.032993
+2026-04-23 03:30:51,200:INFO: step=75 total_loss=0.047239 ranking=0.047239
+2026-04-23 03:30:52,299:INFO: step=80 total_loss=0.031922 ranking=0.031922
+2026-04-23 03:30:53,408:INFO: step=85 total_loss=0.049817 ranking=0.049817
+2026-04-23 03:30:54,504:INFO: step=90 total_loss=0.020996 ranking=0.020996
+2026-04-23 03:30:55,613:INFO: step=95 total_loss=0.052768 ranking=0.052768
+2026-04-23 03:30:56,760:INFO: step=100 total_loss=0.095187 ranking=0.095187
+2026-04-23 03:30:57,925:INFO: step=105 total_loss=0.034836 ranking=0.034836
+2026-04-23 03:30:59,084:INFO: step=110 total_loss=0.068536 ranking=0.068536
+2026-04-23 03:31:00,265:INFO: step=115 total_loss=0.206849 ranking=0.206849
+2026-04-23 03:31:01,451:INFO: step=120 total_loss=0.042061 ranking=0.042061
+2026-04-23 03:31:02,612:INFO: step=125 total_loss=0.034213 ranking=0.034213
+2026-04-23 03:31:03,704:INFO: step=130 total_loss=0.049321 ranking=0.049321
+2026-04-23 03:31:04,805:INFO: step=135 total_loss=0.037963 ranking=0.037963
+2026-04-23 03:31:05,898:INFO: step=140 total_loss=0.051350 ranking=0.051350
+2026-04-23 03:31:07,037:INFO: step=145 total_loss=0.017834 ranking=0.017834
+2026-04-23 03:31:08,152:INFO: step=150 total_loss=0.047477 ranking=0.047477
+2026-04-23 03:31:09,258:INFO: step=155 total_loss=0.018959 ranking=0.018959
+2026-04-23 03:31:10,393:INFO: step=160 total_loss=0.046107 ranking=0.046107
+2026-04-23 03:31:11,556:INFO: step=165 total_loss=0.075862 ranking=0.075862
+2026-04-23 03:31:12,715:INFO: step=170 total_loss=0.035581 ranking=0.035581
+2026-04-23 03:31:13,865:INFO: step=175 total_loss=0.085175 ranking=0.085175
+2026-04-23 03:31:15,021:INFO: step=180 total_loss=0.096862 ranking=0.096862
+2026-04-23 03:31:16,155:INFO: step=185 total_loss=0.219839 ranking=0.219839
+2026-04-23 03:31:17,284:INFO: step=190 total_loss=0.093719 ranking=0.093719
+2026-04-23 03:31:18,390:INFO: step=195 total_loss=0.048964 ranking=0.048964
+2026-04-23 03:31:19,494:INFO: step=200 total_loss=0.024502 ranking=0.024502
+2026-04-23 03:31:20,610:INFO: step=205 total_loss=0.087485 ranking=0.087485
+2026-04-23 03:31:21,743:INFO: step=210 total_loss=0.056985 ranking=0.056985
+2026-04-23 03:31:22,870:INFO: step=215 total_loss=0.075138 ranking=0.075138
+2026-04-23 03:31:24,006:INFO: step=220 total_loss=0.018451 ranking=0.018451
+2026-04-23 03:31:25,154:INFO: step=225 total_loss=0.025641 ranking=0.025641
+2026-04-23 03:31:26,305:INFO: step=230 total_loss=0.041786 ranking=0.041786
+2026-04-23 03:31:27,474:INFO: step=235 total_loss=0.136854 ranking=0.136854
+2026-04-23 03:31:28,801:INFO: step=240 total_loss=0.112144 ranking=0.112144
+2026-04-23 03:31:29,926:INFO: step=245 total_loss=0.049338 ranking=0.049338
+2026-04-23 03:31:31,031:INFO: step=250 total_loss=0.048816 ranking=0.048816
+2026-04-23 03:31:32,168:INFO: step=255 total_loss=0.052656 ranking=0.052656
+2026-04-23 03:31:33,280:INFO: step=260 total_loss=0.024645 ranking=0.024645
+2026-04-23 03:31:34,386:INFO: step=265 total_loss=0.045815 ranking=0.045815
+2026-04-23 03:31:35,479:INFO: step=270 total_loss=0.083398 ranking=0.083398
+2026-04-23 03:31:36,597:INFO: step=275 total_loss=0.065661 ranking=0.065661
+2026-04-23 03:31:37,744:INFO: step=280 total_loss=0.050135 ranking=0.050135
+2026-04-23 03:31:38,885:INFO: step=285 total_loss=0.038813 ranking=0.038813
+2026-04-23 03:31:40,032:INFO: step=290 total_loss=0.124270 ranking=0.124270
+2026-04-23 03:31:41,186:INFO: step=295 total_loss=0.032924 ranking=0.032924
+2026-04-23 03:31:42,361:INFO: step=300 total_loss=0.044378 ranking=0.044378
+2026-04-23 03:31:43,530:INFO: step=305 total_loss=0.053719 ranking=0.053719
+2026-04-23 03:31:44,648:INFO: step=310 total_loss=0.027767 ranking=0.027767
+2026-04-23 03:31:45,746:INFO: step=315 total_loss=0.167887 ranking=0.167887
+2026-04-23 03:31:46,887:INFO: step=320 total_loss=0.144218 ranking=0.144218
+2026-04-23 03:31:48,028:INFO: step=325 total_loss=0.041449 ranking=0.041449
+2026-04-23 03:31:49,165:INFO: step=330 total_loss=0.028413 ranking=0.028413
+2026-04-23 03:31:50,297:INFO: step=335 total_loss=0.086102 ranking=0.086102
+2026-04-23 03:31:51,461:INFO: step=340 total_loss=0.058294 ranking=0.058294
+2026-04-23 03:31:52,650:INFO: step=345 total_loss=0.134551 ranking=0.134551
+2026-04-23 03:31:53,831:INFO: step=350 total_loss=0.087781 ranking=0.087781
+2026-04-23 03:31:54,991:INFO: step=355 total_loss=0.024871 ranking=0.024871
+2026-04-23 03:31:56,146:INFO: step=360 total_loss=0.069380 ranking=0.069380
+2026-04-23 03:31:57,301:INFO: step=365 total_loss=0.033463 ranking=0.033463
+2026-04-23 03:31:58,420:INFO: step=370 total_loss=0.070768 ranking=0.070768
+2026-04-23 03:31:59,538:INFO: step=375 total_loss=0.046912 ranking=0.046912
+2026-04-23 03:32:00,659:INFO: step=380 total_loss=0.056497 ranking=0.056497
+2026-04-23 03:32:01,797:INFO: step=385 total_loss=0.022233 ranking=0.022233
+2026-04-23 03:32:02,916:INFO: step=390 total_loss=0.049279 ranking=0.049279
+2026-04-23 03:32:04,045:INFO: step=395 total_loss=0.061862 ranking=0.061862
+2026-04-23 03:32:05,193:INFO: step=400 total_loss=0.079901 ranking=0.079901
+2026-04-23 03:32:06,353:INFO: step=405 total_loss=0.059071 ranking=0.059071
+2026-04-23 03:32:07,535:INFO: step=410 total_loss=0.051622 ranking=0.051622
+2026-04-23 03:32:08,706:INFO: step=415 total_loss=0.039050 ranking=0.039050
+2026-04-23 03:32:09,868:INFO: step=420 total_loss=0.016075 ranking=0.016075
+2026-04-23 03:32:11,009:INFO: step=425 total_loss=0.023118 ranking=0.023118
+2026-04-23 03:32:12,130:INFO: step=430 total_loss=0.032059 ranking=0.032059
+2026-04-23 03:32:13,241:INFO: step=435 total_loss=0.113192 ranking=0.113192
+2026-04-23 03:32:14,463:INFO: step=440 total_loss=0.058464 ranking=0.058464
+2026-04-23 03:32:15,563:INFO: step=445 total_loss=0.046641 ranking=0.046641
+2026-04-23 03:32:16,665:INFO: step=450 total_loss=0.025412 ranking=0.025412
+2026-04-23 03:32:17,794:INFO: step=455 total_loss=0.035226 ranking=0.035226
+2026-04-23 03:32:18,952:INFO: step=460 total_loss=0.039658 ranking=0.039658
+2026-04-23 03:32:20,115:INFO: step=465 total_loss=0.050938 ranking=0.050938
+2026-04-23 03:32:21,284:INFO: step=470 total_loss=0.018316 ranking=0.018316
+2026-04-23 03:32:22,452:INFO: step=475 total_loss=0.061048 ranking=0.061048
+2026-04-23 03:32:23,627:INFO: step=480 total_loss=0.075109 ranking=0.075109
+2026-04-23 03:32:24,766:INFO: step=485 total_loss=0.061830 ranking=0.061830
+2026-04-23 03:32:25,880:INFO: step=490 total_loss=0.091188 ranking=0.091188
+2026-04-23 03:32:27,003:INFO: step=495 total_loss=0.010049 ranking=0.010049
+2026-04-23 03:32:28,128:INFO: step=500 total_loss=0.015037 ranking=0.015037
+2026-04-23 03:32:29,241:INFO: step=505 total_loss=0.029290 ranking=0.029290
+2026-04-23 03:32:30,341:INFO: step=510 total_loss=0.025836 ranking=0.025836
+2026-04-23 03:32:31,460:INFO: step=515 total_loss=0.098940 ranking=0.098940
+2026-04-23 03:32:32,606:INFO: step=520 total_loss=0.030863 ranking=0.030863
+2026-04-23 03:32:33,774:INFO: step=525 total_loss=0.092231 ranking=0.092231
+2026-04-23 03:32:34,961:INFO: step=530 total_loss=0.067511 ranking=0.067511
+2026-04-23 03:32:36,126:INFO: step=535 total_loss=0.066041 ranking=0.066041
+2026-04-23 03:32:37,295:INFO: step=540 total_loss=0.032755 ranking=0.032755
+2026-04-23 03:32:38,446:INFO: step=545 total_loss=0.069231 ranking=0.069231
+2026-04-23 03:32:39,571:INFO: step=550 total_loss=0.034435 ranking=0.034435
+2026-04-23 03:32:40,692:INFO: step=555 total_loss=0.023670 ranking=0.023670
+2026-04-23 03:32:41,802:INFO: step=560 total_loss=0.073804 ranking=0.073804
+2026-04-23 03:32:42,911:INFO: step=565 total_loss=0.046162 ranking=0.046162
+2026-04-23 03:32:44,008:INFO: step=570 total_loss=0.072180 ranking=0.072180
+2026-04-23 03:32:45,114:INFO: step=575 total_loss=0.037732 ranking=0.037732
+2026-04-23 03:32:46,277:INFO: step=580 total_loss=0.039494 ranking=0.039494
+2026-04-23 03:32:47,448:INFO: step=585 total_loss=0.049763 ranking=0.049763
+2026-04-23 03:32:48,625:INFO: step=590 total_loss=0.149775 ranking=0.149775
+2026-04-23 03:32:49,794:INFO: step=595 total_loss=0.046042 ranking=0.046042
+2026-04-23 03:32:50,946:INFO: step=600 total_loss=0.038460 ranking=0.038460
+2026-04-23 03:32:52,079:INFO: step=605 total_loss=0.106113 ranking=0.106113
+2026-04-23 03:32:53,174:INFO: step=610 total_loss=0.037934 ranking=0.037934
+2026-04-23 03:32:54,284:INFO: step=615 total_loss=0.018024 ranking=0.018024
+2026-04-23 03:32:55,399:INFO: step=620 total_loss=0.060531 ranking=0.060531
+2026-04-23 03:32:56,519:INFO: step=625 total_loss=0.026303 ranking=0.026303
+2026-04-23 03:32:57,648:INFO: step=630 total_loss=0.104543 ranking=0.104543
+2026-04-23 03:32:58,760:INFO: step=635 total_loss=0.058857 ranking=0.058857
+2026-04-23 03:32:59,906:INFO: step=640 total_loss=0.140504 ranking=0.140504
+2026-04-23 03:33:01,060:INFO: step=645 total_loss=0.067045 ranking=0.067045
+2026-04-23 03:33:02,234:INFO: step=650 total_loss=0.035865 ranking=0.035865
+2026-04-23 03:33:03,405:INFO: step=655 total_loss=0.109907 ranking=0.109907
+2026-04-23 03:33:04,580:INFO: step=660 total_loss=0.022958 ranking=0.022958
+2026-04-23 03:33:05,721:INFO: step=665 total_loss=0.038122 ranking=0.038122
+2026-04-23 03:33:06,860:INFO: step=670 total_loss=0.032939 ranking=0.032939
+2026-04-23 03:33:08,009:INFO: step=675 total_loss=0.018619 ranking=0.018619
+2026-04-23 03:33:09,134:INFO: step=680 total_loss=0.029039 ranking=0.029039
+2026-04-23 03:33:10,284:INFO: step=685 total_loss=0.084851 ranking=0.084851
+2026-04-23 03:33:11,404:INFO: step=690 total_loss=0.041479 ranking=0.041479
+2026-04-23 03:33:12,524:INFO: step=695 total_loss=0.105932 ranking=0.105932
+2026-04-23 03:33:13,673:INFO: step=700 total_loss=0.025379 ranking=0.025379
+2026-04-23 03:33:14,841:INFO: step=705 total_loss=0.067794 ranking=0.067794
+2026-04-23 03:33:16,010:INFO: step=710 total_loss=0.116156 ranking=0.116156
+2026-04-23 03:33:17,193:INFO: step=715 total_loss=0.032681 ranking=0.032681
+2026-04-23 03:33:18,376:INFO: step=720 total_loss=0.031735 ranking=0.031735
+2026-04-23 03:33:19,549:INFO: step=725 total_loss=0.022952 ranking=0.022952
+2026-04-23 03:33:20,680:INFO: step=730 total_loss=0.101568 ranking=0.101568
+2026-04-23 03:33:21,795:INFO: step=735 total_loss=0.027126 ranking=0.027126
+2026-04-23 03:33:22,894:INFO: step=740 total_loss=0.152324 ranking=0.152324
+2026-04-23 03:33:23,999:INFO: step=745 total_loss=0.038411 ranking=0.038411
+2026-04-23 03:34:33,627:INFO: [('dress_r1', 21.417947446703025), ('dress_r10', 53.89191869112543), ('dress_r50', 76.20228061477442)]
+2026-04-23 03:34:40,574:INFO: Epoch 3/16
+2026-04-23 03:34:42,116:INFO: step=0 total_loss=0.076459 ranking=0.057899 conflict_bank=0.000839 soft_bank=0.017720
+2026-04-23 03:34:44,566:INFO: step=5 total_loss=0.072071 ranking=0.056661 conflict_bank=0.001409 soft_bank=0.014001
+2026-04-23 03:34:46,777:INFO: step=10 total_loss=0.075461 ranking=0.049688 conflict_bank=0.002021 soft_bank=0.023752
+2026-04-23 03:34:48,948:INFO: step=15 total_loss=0.074306 ranking=0.055586 conflict_bank=0.001900 soft_bank=0.016820
+2026-04-23 03:34:51,115:INFO: step=20 total_loss=0.072991 ranking=0.062274 conflict_bank=0.000583 soft_bank=0.010135
+2026-04-23 03:34:53,325:INFO: step=25 total_loss=0.035361 ranking=0.020937 conflict_bank=0.001204 soft_bank=0.013220
+2026-04-23 03:34:55,540:INFO: step=30 total_loss=0.066658 ranking=0.051223 conflict_bank=0.001101 soft_bank=0.014334
+2026-04-23 03:34:57,762:INFO: step=35 total_loss=0.047904 ranking=0.039074 conflict_bank=0.000527 soft_bank=0.008303
+2026-04-23 03:34:59,927:INFO: step=40 total_loss=0.081684 ranking=0.066202 conflict_bank=0.001379 soft_bank=0.014103
+2026-04-23 03:35:02,102:INFO: step=45 total_loss=0.059477 ranking=0.049910 conflict_bank=0.000972 soft_bank=0.008596
+2026-04-23 03:35:04,255:INFO: step=50 total_loss=0.102746 ranking=0.070915 conflict_bank=0.002707 soft_bank=0.029124
+2026-04-23 03:35:06,465:INFO: step=55 total_loss=0.061955 ranking=0.049262 conflict_bank=0.000969 soft_bank=0.011724
+2026-04-23 03:35:08,715:INFO: step=60 total_loss=0.102055 ranking=0.093261 conflict_bank=0.000421 soft_bank=0.008372
+2026-04-23 03:35:10,910:INFO: step=65 total_loss=0.034119 ranking=0.015977 conflict_bank=0.001437 soft_bank=0.016704
+2026-04-23 03:35:13,056:INFO: step=70 total_loss=0.089455 ranking=0.046127 conflict_bank=0.002997 soft_bank=0.040331
+2026-04-23 03:35:15,202:INFO: step=75 total_loss=0.088281 ranking=0.069546 conflict_bank=0.001606 soft_bank=0.017128
+2026-04-23 03:35:17,393:INFO: step=80 total_loss=0.079748 ranking=0.071310 conflict_bank=0.000447 soft_bank=0.007991
+2026-04-23 03:35:19,624:INFO: step=85 total_loss=0.045805 ranking=0.037556 conflict_bank=0.000665 soft_bank=0.007583
+2026-04-23 03:35:21,846:INFO: step=90 total_loss=0.063548 ranking=0.027978 conflict_bank=0.003401 soft_bank=0.032169
+2026-04-23 03:35:24,173:INFO: step=95 total_loss=0.051622 ranking=0.033112 conflict_bank=0.001627 soft_bank=0.016883
+2026-04-23 03:35:26,337:INFO: step=100 total_loss=0.140967 ranking=0.130744 conflict_bank=0.001183 soft_bank=0.009040
+2026-04-23 03:35:28,511:INFO: step=105 total_loss=0.044684 ranking=0.022694 conflict_bank=0.002913 soft_bank=0.019077
+2026-04-23 03:35:30,693:INFO: step=110 total_loss=0.069529 ranking=0.037941 conflict_bank=0.002560 soft_bank=0.029029
+2026-04-23 03:35:32,886:INFO: step=115 total_loss=0.064163 ranking=0.034721 conflict_bank=0.001949 soft_bank=0.027493
+2026-04-23 03:35:35,093:INFO: step=120 total_loss=0.038588 ranking=0.031056 conflict_bank=0.000279 soft_bank=0.007254
+2026-04-23 03:35:37,314:INFO: step=125 total_loss=0.037761 ranking=0.027429 conflict_bank=0.000844 soft_bank=0.009487
+2026-04-23 03:35:39,484:INFO: step=130 total_loss=0.070720 ranking=0.062576 conflict_bank=0.000365 soft_bank=0.007779
+2026-04-23 03:35:41,633:INFO: step=135 total_loss=0.059347 ranking=0.040628 conflict_bank=0.001726 soft_bank=0.016994
+2026-04-23 03:35:43,785:INFO: step=140 total_loss=0.100655 ranking=0.079061 conflict_bank=0.002114 soft_bank=0.019480
+2026-04-23 03:35:45,959:INFO: step=145 total_loss=0.097465 ranking=0.088647 conflict_bank=0.000686 soft_bank=0.008132
+2026-04-23 03:35:48,184:INFO: step=150 total_loss=0.039984 ranking=0.026922 conflict_bank=0.000949 soft_bank=0.012112
+2026-04-23 03:35:50,407:INFO: step=155 total_loss=0.111156 ranking=0.079491 conflict_bank=0.002367 soft_bank=0.029299
+2026-04-23 03:35:52,608:INFO: step=160 total_loss=0.094785 ranking=0.064235 conflict_bank=0.002853 soft_bank=0.027697
+2026-04-23 03:35:54,877:INFO: step=165 total_loss=0.056030 ranking=0.039246 conflict_bank=0.001038 soft_bank=0.015746
+2026-04-23 03:35:57,125:INFO: step=170 total_loss=0.134794 ranking=0.116023 conflict_bank=0.001720 soft_bank=0.017051
+2026-04-23 03:35:59,335:INFO: step=175 total_loss=0.073761 ranking=0.057878 conflict_bank=0.001286 soft_bank=0.014598
+2026-04-23 03:36:01,591:INFO: step=180 total_loss=0.149165 ranking=0.144601 conflict_bank=0.000628 soft_bank=0.003935
+2026-04-23 03:36:03,841:INFO: step=185 total_loss=0.024190 ranking=0.019600 conflict_bank=0.000160 soft_bank=0.004429
+2026-04-23 03:36:06,060:INFO: step=190 total_loss=0.048026 ranking=0.032010 conflict_bank=0.002234 soft_bank=0.013782
+2026-04-23 03:36:08,234:INFO: step=195 total_loss=0.083323 ranking=0.072195 conflict_bank=0.000921 soft_bank=0.010207
+2026-04-23 03:36:10,408:INFO: step=200 total_loss=0.060996 ranking=0.043700 conflict_bank=0.001436 soft_bank=0.015860
+2026-04-23 03:36:12,587:INFO: step=205 total_loss=0.065034 ranking=0.040521 conflict_bank=0.001925 soft_bank=0.022587
+2026-04-23 03:36:14,792:INFO: step=210 total_loss=0.061013 ranking=0.047161 conflict_bank=0.000849 soft_bank=0.013002
+2026-04-23 03:36:17,022:INFO: step=215 total_loss=0.160954 ranking=0.142910 conflict_bank=0.001655 soft_bank=0.016389
+2026-04-23 03:36:19,263:INFO: step=220 total_loss=0.108532 ranking=0.073677 conflict_bank=0.002513 soft_bank=0.032341
+2026-04-23 03:36:21,480:INFO: step=225 total_loss=0.168119 ranking=0.139895 conflict_bank=0.003253 soft_bank=0.024971
+2026-04-23 03:36:23,640:INFO: step=230 total_loss=0.083592 ranking=0.048491 conflict_bank=0.003434 soft_bank=0.031667
+2026-04-23 03:36:25,806:INFO: step=235 total_loss=0.070248 ranking=0.038323 conflict_bank=0.002023 soft_bank=0.029902
+2026-04-23 03:36:28,002:INFO: step=240 total_loss=0.024975 ranking=0.019884 conflict_bank=0.000029 soft_bank=0.005062
+2026-04-23 03:36:30,236:INFO: step=245 total_loss=0.114854 ranking=0.084380 conflict_bank=0.002220 soft_bank=0.028254
+2026-04-23 03:36:32,468:INFO: step=250 total_loss=0.046985 ranking=0.034272 conflict_bank=0.000969 soft_bank=0.011745
+2026-04-23 03:36:34,655:INFO: step=255 total_loss=0.050403 ranking=0.034190 conflict_bank=0.001472 soft_bank=0.014741
+2026-04-23 03:36:36,820:INFO: step=260 total_loss=0.095682 ranking=0.079234 conflict_bank=0.001466 soft_bank=0.014982
+2026-04-23 03:36:38,998:INFO: step=265 total_loss=0.089697 ranking=0.077319 conflict_bank=0.000935 soft_bank=0.011443
+2026-04-23 03:36:41,177:INFO: step=270 total_loss=0.084429 ranking=0.051568 conflict_bank=0.003028 soft_bank=0.029833
+2026-04-23 03:36:43,412:INFO: step=275 total_loss=0.113295 ranking=0.089283 conflict_bank=0.002180 soft_bank=0.021833
+2026-04-23 03:36:45,666:INFO: step=280 total_loss=0.145089 ranking=0.123084 conflict_bank=0.001932 soft_bank=0.020074
+2026-04-23 03:36:47,890:INFO: step=285 total_loss=0.116222 ranking=0.096796 conflict_bank=0.000799 soft_bank=0.018627
+2026-04-23 03:36:50,068:INFO: step=290 total_loss=0.043945 ranking=0.036960 conflict_bank=0.000735 soft_bank=0.006250
+2026-04-23 03:36:52,246:INFO: step=295 total_loss=0.096043 ranking=0.075191 conflict_bank=0.001282 soft_bank=0.019570
+2026-04-23 03:36:54,422:INFO: step=300 total_loss=0.064285 ranking=0.057328 conflict_bank=0.000183 soft_bank=0.006774
+2026-04-23 03:36:56,634:INFO: step=305 total_loss=0.103318 ranking=0.093381 conflict_bank=0.000962 soft_bank=0.008975
+2026-04-23 03:36:58,889:INFO: step=310 total_loss=0.066077 ranking=0.036211 conflict_bank=0.002579 soft_bank=0.027287
+2026-04-23 03:37:01,142:INFO: step=315 total_loss=0.047019 ranking=0.023268 conflict_bank=0.002419 soft_bank=0.021332
+2026-04-23 03:37:03,337:INFO: step=320 total_loss=0.114700 ranking=0.087865 conflict_bank=0.002698 soft_bank=0.024137
+2026-04-23 03:37:05,510:INFO: step=325 total_loss=0.041436 ranking=0.023503 conflict_bank=0.001643 soft_bank=0.016290
+2026-04-23 03:37:07,692:INFO: step=330 total_loss=0.042449 ranking=0.019958 conflict_bank=0.001671 soft_bank=0.020820
+2026-04-23 03:37:09,895:INFO: step=335 total_loss=0.196806 ranking=0.189384 conflict_bank=0.000417 soft_bank=0.007006
+2026-04-23 03:37:12,128:INFO: step=340 total_loss=0.016741 ranking=0.009275 conflict_bank=0.000187 soft_bank=0.007278
+2026-04-23 03:37:14,365:INFO: step=345 total_loss=0.055672 ranking=0.046341 conflict_bank=0.001017 soft_bank=0.008313
+2026-04-23 03:37:16,550:INFO: step=350 total_loss=0.055129 ranking=0.045332 conflict_bank=0.000763 soft_bank=0.009034
+2026-04-23 03:37:18,733:INFO: step=355 total_loss=0.088095 ranking=0.079121 conflict_bank=0.000752 soft_bank=0.008222
+2026-04-23 03:37:20,916:INFO: step=360 total_loss=0.029528 ranking=0.021161 conflict_bank=0.000686 soft_bank=0.007681
+2026-04-23 03:37:23,114:INFO: step=365 total_loss=0.036985 ranking=0.023566 conflict_bank=0.001587 soft_bank=0.011833
+2026-04-23 03:37:25,348:INFO: step=370 total_loss=0.233717 ranking=0.212417 conflict_bank=0.001852 soft_bank=0.019447
+2026-04-23 03:37:27,597:INFO: step=375 total_loss=0.060414 ranking=0.039070 conflict_bank=0.001591 soft_bank=0.019752
+2026-04-23 03:37:29,806:INFO: step=380 total_loss=0.027950 ranking=0.024778 conflict_bank=0.000220 soft_bank=0.002953
+2026-04-23 03:37:31,976:INFO: step=385 total_loss=0.058043 ranking=0.029489 conflict_bank=0.002376 soft_bank=0.026178
+2026-04-23 03:37:34,137:INFO: step=390 total_loss=0.037923 ranking=0.018812 conflict_bank=0.000968 soft_bank=0.018144
+2026-04-23 03:37:36,314:INFO: step=395 total_loss=0.089908 ranking=0.048242 conflict_bank=0.003306 soft_bank=0.038359
+2026-04-23 03:37:38,550:INFO: step=400 total_loss=0.081628 ranking=0.058208 conflict_bank=0.002399 soft_bank=0.021022
+2026-04-23 03:37:40,767:INFO: step=405 total_loss=0.067943 ranking=0.042444 conflict_bank=0.002064 soft_bank=0.023436
+2026-04-23 03:37:42,980:INFO: step=410 total_loss=0.034102 ranking=0.020059 conflict_bank=0.001084 soft_bank=0.012959
+2026-04-23 03:37:45,139:INFO: step=415 total_loss=0.059681 ranking=0.024226 conflict_bank=0.002947 soft_bank=0.032508
+2026-04-23 03:37:47,310:INFO: step=420 total_loss=0.071509 ranking=0.062368 conflict_bank=0.000411 soft_bank=0.008730
+2026-04-23 03:37:49,576:INFO: step=425 total_loss=0.099053 ranking=0.079947 conflict_bank=0.001244 soft_bank=0.017862
+2026-04-23 03:37:51,782:INFO: step=430 total_loss=0.051804 ranking=0.048293 conflict_bank=0.000000 soft_bank=0.003511
+2026-04-23 03:37:54,004:INFO: step=435 total_loss=0.109749 ranking=0.082857 conflict_bank=0.002216 soft_bank=0.024676
+2026-04-23 03:37:56,234:INFO: step=440 total_loss=0.100838 ranking=0.073722 conflict_bank=0.002650 soft_bank=0.024466
+2026-04-23 03:37:58,422:INFO: step=445 total_loss=0.071894 ranking=0.053113 conflict_bank=0.000800 soft_bank=0.017982
+2026-04-23 03:38:00,613:INFO: step=450 total_loss=0.031670 ranking=0.010680 conflict_bank=0.001008 soft_bank=0.019982
+2026-04-23 03:38:02,801:INFO: step=455 total_loss=0.070609 ranking=0.059311 conflict_bank=0.001045 soft_bank=0.010254
+2026-04-23 03:38:04,989:INFO: step=460 total_loss=0.069226 ranking=0.056399 conflict_bank=0.000691 soft_bank=0.012136
+2026-04-23 03:38:07,218:INFO: step=465 total_loss=0.122558 ranking=0.104211 conflict_bank=0.001706 soft_bank=0.016641

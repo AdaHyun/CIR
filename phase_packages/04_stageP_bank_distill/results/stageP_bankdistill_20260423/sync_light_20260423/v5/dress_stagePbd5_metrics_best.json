@@ -1,0 +1,8 @@
+{
+    "dress_r1": 22.012890431333663,
+    "dress_r10": 53.04908279623203,
+    "dress_r50": 76.25185919682697,
+    "model_variant": "dqu_pfp_refcond",
+    "pseudo_label": "none",
+    "pseudo_path": ""
+}

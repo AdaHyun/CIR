@@ -1,0 +1,302 @@
+[Sat Apr 18 02:44:02 CST 2026] category=toptee checkpoint=/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/toptee/toptee_stageA3_best_model.pt threshold=0.65 min_direction_margin=0.03 min_changes=1 max_changes=2 keep_top_n=0 max_records_per_modification=0
+{
+  "category": "toptee",
+  "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/toptee/toptee_stageA3_best_model.pt",
+  "input_images": 16121,
+  "neighbor_topk": 10,
+  "pairs_considered_after_text_rules": 43696,
+  "pairs_kept_before_rebalance": 535,
+  "pairs_kept": 535,
+  "score_threshold": 0.65,
+  "min_direction_margin": 0.03,
+  "min_num_changes": 1,
+  "max_num_changes": 2,
+  "keep_top_n": 0,
+  "max_records_per_modification": 0,
+  "avg_quality_score": 0.746017095988136,
+  "avg_direction_margin": 0.07537303193707333,
+  "num_changes_distribution": {
+    "1": 148,
+    "2": 387
+  },
+  "unique_modification_count": 326,
+  "top_modifications": [
+    [
+      "add striped",
+      21
+    ],
+    [
+      "add blue",
+      17
+    ],
+    [
+      "add pink",
+      14
+    ],
+    [
+      "add vneck",
+      11
+    ],
+    [
+      "add red",
+      7
+    ],
+    [
+      "replace top with tanktop",
+      7
+    ],
+    [
+      "add black white",
+      7
+    ],
+    [
+      "replace suit with glasses",
+      6
+    ],
+    [
+      "add s",
+      5
+    ],
+    [
+      "add green",
+      5
+    ]
+  ],
+  "top_added_tokens": [
+    [
+      "white",
+      34
+    ],
+    [
+      "black",
+      29
+    ],
+    [
+      "blue",
+      28
+    ],
+    [
+      "striped",
+      28
+    ],
+    [
+      "pink",
+      28
+    ],
+    [
+      "s",
+      24
+    ],
+    [
+      "vneck",
+      17
+    ],
+    [
+      "red",
+      16
+    ],
+    [
+      "purple",
+      14
+    ],
+    [
+      "green",
+      10
+    ]
+  ],
+  "top_removed_tokens": [
+    [
+      "white",
+      4
+    ],
+    [
+      "black",
+      3
+    ],
+    [
+      "straps",
+      3
+    ],
+    [
+      "pink",
+      3
+    ],
+    [
+      "purple",
+      1
+    ],
+    [
+      "burgundy",
+      1
+    ],
+    [
+      "grey",
+      1
+    ],
+    [
+      "turtleneck",
+      1
+    ],
+    [
+      "striped",
+      1
+    ],
+    [
+      "green",
+      1
+    ]
+  ],
+  "top_examples": [
+    {
+      "category": "toptee",
+      "candidate": "B008TAU57G",
+      "target": "B005LCQWR2",
+      "source_caption": "a woman in a striped shirt and black pants",
+      "target_caption": "a woman in a blue and black striped shirt",
+      "modification_text": "add blue",
+      "pair_score": 0.7454319596290588,
+      "target_score": 0.8168932199478149,
+      "source_score": 0.613349199295044,
+      "direction_margin": 0.203544020652771,
+      "quality_score": 0.8853025128202594,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0081OYHHY",
+      "target": "B0076FPZ52",
+      "source_caption": "a woman in a green and white top",
+      "target_caption": "a woman in white jeans and a green striped top",
+      "modification_text": "add striped",
+      "pair_score": 0.74739670753479,
+      "target_score": 0.7474090456962585,
+      "source_score": 0.5760427117347717,
+      "direction_margin": 0.17136633396148682,
+      "quality_score": 0.8722999257839155,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0083KGFLC",
+      "target": "B0013OZ47Q",
+      "source_caption": "a black t - shirt with a cross on it",
+      "target_caption": "a black t - shirt with a red cross on it",
+      "modification_text": "add red",
+      "pair_score": 0.7882630825042725,
+      "target_score": 0.7637808322906494,
+      "source_score": 0.6157644391059875,
+      "direction_margin": 0.14801639318466187,
+      "quality_score": 0.8703506171012969,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B003B5HX7E",
+      "target": "B003BFXFAI",
+      "source_caption": "a womens tank top with the om symbol on it",
+      "target_caption": "a womens red tank top with the om symbol",
+      "modification_text": "add red",
+      "pair_score": 0.7616137266159058,
+      "target_score": 0.8250958919525146,
+      "source_score": 0.6671764850616455,
+      "direction_margin": 0.15791940689086914,
+      "quality_score": 0.8692241929099023,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B00ATT85RC",
+      "target": "B0047LE77U",
+      "source_caption": "a white tank top with spaghetti straps",
+      "target_caption": "a women's white tank top with spaghetti straps",
+      "modification_text": "add s",
+      "pair_score": 0.87224280834198,
+      "target_score": 0.7891730070114136,
+      "source_score": 0.6785329580307007,
+      "direction_margin": 0.11064004898071289,
+      "quality_score": 0.8690133904235058,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B008FELY2Q",
+      "target": "B0090SGPKW",
+      "source_caption": "a woman wearing a white top and blue jeans",
+      "target_caption": "a woman wearing jeans and a white and blue striped top",
+      "modification_text": "add striped",
+      "pair_score": 0.7258991003036499,
+      "target_score": 0.7286961674690247,
+      "source_score": 0.5694957971572876,
+      "direction_margin": 0.15920037031173706,
+      "quality_score": 0.861802909690242,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0095RE04Q",
+      "target": "B0095RDX3U",
+      "source_caption": "a woman wearing jeans and a top with sequin",
+      "target_caption": "a woman wearing a blue sequin top",
+      "modification_text": "add blue",
+      "pair_score": 0.6156651973724365,
+      "target_score": 0.7608935832977295,
+      "source_score": 0.5461685657501221,
+      "direction_margin": 0.21472501754760742,
+      "quality_score": 0.8602705116269616,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B00CBIFZYA",
+      "target": "B00CBIHGP6",
+      "source_caption": "a baby t - shirt that says baby loading please wait",
+      "target_caption": "a purple t - shirt that says baby loading please wait",
+      "modification_text": "add purple",
+      "pair_score": 0.6933363676071167,
+      "target_score": 0.791384220123291,
+      "source_score": 0.6214724183082581,
+      "direction_margin": 0.16991180181503296,
+      "quality_score": 0.8594764318915442,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B004W4C4M2",
+      "target": "B004W4E59W",
+      "source_caption": "a tie dye t - shirt with a spiral design",
+      "target_caption": "a green tie dye t - shirt with a spiral design",
+      "modification_text": "add green",
+      "pair_score": 0.6496598720550537,
+      "target_score": 0.7399762868881226,
+      "source_score": 0.548831582069397,
+      "direction_margin": 0.19114470481872559,
+      "quality_score": 0.8588325328495501,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B00EOMF8AM",
+      "target": "B008WZ6WK2",
+      "source_caption": "a woman in jeans and a blue top",
+      "target_caption": "a woman in a blue and green top",
+      "modification_text": "add green",
+      "pair_score": 0.7320945262908936,
+      "target_score": 0.7016482949256897,
+      "source_score": 0.5516639947891235,
+      "direction_margin": 0.14998430013656616,
+      "quality_score": 0.8586971222047757,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    }
+  ]
+}
+

@@ -1,0 +1,28 @@
+{
+  "E1 DQU human-only": {
+    "fashioniq_mean_r10": 61.02923278898714,
+    "fashioniq_mean_r50": 80.19853109929252
+  },
+  "E2 DQU + all pseudo": {
+    "fashioniq_mean_r10": 59.968106901576085,
+    "fashioniq_mean_r50": 80.34739820256634
+  },
+  "E3 DQU + filtered pseudo": {
+    "fashioniq_mean_r10": 58.92087025315279,
+    "fashioniq_mean_r50": 79.84984143454768
+  },
+  "E4 DQU + filtered pseudo + curriculum": {
+    "fashioniq_mean_r10": 60.98171224122323,
+    "fashioniq_mean_r50": 80.48540234608055
+  },
+  "delta": {
+    "E2_minus_E1_r10": -1.0611258874110518,
+    "E3_minus_E2_r10": -1.0472366484232936,
+    "E4_minus_E3_r10": 2.060841988070436,
+    "E4_minus_E1_r10": -0.04752054776390935,
+    "E2_minus_E1_r50": 0.14886710327381536,
+    "E3_minus_E2_r50": -0.49755676801865434,
+    "E4_minus_E3_r50": 0.6355609115328633,
+    "E4_minus_E1_r50": 0.28687124678802434
+  }
+}

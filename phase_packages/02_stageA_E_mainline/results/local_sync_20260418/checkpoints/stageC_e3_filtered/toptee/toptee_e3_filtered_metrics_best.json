@@ -1,0 +1,8 @@
+{
+    "toptee_r1": 29.576746557878632,
+    "toptee_r10": 64.15094339622641,
+    "toptee_r50": 84.59969403365629,
+    "model_variant": "dqu",
+    "pseudo_label": "filtered_pseudo",
+    "pseudo_path": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageC_pseudo_v3/filtered_pseudo/pseudo_toptee.jsonl"
+}

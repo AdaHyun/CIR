@@ -1,0 +1,35 @@
+{
+  "category": "dress",
+  "num_queries": 2017,
+  "comparison": "candidate-neighbourhood first-stage ranking versus selected R-mean reranking",
+  "blend_lambda": 0.05,
+  "device": "cpu",
+  "val_k": 100,
+  "baseline": {
+    "recall_at_10": 53.84234010907288,
+    "recall_at_50": 77.14427367377293
+  },
+  "proposed": {
+    "recall_at_10": 54.8834903321765,
+    "recall_at_50": 77.34258800198315
+  },
+  "rank_changes": {
+    "improved": 514,
+    "unchanged": 979,
+    "degraded": 524
+  },
+  "inputs": {
+    "query_features": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/assets/dress/dress_val_query_features.pt",
+    "image_features": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/assets/dress/dress_val_image_features.pt",
+    "topk": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/assets/dress/dress_val_topk.pt",
+    "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/runs/human_wide_v3/dress/dress_best.pt"
+  },
+  "sha256": {
+    "topk": "5a2d17be1b3aa3f9fb7fa1dd55cc39999b2859db649236bc58e869752f11632d",
+    "checkpoint": "9c852122403ab6667a76742e15aadf7126f1ce41212c0fc4fc08447b6426a0f1"
+  },
+  "outputs": {
+    "baseline": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/qualitative_cpu_20260911/dress_cn_rankings.jsonl",
+    "proposed": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/qualitative_cpu_20260911/dress_rmean_rankings.jsonl"
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "category": "toptee",
+  "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageD_refcond/toptee/toptee_stageD_refcond_best_model.pt",
+  "input_images": 16121,
+  "neighbor_topk": 12,
+  "pairs_considered_after_structured_diff": 89085,
+  "pairs_kept_before_rebalance": 2245,
+  "pairs_kept": 2245,
+  "score_threshold": 0.6,
+  "min_direction_margin": 0.0,
+  "min_num_changes": 1,
+  "max_num_changes": 2,
+  "keep_top_n": 0,
+  "max_records_per_change": 120,
+  "avg_quality_score": 0.7039647443335502,
+  "avg_direction_margin": 0.035431478204068736,
+  "num_changes_distribution": {
+    "1": 2002,
+    "2": 243
+  },
+  "unique_change_count": 279,
+  "top_changes": [
+    [
+      "pattern=animal print, graphic",
+      104
+    ],
+    [
+      "color=black, red",
+      91
+    ],
+    [
+      "color=pink",
+      86
+    ],
+    [
+      "color=black, pink",
+      80
+    ],
+    [
+      "neckline=v-neck",
+      71
+    ],
+    [
+      "color=purple",
+      71
+    ],
+    [
+      "pattern=polka dot",
+      69
+    ],
+    [
+      "color=black, white",
+      68
+    ],
+    [
+      "pattern=floral",
+      64
+    ],
+    [
+      "material=lace",
+      63
+    ]
+  ],
+  "top_attribute_values": [
+    [
+      "color:black",
+      554
+    ],
+    [
+      "color:white",
+      370
+    ],
+    [
+      "color:pink",
+      310
+    ],
+    [
+      "color:red",
+      233
+    ],
+    [
+      "pattern:graphic",
+      209
+    ],
+    [
+      "color:green",
+      188
+    ],
+    [
+      "color:blue",
+      182
+    ],
+    [
+      "color:purple",
+      173
+    ],
+    [
+      "color:orange",
+      151
+    ],
+    [
+      "pattern:floral",
+      143
+    ]
+  ],
+  "hardest_coverage_count": 15209,
+  "top_examples": [
+    {
+      "category": "toptee",
+      "candidate": "B0096AMQYS",
+      "target": "B009184VSO",
+      "source_caption": "a women's top with ruffled straps",
+      "target_caption": "a pink top with ruffled ruffles",
+      "modification_text": "keep decoration=ruffle. change color=pink.",
+      "pair_score": 0.6108767986297607,
+      "target_score": 0.677375316619873,
+      "source_score": 0.43091386556625366,
+      "direction_margin": 0.24646145105361938,
+      "quality_score": 0.8224642154857108,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "color=pink",
+      "retain_slots": {
+        "decoration": [
+          "ruffle"
+        ]
+      },
+      "modify_slots": {
+        "color": [
+          "pink"
+        ]
+      }
+    },
+    {
+      "category": "toptee",
+      "candidate": "B009HAMKQQ",
+      "target": "B005YUC2ZM",
+      "source_caption": "a women's top with a black and white pattern",
+      "target_caption": "a woman wearing a black and white animal print top",
+      "modification_text": "keep color=black, white. change pattern=animal print, graphic.",
+      "pair_score": 0.7411399483680725,
+      "target_score": 0.7133639454841614,
+      "source_score": 0.5357657670974731,
+      "direction_margin": 0.17759817838668823,
+      "quality_score": 0.8199443552719484,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "pattern=animal print, graphic",
+      "retain_slots": {
+        "color": [
+          "black",
+          "white"
+        ]
+      },
+      "modify_slots": {
+        "pattern": [
+          "animal print",
+          "graphic"
+        ]
+      }
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0053EYU2M",
+      "target": "B0089I997A",
+      "source_caption": "a woman's orange top with lace trim",
+      "target_caption": "an orange top with lace and a short sleeve",
+      "modification_text": "keep color=orange; material=lace. change sleeve=short sleeve.",
+      "pair_score": 0.6933550238609314,
+      "target_score": 0.6705914735794067,
+      "source_score": 0.5565073490142822,
+      "direction_margin": 0.11408412456512451,
+      "quality_score": 0.8127451859744337,
+      "num_changes": 1,
+      "num_retained": 2,
+      "change_key": "sleeve=short sleeve",
+      "retain_slots": {
+        "color": [
+          "orange"
+        ],
+        "material": [
+          "lace"
+        ]
+      },
+      "modify_slots": {
+        "sleeve": [
+          "short sleeve"
+        ]
+      }
+    },
+    {
+      "category": "toptee",
+      "candidate": "B000T2AR7U",
+      "target": "B005JI8370",
+      "source_caption": "a woman wearing a white shirt with a gold design",
+      "target_caption": "a women's white t - shirt with gold dots",
+      "modification_text": "keep color=white, gold. change pattern=polka dot.",
+      "pair_score": 0.8119939565658569,
+      "target_score": 0.6901156902313232,
+      "source_score": 0.5540056228637695,
+      "direction_margin": 0.1361100673675537,
+      "quality_score": 0.8122920771459713,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "pattern=polka dot",
+      "retain_slots": {
+        "color": [
+          "white",
+          "gold"
+        ]
+      },
+      "modify_slots": {
+        "pattern": [
+          "polka dot"
+        ]
+      }
+    },
+    {
+      "category": "toptee",
+      "candidate": "B008UD20QQ",
+      "target": "B002N5N3TA",
+      "source_caption": "a woman in jeans and a shirt with a leopard print",
+      "target_caption": "a woman in a leopard print top and brown pants",
+      "modification_text": "keep pattern=animal print, graphic. change color=brown.",
+      "pair_score": 0.6509001851081848,
+      "target_score": 0.6991451382637024,
+      "source_score": 0.5106608867645264,
+      "direction_margin": 0.18848425149917603,
+      "quality_score": 0.8088019383551585,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "color=brown",
+      "retain_slots": {
+        "pattern": [
+          "animal print",
+          "graphic"
+        ]
+      },
+      "modify_slots": {
+        "color": [
+          "brown"
+        ]
+      }
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0087P1BGC",
+      "target": "B0080QK038",
+      "source_caption": "a women's tank top with tribal print",
+      "target_caption": "a women's tank top with an orange and black print",
+      "modification_text": "keep pattern=graphic. change color=black, orange.",
+      "pair_score": 0.66971755027771,
+      "target_score": 0.7244106531143188,
+      "source_score": 0.5503630638122559,
+      "direction_margin": 0.174047589302063,
+      "quality_score": 0.8058741181683792,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "color=black, orange",
+      "retain_slots": {
+        "pattern": [
+          "graphic"
+        ]
+      },
+      "modify_slots": {
+        "color": [
+          "black",
+          "orange"
+        ]
+      }
+    },
+    {
+      "category": "toptee",
+      "candidate": "B004W4C4M2",
+      "target": "B004W495BU",
+      "source_caption": "a tie dye t - shirt with a spiral design",
+      "target_caption": "a tie dye t - shirt with a yellow and pink spiral design",
+      "modification_text": "keep reference core attributes. change color=yellow, pink.",
+      "pair_score": 0.6506999731063843,
+      "target_score": 0.5809345245361328,
+      "source_score": 0.31173276901245117,
+      "direction_margin": 0.26920175552368164,
+      "quality_score": 0.8024745998586758,
+      "num_changes": 1,
+      "num_retained": 0,
+      "change_key": "color=yellow, pink",
+      "retain_slots": {},
+      "modify_slots": {
+        "color": [
+          "yellow",
+          "pink"
+        ]
+      }
+    },
+    {
+      "category": "toptee",
+      "candidate": "B00A36JWQO",
+      "target": "B00C3XXEC8",
+      "source_caption": "a woman in a green shirt and white pants",
+      "target_caption": "a woman wearing a green and white print shirt",
+      "modification_text": "keep color=white, green. change pattern=graphic.",
+      "pair_score": 0.7782658338546753,
+      "target_score": 0.764301061630249,
+      "source_score": 0.6379002332687378,
+      "direction_margin": 0.12640082836151123,
+      "quality_score": 0.8011695318387705,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "pattern=graphic",
+      "retain_slots": {
+        "color": [
+          "white",
+          "green"
+        ]
+      },
+      "modify_slots": {
+        "pattern": [
+          "graphic"
+        ]
+      }
+    },
+    {
+      "category": "toptee",
+      "candidate": "B00AG414UA",
+      "target": "B00DCUKTRY",
+      "source_caption": "a white top with lace detailing",
+      "target_caption": "a white top with a lace pattern",
+      "modification_text": "keep color=white; material=lace. change pattern=lace pattern.",
+      "pair_score": 0.8114728331565857,
+      "target_score": 0.7119563817977905,
+      "source_score": 0.6578493714332581,
+      "direction_margin": 0.05410701036453247,
+      "quality_score": 0.795968826280026,
+      "num_changes": 1,
+      "num_retained": 2,
+      "change_key": "pattern=lace pattern",
+      "retain_slots": {
+        "color": [
+          "white"
+        ],
+        "material": [
+          "lace"
+        ]
+      },
+      "modify_slots": {
+        "pattern": [
+          "lace pattern"
+        ]
+      }
+    },
+    {
+      "category": "toptee",
+      "candidate": "B007ZK3HTE",
+      "target": "B009E8RJBC",
+      "source_caption": "a girl wearing a striped polo shirt",
+      "target_caption": "a woman in a purple and black striped polo shirt",
+      "modification_text": "keep pattern=striped. change color=black, purple.",
+      "pair_score": 0.8425720930099487,
+      "target_score": 0.8134255409240723,
+      "source_score": 0.7166972160339355,
+      "direction_margin": 0.09672832489013672,
+      "quality_score": 0.795305278330697,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "color=black, purple",
+      "retain_slots": {
+        "pattern": [
+          "striped"
+        ]
+      },
+      "modify_slots": {
+        "color": [
+          "black",
+          "purple"
+        ]
+      }
+    }
+  ]
+}
+

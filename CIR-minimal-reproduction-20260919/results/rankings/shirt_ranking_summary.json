@@ -1,0 +1,35 @@
+{
+  "category": "shirt",
+  "num_queries": 2038,
+  "comparison": "candidate-neighbourhood first-stage ranking versus selected R-mean reranking",
+  "blend_lambda": 0.04,
+  "device": "cpu",
+  "val_k": 100,
+  "baseline": {
+    "recall_at_10": 63.199214916584886,
+    "recall_at_50": 80.1766437684004
+  },
+  "proposed": {
+    "recall_at_10": 64.18056918547596,
+    "recall_at_50": 80.61825318940137
+  },
+  "rank_changes": {
+    "improved": 501,
+    "unchanged": 1147,
+    "degraded": 390
+  },
+  "inputs": {
+    "query_features": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/assets/shirt/shirt_val_query_features.pt",
+    "image_features": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/assets/shirt/shirt_val_image_features.pt",
+    "topk": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/assets/shirt/shirt_val_topk.pt",
+    "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/runs/shirt_toprank_v2/shirt/shirt_best.pt"
+  },
+  "sha256": {
+    "topk": "e5d4025816b03142fa3f57e478490edcdc25ac9322125400d18a6e18704156a8",
+    "checkpoint": "913aff477a68cb6271e37fedb8cb3d7bb6e480bafde61c87938a2fce359c35c5"
+  },
+  "outputs": {
+    "baseline": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/qualitative_cpu_20260911/shirt_cn_rankings.jsonl",
+    "proposed": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/qualitative_cpu_20260911/shirt_rmean_rankings.jsonl"
+  }
+}

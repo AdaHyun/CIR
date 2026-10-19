@@ -1,0 +1,301 @@
+[Sat Apr 18 02:20:32 CST 2026] category=dress checkpoint=/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/dress/dress_stageA3_best_model.pt threshold=0.00 min_changes=1 max_changes=2 keep_top_n=0 max_records_per_modification=0
+{
+  "category": "dress",
+  "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/dress/dress_stageA3_best_model.pt",
+  "input_images": 11452,
+  "neighbor_topk": 10,
+  "pairs_considered_after_text_rules": 31889,
+  "pairs_kept_before_rebalance": 1074,
+  "pairs_kept": 1074,
+  "score_threshold": 0.0,
+  "min_num_changes": 1,
+  "max_num_changes": 2,
+  "keep_top_n": 0,
+  "max_records_per_modification": 0,
+  "avg_quality_score": 0.7211770698198532,
+  "avg_direction_margin": 0.04929818647256333,
+  "num_changes_distribution": {
+    "1": 220,
+    "2": 854
+  },
+  "unique_modification_count": 499,
+  "top_modifications": [
+    [
+      "replace sequins with sequin",
+      24
+    ],
+    [
+      "replace stripes with striped",
+      21
+    ],
+    [
+      "add blue",
+      20
+    ],
+    [
+      "replace black with blue",
+      19
+    ],
+    [
+      "add black white",
+      15
+    ],
+    [
+      "replace it with black",
+      14
+    ],
+    [
+      "add white",
+      13
+    ],
+    [
+      "add floral",
+      13
+    ],
+    [
+      "replace long with black",
+      12
+    ],
+    [
+      "add green",
+      11
+    ]
+  ],
+  "top_added_tokens": [
+    [
+      "black",
+      40
+    ],
+    [
+      "white",
+      39
+    ],
+    [
+      "blue",
+      29
+    ],
+    [
+      "green",
+      20
+    ],
+    [
+      "red",
+      16
+    ],
+    [
+      "floral",
+      14
+    ],
+    [
+      "pink",
+      12
+    ],
+    [
+      "camera",
+      12
+    ],
+    [
+      "striped",
+      11
+    ],
+    [
+      "brown",
+      11
+    ]
+  ],
+  "top_removed_tokens": [
+    [
+      "white",
+      12
+    ],
+    [
+      "black",
+      8
+    ],
+    [
+      "camera",
+      7
+    ],
+    [
+      "pattern",
+      6
+    ],
+    [
+      "stripes",
+      4
+    ],
+    [
+      "print",
+      4
+    ],
+    [
+      "silver",
+      4
+    ],
+    [
+      "posing",
+      3
+    ],
+    [
+      "gold",
+      3
+    ],
+    [
+      "up",
+      3
+    ]
+  ],
+  "top_examples": [
+    {
+      "category": "dress",
+      "candidate": "B00B81XW5A",
+      "target": "B00DPEC2JU",
+      "source_caption": "a woman in a dress with an abstract design",
+      "target_caption": "a woman in a purple dress with an abstract design",
+      "modification_text": "add purple",
+      "pair_score": 0.6474616527557373,
+      "target_score": 0.6182231903076172,
+      "source_score": 0.3609698712825775,
+      "direction_margin": 0.2572533190250397,
+      "quality_score": 0.8810435237157841,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "dress",
+      "candidate": "B00FB65DI2",
+      "target": "B008GS7C2M",
+      "source_caption": "a woman in a dress with a patterned design",
+      "target_caption": "a woman in a purple dress with a patterned design",
+      "modification_text": "add purple",
+      "pair_score": 0.7636963129043579,
+      "target_score": 0.7057358026504517,
+      "source_score": 0.5237252116203308,
+      "direction_margin": 0.18201059103012085,
+      "quality_score": 0.880658260177372,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "dress",
+      "candidate": "B006ATDHUU",
+      "target": "B00ATZ3GYI",
+      "source_caption": "a woman in a red and white dress",
+      "target_caption": "a woman in a red and white striped dress",
+      "modification_text": "add striped",
+      "pair_score": 0.7753558158874512,
+      "target_score": 0.6798005104064941,
+      "source_score": 0.5046467781066895,
+      "direction_margin": 0.1751537322998047,
+      "quality_score": 0.8802877001694016,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "dress",
+      "candidate": "B008006EU2",
+      "target": "B008COE28W",
+      "source_caption": "a woman in a red and black dress",
+      "target_caption": "a woman in a red and black striped dress",
+      "modification_text": "add striped",
+      "pair_score": 0.7346912026405334,
+      "target_score": 0.655955970287323,
+      "source_score": 0.4637468457221985,
+      "direction_margin": 0.1922091245651245,
+      "quality_score": 0.8783996880507852,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "dress",
+      "candidate": "B008HQKQB2",
+      "target": "B009N9YZYQ",
+      "source_caption": "a woman in a black dress with sequins",
+      "target_caption": "a woman in a black dress with gold sequins",
+      "modification_text": "add gold",
+      "pair_score": 0.8007493019104004,
+      "target_score": 0.5815825462341309,
+      "source_score": 0.42541128396987915,
+      "direction_margin": 0.1561712622642517,
+      "quality_score": 0.877185374013838,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "dress",
+      "candidate": "B00E499874",
+      "target": "B009AAR4GE",
+      "source_caption": "a dress with a bow on the waist",
+      "target_caption": "a dress with a green bow on the waist",
+      "modification_text": "add green",
+      "pair_score": 0.6698620915412903,
+      "target_score": 0.6991814374923706,
+      "source_score": 0.4923487901687622,
+      "direction_margin": 0.2068326473236084,
+      "quality_score": 0.8695509801626753,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "dress",
+      "candidate": "B0044BBN52",
+      "target": "B008ZAYKPS",
+      "source_caption": "a woman in a dress with sequins",
+      "target_caption": "a woman in a blue dress with sequins",
+      "modification_text": "add blue",
+      "pair_score": 0.7625081539154053,
+      "target_score": 0.6553609371185303,
+      "source_score": 0.5122753977775574,
+      "direction_margin": 0.1430855393409729,
+      "quality_score": 0.8620528608668294,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "dress",
+      "candidate": "B006L1U2ZA",
+      "target": "B006ZIN4ZY",
+      "source_caption": "a woman in a dress posing for the camera",
+      "target_caption": "a woman in a white dress posing for the camera",
+      "modification_text": "add white",
+      "pair_score": 0.7038867473602295,
+      "target_score": 0.6712844371795654,
+      "source_score": 0.5036923885345459,
+      "direction_margin": 0.16759204864501953,
+      "quality_score": 0.8607883731559525,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "dress",
+      "candidate": "B006ZU1JYU",
+      "target": "B0051931YC",
+      "source_caption": "a woman in a dress posing for the camera",
+      "target_caption": "a woman in a purple dress posing for the camera",
+      "modification_text": "add purple",
+      "pair_score": 0.7143142223358154,
+      "target_score": 0.5268589854240417,
+      "source_score": 0.3701001703739166,
+      "direction_margin": 0.15675881505012512,
+      "quality_score": 0.8580219923365409,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "dress",
+      "candidate": "B007MO67HM",
+      "target": "B007VIJ1YU",
+      "source_caption": "a woman in a dress with flowers on it",
+      "target_caption": "a woman in a blue dress with flowers on it",
+      "modification_text": "add blue",
+      "pair_score": 0.7130306959152222,
+      "target_score": 0.6122764348983765,
+      "source_score": 0.45604777336120605,
+      "direction_margin": 0.1562286615371704,
+      "quality_score": 0.8574765148903023,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    }
+  ]
+}
+

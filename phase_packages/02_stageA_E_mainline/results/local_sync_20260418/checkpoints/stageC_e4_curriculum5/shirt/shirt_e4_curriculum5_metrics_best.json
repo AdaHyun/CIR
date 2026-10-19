@@ -1,0 +1,8 @@
+{
+    "shirt_r1": 29.68596663395486,
+    "shirt_r10": 62.0215897939156,
+    "shirt_r50": 79.48969578017665,
+    "model_variant": "dqu",
+    "pseudo_label": "filtered_curriculum5",
+    "pseudo_path": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageC_pseudo_v3/filtered_pseudo/pseudo_shirt.jsonl"
+}

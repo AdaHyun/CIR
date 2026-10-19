@@ -1,0 +1,35 @@
+{
+  "category": "toptee",
+  "num_queries": 1961,
+  "comparison": "candidate-neighbourhood first-stage ranking versus selected R-mean reranking",
+  "blend_lambda": 0.03,
+  "device": "cpu",
+  "val_k": 100,
+  "baseline": {
+    "recall_at_10": 67.00662927078021,
+    "recall_at_50": 85.36460989291177
+  },
+  "proposed": {
+    "recall_at_10": 67.05762366139724,
+    "recall_at_50": 85.31361550229475
+  },
+  "rank_changes": {
+    "improved": 412,
+    "unchanged": 1120,
+    "degraded": 429
+  },
+  "inputs": {
+    "query_features": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/assets/toptee/toptee_val_query_features.pt",
+    "image_features": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/assets/toptee/toptee_val_image_features.pt",
+    "topk": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/assets/toptee/toptee_val_topk.pt",
+    "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/runs/toptee_toprank_v2/toptee/toptee_best.pt"
+  },
+  "sha256": {
+    "topk": "51ad32d66fda9b1c7cf6d7365492e50115ee356437e7b999c37985960f403cee",
+    "checkpoint": "4b7ed19c5d87a694d5365dd748d10b5f5faa10d59ce44ab7c32469e260db0871"
+  },
+  "outputs": {
+    "baseline": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/qualitative_cpu_20260911/toptee_cn_rankings.jsonl",
+    "proposed": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/qualitative_cpu_20260911/toptee_rmean_rankings.jsonl"
+  }
+}

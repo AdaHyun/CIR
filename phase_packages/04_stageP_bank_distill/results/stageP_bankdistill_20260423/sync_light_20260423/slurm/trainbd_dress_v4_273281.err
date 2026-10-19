@@ -1,0 +1,23 @@
+/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading the datasets and model...
+Loaded ViT-H-14 model config.
+Loading pretrained ViT-H-14 weights (/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin).
+Loaded ViT-H-14 model config.
+Loading pretrained ViT-H-14 weights (/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin).
+Traceback (most recent call last):
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/train.py", line 494, in <module>
+    net, optimizer = create_model_and_optimizer()
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/train.py", line 224, in create_model_and_optimizer
+    checkpoint = torch.load(args.resume_checkpoint, map_location="cpu")
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/serialization.py", line 1065, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/serialization.py", line 468, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/serialization.py", line 449, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageN_base/stageD/dress/dress_dqu_pfp_refcond_stageD.pt'
+
+ERROR conda.cli.main_run:execute(125): `conda run python src/train.py --dataset dress --fashioniq_split val-split --fashioniq_path /data/user/hqi881/CIR/project_stage1_dqu_baseline/data/FashionIQ --lr 3e-5 --clip_lr 3e-7 --batch_size 8 --num_epochs 16 --num_workers 8 --backbone ViT-H-14 --pretrained /data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin --model_variant dqu_pfp_refcond --model_dir /data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageP_bankdistill_20260423/v4_delay/dress --mix_mode concat --bank_path /data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageP_bankdistill_20260423/banks_full/dress_bank_full.jsonl --bank_soft_k 2 --bank_start_epoch 2 --soft_loss_weight 0.08 --conflict_loss_weight 0.05 --conflict_margin 0.04 --resume_checkpoint /data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageN_base/stageD/dress/dress_dqu_pfp_refcond_stageD.pt --tolerance_epoch 8 --lr_decay 12 --max_decay_epoch 24 --i stagePbd4` failed. (See above for error)

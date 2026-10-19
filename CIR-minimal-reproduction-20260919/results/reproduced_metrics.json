@@ -1,0 +1,118 @@
+{
+  "categories": {
+    "dress": {
+      "candidate_neighbourhood": {
+        "queries": 2017,
+        "hits": {
+          "R@10": 1086,
+          "R@50": 1556
+        },
+        "recall_percent": {
+          "R@10": 53.84234010907288,
+          "R@50": 77.14427367377293
+        }
+      },
+      "proposed_rmean": {
+        "queries": 2017,
+        "hits": {
+          "R@10": 1107,
+          "R@50": 1560
+        },
+        "recall_percent": {
+          "R@10": 54.8834903321765,
+          "R@50": 77.34258800198315
+        }
+      },
+      "transitions": {
+        "R@10": {
+          "corrected": 64,
+          "harmed": 43
+        },
+        "R@50": {
+          "corrected": 33,
+          "harmed": 29
+        }
+      }
+    },
+    "shirt": {
+      "candidate_neighbourhood": {
+        "queries": 2038,
+        "hits": {
+          "R@10": 1288,
+          "R@50": 1634
+        },
+        "recall_percent": {
+          "R@10": 63.199214916584886,
+          "R@50": 80.1766437684004
+        }
+      },
+      "proposed_rmean": {
+        "queries": 2038,
+        "hits": {
+          "R@10": 1308,
+          "R@50": 1643
+        },
+        "recall_percent": {
+          "R@10": 64.18056918547596,
+          "R@50": 80.61825318940137
+        }
+      },
+      "transitions": {
+        "R@10": {
+          "corrected": 53,
+          "harmed": 33
+        },
+        "R@50": {
+          "corrected": 30,
+          "harmed": 21
+        }
+      }
+    },
+    "toptee": {
+      "candidate_neighbourhood": {
+        "queries": 1961,
+        "hits": {
+          "R@10": 1314,
+          "R@50": 1674
+        },
+        "recall_percent": {
+          "R@10": 67.00662927078021,
+          "R@50": 85.36460989291177
+        }
+      },
+      "proposed_rmean": {
+        "queries": 1961,
+        "hits": {
+          "R@10": 1315,
+          "R@50": 1673
+        },
+        "recall_percent": {
+          "R@10": 67.05762366139724,
+          "R@50": 85.31361550229475
+        }
+      },
+      "transitions": {
+        "R@10": {
+          "corrected": 27,
+          "harmed": 26
+        },
+        "R@50": {
+          "corrected": 15,
+          "harmed": 16
+        }
+      }
+    }
+  },
+  "macro_percent": {
+    "candidate_neighbourhood": {
+      "R@10": 61.349394765479325,
+      "R@50": 80.89517577836169,
+      "mR": 71.1222852719205
+    },
+    "proposed_rmean": {
+      "R@10": 62.04056105968323,
+      "R@50": 81.09148556455976,
+      "mR": 71.5660233121215
+    }
+  }
+}

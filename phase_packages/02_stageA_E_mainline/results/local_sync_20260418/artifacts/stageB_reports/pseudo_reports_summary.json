@@ -1,0 +1,4493 @@
+{
+  "teacher": {
+    "main_dress": {
+      "category": "dress",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/dress/dress_stageA3_best_model.pt",
+      "input_images": 11452,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 31889,
+      "pairs_kept_before_rebalance": 1074,
+      "pairs_kept": 1074,
+      "score_threshold": 0.6,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7211770698198532,
+      "avg_direction_margin": 0.04929818647256333,
+      "num_changes_distribution": {
+        "1": 220,
+        "2": 854
+      },
+      "unique_modification_count": 499,
+      "top_modifications": [
+        [
+          "replace sequins with sequin",
+          24
+        ],
+        [
+          "replace stripes with striped",
+          21
+        ],
+        [
+          "add blue",
+          20
+        ],
+        [
+          "replace black with blue",
+          19
+        ],
+        [
+          "add black white",
+          15
+        ],
+        [
+          "replace it with black",
+          14
+        ],
+        [
+          "add white",
+          13
+        ],
+        [
+          "add floral",
+          13
+        ],
+        [
+          "replace long with black",
+          12
+        ],
+        [
+          "add green",
+          11
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "black",
+          40
+        ],
+        [
+          "white",
+          39
+        ],
+        [
+          "blue",
+          29
+        ],
+        [
+          "green",
+          20
+        ],
+        [
+          "red",
+          16
+        ],
+        [
+          "floral",
+          14
+        ],
+        [
+          "pink",
+          12
+        ],
+        [
+          "camera",
+          12
+        ],
+        [
+          "striped",
+          11
+        ],
+        [
+          "brown",
+          11
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          12
+        ],
+        [
+          "black",
+          8
+        ],
+        [
+          "camera",
+          7
+        ],
+        [
+          "pattern",
+          6
+        ],
+        [
+          "stripes",
+          4
+        ],
+        [
+          "print",
+          4
+        ],
+        [
+          "silver",
+          4
+        ],
+        [
+          "posing",
+          3
+        ],
+        [
+          "gold",
+          3
+        ],
+        [
+          "up",
+          3
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "dress",
+          "candidate": "B00B81XW5A",
+          "target": "B00DPEC2JU",
+          "source_caption": "a woman in a dress with an abstract design",
+          "target_caption": "a woman in a purple dress with an abstract design",
+          "modification_text": "add purple",
+          "pair_score": 0.6474616527557373,
+          "target_score": 0.6182231903076172,
+          "source_score": 0.3609698712825775,
+          "direction_margin": 0.2572533190250397,
+          "quality_score": 0.8810435237157841,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B00FB65DI2",
+          "target": "B008GS7C2M",
+          "source_caption": "a woman in a dress with a patterned design",
+          "target_caption": "a woman in a purple dress with a patterned design",
+          "modification_text": "add purple",
+          "pair_score": 0.7636963129043579,
+          "target_score": 0.7057358026504517,
+          "source_score": 0.5237252116203308,
+          "direction_margin": 0.18201059103012085,
+          "quality_score": 0.880658260177372,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ATDHUU",
+          "target": "B00ATZ3GYI",
+          "source_caption": "a woman in a red and white dress",
+          "target_caption": "a woman in a red and white striped dress",
+          "modification_text": "add striped",
+          "pair_score": 0.7753558158874512,
+          "target_score": 0.6798005104064941,
+          "source_score": 0.5046467781066895,
+          "direction_margin": 0.1751537322998047,
+          "quality_score": 0.8802877001694016,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B008006EU2",
+          "target": "B008COE28W",
+          "source_caption": "a woman in a red and black dress",
+          "target_caption": "a woman in a red and black striped dress",
+          "modification_text": "add striped",
+          "pair_score": 0.7346912026405334,
+          "target_score": 0.655955970287323,
+          "source_score": 0.4637468457221985,
+          "direction_margin": 0.1922091245651245,
+          "quality_score": 0.8783996880507852,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B008HQKQB2",
+          "target": "B009N9YZYQ",
+          "source_caption": "a woman in a black dress with sequins",
+          "target_caption": "a woman in a black dress with gold sequins",
+          "modification_text": "add gold",
+          "pair_score": 0.8007493019104004,
+          "target_score": 0.5815825462341309,
+          "source_score": 0.42541128396987915,
+          "direction_margin": 0.1561712622642517,
+          "quality_score": 0.877185374013838,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B00E499874",
+          "target": "B009AAR4GE",
+          "source_caption": "a dress with a bow on the waist",
+          "target_caption": "a dress with a green bow on the waist",
+          "modification_text": "add green",
+          "pair_score": 0.6698620915412903,
+          "target_score": 0.6991814374923706,
+          "source_score": 0.4923487901687622,
+          "direction_margin": 0.2068326473236084,
+          "quality_score": 0.8695509801626753,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B0044BBN52",
+          "target": "B008ZAYKPS",
+          "source_caption": "a woman in a dress with sequins",
+          "target_caption": "a woman in a blue dress with sequins",
+          "modification_text": "add blue",
+          "pair_score": 0.7625081539154053,
+          "target_score": 0.6553609371185303,
+          "source_score": 0.5122753977775574,
+          "direction_margin": 0.1430855393409729,
+          "quality_score": 0.8620528608668294,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006L1U2ZA",
+          "target": "B006ZIN4ZY",
+          "source_caption": "a woman in a dress posing for the camera",
+          "target_caption": "a woman in a white dress posing for the camera",
+          "modification_text": "add white",
+          "pair_score": 0.7038867473602295,
+          "target_score": 0.6712844371795654,
+          "source_score": 0.5036923885345459,
+          "direction_margin": 0.16759204864501953,
+          "quality_score": 0.8607883731559525,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ZU1JYU",
+          "target": "B0051931YC",
+          "source_caption": "a woman in a dress posing for the camera",
+          "target_caption": "a woman in a purple dress posing for the camera",
+          "modification_text": "add purple",
+          "pair_score": 0.7143142223358154,
+          "target_score": 0.5268589854240417,
+          "source_score": 0.3701001703739166,
+          "direction_margin": 0.15675881505012512,
+          "quality_score": 0.8580219923365409,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B007MO67HM",
+          "target": "B007VIJ1YU",
+          "source_caption": "a woman in a dress with flowers on it",
+          "target_caption": "a woman in a blue dress with flowers on it",
+          "modification_text": "add blue",
+          "pair_score": 0.7130306959152222,
+          "target_score": 0.6122764348983765,
+          "source_score": 0.45604777336120605,
+          "direction_margin": 0.1562286615371704,
+          "quality_score": 0.8574765148903023,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "main_shirt": {
+      "category": "shirt",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/shirt/shirt_stageA3_best_model.pt",
+      "input_images": 19036,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 26254,
+      "pairs_kept_before_rebalance": 934,
+      "pairs_kept": 934,
+      "score_threshold": 0.6,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7268003939718307,
+      "avg_direction_margin": 0.041782652891422495,
+      "num_changes_distribution": {
+        "1": 234,
+        "2": 700
+      },
+      "unique_modification_count": 538,
+      "top_modifications": [
+        [
+          "replace t with polo",
+          22
+        ],
+        [
+          "add green",
+          21
+        ],
+        [
+          "add blue",
+          21
+        ],
+        [
+          "replace jeans with polo",
+          16
+        ],
+        [
+          "add polo",
+          15
+        ],
+        [
+          "add long sleeve",
+          15
+        ],
+        [
+          "add v neck",
+          15
+        ],
+        [
+          "replace black with blue",
+          12
+        ],
+        [
+          "add nirvana",
+          11
+        ],
+        [
+          "add red",
+          11
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "blue",
+          37
+        ],
+        [
+          "black",
+          36
+        ],
+        [
+          "green",
+          28
+        ],
+        [
+          "white",
+          26
+        ],
+        [
+          "red",
+          24
+        ],
+        [
+          "polo",
+          22
+        ],
+        [
+          "striped",
+          17
+        ],
+        [
+          "neck",
+          16
+        ],
+        [
+          "long",
+          15
+        ],
+        [
+          "sleeve",
+          15
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          9
+        ],
+        [
+          "black",
+          6
+        ],
+        [
+          "brown",
+          5
+        ],
+        [
+          "khaki",
+          3
+        ],
+        [
+          "batman",
+          3
+        ],
+        [
+          "dj",
+          2
+        ],
+        [
+          "blue",
+          2
+        ],
+        [
+          "jeans",
+          2
+        ],
+        [
+          "pants",
+          2
+        ],
+        [
+          "print",
+          1
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "shirt",
+          "candidate": "B00COCMJ2O",
+          "target": "B001SAY0IY",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6722167134284973,
+          "target_score": 0.7292537689208984,
+          "source_score": 0.5141124129295349,
+          "direction_margin": 0.21514135599136353,
+          "quality_score": 0.873144814297274,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B007FUGZI4",
+          "target": "B007FUFUPI",
+          "source_caption": "a t - shirt with the word believe on it",
+          "target_caption": "a maroon t - shirt with the word believe on it",
+          "modification_text": "add maroon",
+          "pair_score": 0.7066909074783325,
+          "target_score": 0.8141897320747375,
+          "source_score": 0.6240262389183044,
+          "direction_margin": 0.1901634931564331,
+          "quality_score": 0.8712613046856936,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00B1FK06C",
+          "target": "B00ANUAFCU",
+          "source_caption": "a man wearing a blue striped t - shirt",
+          "target_caption": "a man wearing a blue and green striped t - shirt",
+          "modification_text": "add green",
+          "pair_score": 0.8011898994445801,
+          "target_score": 0.5285118222236633,
+          "source_score": 0.38670310378074646,
+          "direction_margin": 0.14180871844291687,
+          "quality_score": 0.8700997184361234,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00A7PJTNW",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8669056296348572,
+          "target_score": 0.644262433052063,
+          "source_score": 0.5368002653121948,
+          "direction_margin": 0.10746216773986816,
+          "quality_score": 0.8659628624496112,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0045KG1C2",
+          "target": "B001SAY0IY",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6736735105514526,
+          "target_score": 0.7336294651031494,
+          "source_score": 0.5388677716255188,
+          "direction_margin": 0.19476169347763062,
+          "quality_score": 0.8657044066214841,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00DD3OWOG",
+          "target": "B00DD3JNKY",
+          "source_caption": "a t - shirt that says 'of course i'm right i'm bob '",
+          "target_caption": "a green t - shirt that says of course i'm right i'm bob",
+          "modification_text": "add green",
+          "pair_score": 0.6823383569717407,
+          "target_score": 0.75114905834198,
+          "source_score": 0.5632677674293518,
+          "direction_margin": 0.18788129091262817,
+          "quality_score": 0.8648362736876134,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0038MPGBA",
+          "target": "B006R7OPYW",
+          "source_caption": "a man in a polo shirt and khaki pants",
+          "target_caption": "a man in a green polo shirt and khaki pants",
+          "modification_text": "add green",
+          "pair_score": 0.7515910863876343,
+          "target_score": 0.7907595038414001,
+          "source_score": 0.6401232481002808,
+          "direction_margin": 0.15063625574111938,
+          "quality_score": 0.863408157206605,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B006Z2GIV2",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8222483992576599,
+          "target_score": 0.5753693580627441,
+          "source_score": 0.45489928126335144,
+          "direction_margin": 0.1204700767993927,
+          "quality_score": 0.8633618285608258,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00COCMJ2O",
+          "target": "B008GFGNM0",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6528493165969849,
+          "target_score": 0.7131213545799255,
+          "source_score": 0.5141124129295349,
+          "direction_margin": 0.19900894165039062,
+          "quality_score": 0.8627086700274447,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0045KG1C2",
+          "target": "B008GFGNM0",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6636090874671936,
+          "target_score": 0.7242240905761719,
+          "source_score": 0.5388677716255188,
+          "direction_margin": 0.18535631895065308,
+          "quality_score": 0.8595630084592738,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "main_toptee": {
+      "category": "toptee",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/toptee/toptee_stageA3_best_model.pt",
+      "input_images": 16121,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 27385,
+      "pairs_kept_before_rebalance": 571,
+      "pairs_kept": 571,
+      "score_threshold": 0.6,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.726627696235821,
+      "avg_direction_margin": 0.04293589453146044,
+      "num_changes_distribution": {
+        "1": 131,
+        "2": 440
+      },
+      "unique_modification_count": 359,
+      "top_modifications": [
+        [
+          "replace black with green",
+          12
+        ],
+        [
+          "add striped",
+          11
+        ],
+        [
+          "add blue",
+          11
+        ],
+        [
+          "add tank",
+          10
+        ],
+        [
+          "remove wearing",
+          10
+        ],
+        [
+          "add pink",
+          10
+        ],
+        [
+          "replace wearing with striped",
+          9
+        ],
+        [
+          "add v neck",
+          8
+        ],
+        [
+          "replace black with blue",
+          8
+        ],
+        [
+          "add red",
+          6
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "pink",
+          23
+        ],
+        [
+          "white",
+          21
+        ],
+        [
+          "black",
+          20
+        ],
+        [
+          "striped",
+          18
+        ],
+        [
+          "blue",
+          17
+        ],
+        [
+          "tank",
+          13
+        ],
+        [
+          "purple",
+          11
+        ],
+        [
+          "wearing",
+          11
+        ],
+        [
+          "red",
+          9
+        ],
+        [
+          "jeans",
+          9
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "wearing",
+          12
+        ],
+        [
+          "black",
+          10
+        ],
+        [
+          "white",
+          8
+        ],
+        [
+          "leggings",
+          7
+        ],
+        [
+          "jeans",
+          4
+        ],
+        [
+          "pants",
+          4
+        ],
+        [
+          "straps",
+          2
+        ],
+        [
+          "printed",
+          2
+        ],
+        [
+          "red",
+          2
+        ],
+        [
+          "grey",
+          2
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B003TL4A30",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7847766876220703,
+          "target_score": 0.609207272529602,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.1760532557964325,
+          "quality_score": 0.8828059046102559,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B0059MU0AY",
+          "target": "B007WHW5CU",
+          "source_caption": "a woman wearing jeans and a white tank top",
+          "target_caption": "a woman in jeans and a white tank top",
+          "modification_text": "remove wearing",
+          "pair_score": 0.7975811958312988,
+          "target_score": 0.7330681681632996,
+          "source_score": 0.5741966962814331,
+          "direction_margin": 0.15887147188186646,
+          "quality_score": 0.8777739380991894,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B0049O8JGK",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7820565104484558,
+          "target_score": 0.586140513420105,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.15298649668693542,
+          "quality_score": 0.8714244235503505,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B0083KGFLC",
+          "target": "B0013OZ47Q",
+          "source_caption": "a black t - shirt with a cross on it",
+          "target_caption": "a black t - shirt with a red cross on it",
+          "modification_text": "add red",
+          "pair_score": 0.7882630825042725,
+          "target_score": 0.7637808322906494,
+          "source_score": 0.6157644391059875,
+          "direction_margin": 0.14801639318466187,
+          "quality_score": 0.8703506171012969,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B006UHA56G",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7484754920005798,
+          "target_score": 0.5891515612602234,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.15599754452705383,
+          "quality_score": 0.8653395050827712,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008FELY2Q",
+          "target": "B0090SGPKW",
+          "source_caption": "a woman wearing a white top and blue jeans",
+          "target_caption": "a woman wearing jeans and a white and blue striped top",
+          "modification_text": "add striped",
+          "pair_score": 0.7258991003036499,
+          "target_score": 0.7286961674690247,
+          "source_score": 0.5694957971572876,
+          "direction_margin": 0.15920037031173706,
+          "quality_score": 0.861802909690242,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B00CBIFZYA",
+          "target": "B00CBIHGP6",
+          "source_caption": "a baby t - shirt that says baby loading please wait",
+          "target_caption": "a purple t - shirt that says baby loading please wait",
+          "modification_text": "add purple",
+          "pair_score": 0.6933363676071167,
+          "target_score": 0.791384220123291,
+          "source_score": 0.6214724183082581,
+          "direction_margin": 0.16991180181503296,
+          "quality_score": 0.8594764318915442,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B004W4C4M2",
+          "target": "B004W4E59W",
+          "source_caption": "a tie dye t - shirt with a spiral design",
+          "target_caption": "a green tie dye t - shirt with a spiral design",
+          "modification_text": "add green",
+          "pair_score": 0.6496598720550537,
+          "target_score": 0.7399762868881226,
+          "source_score": 0.548831582069397,
+          "direction_margin": 0.19114470481872559,
+          "quality_score": 0.8588325328495501,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B008NFMQ06",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7631348371505737,
+          "target_score": 0.5675983428955078,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.13444432616233826,
+          "quality_score": 0.8576834729040543,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B008NFIQYQ",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7281249761581421,
+          "target_score": 0.5818648338317871,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.14871081709861755,
+          "quality_score": 0.8571678685488422,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "old_dress": {
+      "category": "dress",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/fashioniq_stage2/dress/dress_stage2_best_model.pt",
+      "input_images": 11452,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 32603,
+      "pairs_kept_before_rebalance": 1016,
+      "pairs_kept": 1016,
+      "score_threshold": 0.6,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.723329145389362,
+      "avg_direction_margin": 0.04618713902089539,
+      "num_changes_distribution": {
+        "1": 219,
+        "2": 797
+      },
+      "unique_modification_count": 482,
+      "top_modifications": [
+        [
+          "replace sequins with sequin",
+          26
+        ],
+        [
+          "replace stripes with striped",
+          17
+        ],
+        [
+          "add blue",
+          16
+        ],
+        [
+          "add floral",
+          14
+        ],
+        [
+          "replace long with black",
+          13
+        ],
+        [
+          "remove pattern",
+          12
+        ],
+        [
+          "add up",
+          12
+        ],
+        [
+          "add black white",
+          12
+        ],
+        [
+          "replace standing with posing",
+          12
+        ],
+        [
+          "add green",
+          11
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "black",
+          36
+        ],
+        [
+          "white",
+          33
+        ],
+        [
+          "blue",
+          24
+        ],
+        [
+          "green",
+          19
+        ],
+        [
+          "floral",
+          15
+        ],
+        [
+          "red",
+          14
+        ],
+        [
+          "up",
+          12
+        ],
+        [
+          "yellow",
+          10
+        ],
+        [
+          "pink",
+          10
+        ],
+        [
+          "striped",
+          9
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          17
+        ],
+        [
+          "pattern",
+          16
+        ],
+        [
+          "flowers",
+          11
+        ],
+        [
+          "black",
+          9
+        ],
+        [
+          "camera",
+          9
+        ],
+        [
+          "posing",
+          7
+        ],
+        [
+          "stripes",
+          5
+        ],
+        [
+          "silver",
+          4
+        ],
+        [
+          "gold",
+          3
+        ],
+        [
+          "lace",
+          2
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "dress",
+          "candidate": "B00FB65DI2",
+          "target": "B008GS7C2M",
+          "source_caption": "a woman in a dress with a patterned design",
+          "target_caption": "a woman in a purple dress with a patterned design",
+          "modification_text": "add purple",
+          "pair_score": 0.7506308555603027,
+          "target_score": 0.6409775018692017,
+          "source_score": 0.4186667501926422,
+          "direction_margin": 0.22231075167655945,
+          "quality_score": 0.8933203789924664,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B00B81XW5A",
+          "target": "B00DPEC2JU",
+          "source_caption": "a woman in a dress with an abstract design",
+          "target_caption": "a woman in a purple dress with an abstract design",
+          "modification_text": "add purple",
+          "pair_score": 0.6756099462509155,
+          "target_score": 0.5654680728912354,
+          "source_score": 0.3259460926055908,
+          "direction_margin": 0.23952198028564453,
+          "quality_score": 0.8821112220308591,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ATDHUU",
+          "target": "B00ATZ3GYI",
+          "source_caption": "a woman in a red and white dress",
+          "target_caption": "a woman in a red and white striped dress",
+          "modification_text": "add striped",
+          "pair_score": 0.7748295664787292,
+          "target_score": 0.6465380191802979,
+          "source_score": 0.47702741622924805,
+          "direction_margin": 0.1695106029510498,
+          "quality_score": 0.8776295771942055,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B007WA3X96",
+          "target": "B007WAF3PI",
+          "source_caption": "a woman in a polka dot dress",
+          "target_caption": "a woman in a green polka dot dress",
+          "modification_text": "add green",
+          "pair_score": 0.7156169414520264,
+          "target_score": 0.7001341581344604,
+          "source_score": 0.5098069906234741,
+          "direction_margin": 0.19032716751098633,
+          "quality_score": 0.8733370627008357,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B00CC6ZGYK",
+          "target": "B00CA7QU1E",
+          "source_caption": "a woman in a red dress with flowers",
+          "target_caption": "a woman in a red dress with green and red flowers",
+          "modification_text": "add green",
+          "pair_score": 0.8241533041000366,
+          "target_score": 0.5498487949371338,
+          "source_score": 0.41497573256492615,
+          "direction_margin": 0.13487306237220764,
+          "quality_score": 0.8716401098065787,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B008HQKQB2",
+          "target": "B009N9YZYQ",
+          "source_caption": "a woman in a black dress with sequins",
+          "target_caption": "a woman in a black dress with gold sequins",
+          "modification_text": "add gold",
+          "pair_score": 0.798805832862854,
+          "target_score": 0.5404146313667297,
+          "source_score": 0.4135466516017914,
+          "direction_margin": 0.12686797976493835,
+          "quality_score": 0.8616266052588413,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B007MO67HM",
+          "target": "B007VIJ1YU",
+          "source_caption": "a woman in a dress with flowers on it",
+          "target_caption": "a woman in a blue dress with flowers on it",
+          "modification_text": "add blue",
+          "pair_score": 0.7344827055931091,
+          "target_score": 0.5771515369415283,
+          "source_score": 0.4275286793708801,
+          "direction_margin": 0.1496228575706482,
+          "quality_score": 0.8590542744893859,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ZU1JYU",
+          "target": "B0051931YC",
+          "source_caption": "a woman in a dress posing for the camera",
+          "target_caption": "a woman in a purple dress posing for the camera",
+          "modification_text": "add purple",
+          "pair_score": 0.7444891929626465,
+          "target_score": 0.46263688802719116,
+          "source_score": 0.31870442628860474,
+          "direction_margin": 0.14393246173858643,
+          "quality_score": 0.8584321706654781,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ATDHUU",
+          "target": "B007ZQ5AI4",
+          "source_caption": "a woman in a red and white dress",
+          "target_caption": "a woman in a red and white striped dress",
+          "modification_text": "add striped",
+          "pair_score": 0.7720019817352295,
+          "target_score": 0.6057897806167603,
+          "source_score": 0.47702741622924805,
+          "direction_margin": 0.1287623643875122,
+          "quality_score": 0.8566277211392066,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B0073XSQ9O",
+          "target": "B006VDQVVW",
+          "source_caption": "a woman in a tie dye dress",
+          "target_caption": "a woman in a blue tie dye dress",
+          "modification_text": "add blue",
+          "pair_score": 0.7273262739181519,
+          "target_score": 0.674663782119751,
+          "source_score": 0.5286401510238647,
+          "direction_margin": 0.14602363109588623,
+          "quality_score": 0.8556345442627764,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "old_shirt": {
+      "category": "shirt",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/fashioniq_stage2/shirt/shirt_stage2_best_model.pt",
+      "input_images": 19036,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 25704,
+      "pairs_kept_before_rebalance": 960,
+      "pairs_kept": 960,
+      "score_threshold": 0.6,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7280603942134135,
+      "avg_direction_margin": 0.04024830007304748,
+      "num_changes_distribution": {
+        "1": 234,
+        "2": 726
+      },
+      "unique_modification_count": 529,
+      "top_modifications": [
+        [
+          "add blue",
+          26
+        ],
+        [
+          "replace t with polo",
+          22
+        ],
+        [
+          "add green",
+          20
+        ],
+        [
+          "replace jeans with polo",
+          16
+        ],
+        [
+          "replace black with blue",
+          15
+        ],
+        [
+          "add grey",
+          14
+        ],
+        [
+          "add black",
+          13
+        ],
+        [
+          "add long sleeve",
+          12
+        ],
+        [
+          "add red",
+          11
+        ],
+        [
+          "add nirvana",
+          9
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "blue",
+          47
+        ],
+        [
+          "black",
+          42
+        ],
+        [
+          "white",
+          32
+        ],
+        [
+          "green",
+          29
+        ],
+        [
+          "red",
+          23
+        ],
+        [
+          "grey",
+          20
+        ],
+        [
+          "yellow",
+          15
+        ],
+        [
+          "wearing",
+          13
+        ],
+        [
+          "polo",
+          12
+        ],
+        [
+          "long",
+          12
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          10
+        ],
+        [
+          "black",
+          7
+        ],
+        [
+          "brown",
+          5
+        ],
+        [
+          "batman",
+          5
+        ],
+        [
+          "blue",
+          5
+        ],
+        [
+          "jeans",
+          4
+        ],
+        [
+          "khaki",
+          3
+        ],
+        [
+          "logo",
+          3
+        ],
+        [
+          "wearing",
+          3
+        ],
+        [
+          "yellow",
+          2
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "shirt",
+          "candidate": "B00B1FK06C",
+          "target": "B00ANUAFCU",
+          "source_caption": "a man wearing a blue striped t - shirt",
+          "target_caption": "a man wearing a blue and green striped t - shirt",
+          "modification_text": "add green",
+          "pair_score": 0.7833642363548279,
+          "target_score": 0.5568837523460388,
+          "source_score": 0.37589919567108154,
+          "direction_margin": 0.18098455667495728,
+          "quality_score": 0.8846419442090856,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B006Z2GIV2",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8002943396568298,
+          "target_score": 0.5872693061828613,
+          "source_score": 0.42763280868530273,
+          "direction_margin": 0.1596364974975586,
+          "quality_score": 0.8787502526008992,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00A7PJTNW",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8496895432472229,
+          "target_score": 0.6389815211296082,
+          "source_score": 0.5089510679244995,
+          "direction_margin": 0.13003045320510864,
+          "quality_score": 0.8747941011088178,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B004UAGX16",
+          "target": "B00DUSAQCQ",
+          "source_caption": "a man in a plaid shirt and jeans",
+          "target_caption": "a man in a blue plaid shirt and jeans",
+          "modification_text": "add blue",
+          "pair_score": 0.8405142426490784,
+          "target_score": 0.7447839379310608,
+          "source_score": 0.634382963180542,
+          "direction_margin": 0.1104009747505188,
+          "quality_score": 0.8617359846224006,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B006O622B4",
+          "target": "B0006IY7FU",
+          "source_caption": "a man in a white striped v - neck t - shirt",
+          "target_caption": "a man in a white and grey striped v - neck t - shirt",
+          "modification_text": "add grey",
+          "pair_score": 0.8056231141090393,
+          "target_score": 0.6739802956581116,
+          "source_score": 0.5513566732406616,
+          "direction_margin": 0.12262362241744995,
+          "quality_score": 0.8608217432567435,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00COCMJ2O",
+          "target": "B001SAY0IY",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.659589946269989,
+          "target_score": 0.7707118988037109,
+          "source_score": 0.5802459120750427,
+          "direction_margin": 0.1904659867286682,
+          "quality_score": 0.8607881095437566,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00AYJ9ABM",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8679972887039185,
+          "target_score": 0.6086026430130005,
+          "source_score": 0.5105384588241577,
+          "direction_margin": 0.09806418418884277,
+          "quality_score": 0.8606276090754827,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B007E9849Y",
+          "target": "B00CXMYZZO",
+          "source_caption": "a man wearing a mickey mouse t - shirt",
+          "target_caption": "a man wearing a green mickey mouse t - shirt",
+          "modification_text": "add green",
+          "pair_score": 0.6132519841194153,
+          "target_score": 0.7036911845207214,
+          "source_score": 0.4877738356590271,
+          "direction_margin": 0.21591734886169434,
+          "quality_score": 0.8601567934658261,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00AWQ69Y8",
+          "target": "B007KIA96K",
+          "source_caption": "a man in a shirt and white pants",
+          "target_caption": "a man in a blue shirt and white pants",
+          "modification_text": "add blue",
+          "pair_score": 0.8097754716873169,
+          "target_score": 0.7124433517456055,
+          "source_score": 0.5941210389137268,
+          "direction_margin": 0.11832231283187866,
+          "quality_score": 0.8593487795706529,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B007BMSIYA",
+          "target": "B006UQMPKQ",
+          "source_caption": "carhartt men's short sleeve t-shirt",
+          "target_caption": "carhartt men's short sleeve pocket t-shirt",
+          "modification_text": "add pocket",
+          "pair_score": 0.7550447583198547,
+          "target_score": 0.7509002089500427,
+          "source_score": 0.621013343334198,
+          "direction_margin": 0.12988686561584473,
+          "quality_score": 0.8534214373434683,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "old_toptee": {
+      "category": "toptee",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/fashioniq_stage2/toptee/toptee_stage2_best_model.pt",
+      "input_images": 16121,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 27532,
+      "pairs_kept_before_rebalance": 522,
+      "pairs_kept": 522,
+      "score_threshold": 0.6,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7244287868646933,
+      "avg_direction_margin": 0.04085395322448906,
+      "num_changes_distribution": {
+        "1": 112,
+        "2": 410
+      },
+      "unique_modification_count": 336,
+      "top_modifications": [
+        [
+          "add striped",
+          11
+        ],
+        [
+          "add tank",
+          9
+        ],
+        [
+          "remove white jeans",
+          9
+        ],
+        [
+          "add red",
+          8
+        ],
+        [
+          "add pink",
+          8
+        ],
+        [
+          "add white",
+          6
+        ],
+        [
+          "replace wearing with striped",
+          6
+        ],
+        [
+          "add black white",
+          6
+        ],
+        [
+          "add purple",
+          5
+        ],
+        [
+          "add blue",
+          5
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "white",
+          22
+        ],
+        [
+          "pink",
+          21
+        ],
+        [
+          "black",
+          21
+        ],
+        [
+          "striped",
+          17
+        ],
+        [
+          "red",
+          13
+        ],
+        [
+          "tank",
+          11
+        ],
+        [
+          "purple",
+          11
+        ],
+        [
+          "wearing",
+          11
+        ],
+        [
+          "green",
+          10
+        ],
+        [
+          "yellow",
+          9
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          16
+        ],
+        [
+          "jeans",
+          9
+        ],
+        [
+          "wearing",
+          6
+        ],
+        [
+          "black",
+          5
+        ],
+        [
+          "pants",
+          4
+        ],
+        [
+          "leggings",
+          3
+        ],
+        [
+          "straps",
+          2
+        ],
+        [
+          "green",
+          2
+        ],
+        [
+          "denim",
+          2
+        ],
+        [
+          "t",
+          1
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B003TL4A30",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.8264783024787903,
+          "target_score": 0.6354073882102966,
+          "source_score": 0.4966970682144165,
+          "direction_margin": 0.13871031999588013,
+          "quality_score": 0.8741820921817132,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008FELY2Q",
+          "target": "B0090SGPKW",
+          "source_caption": "a woman wearing a white top and blue jeans",
+          "target_caption": "a woman wearing jeans and a white and blue striped top",
+          "modification_text": "add striped",
+          "pair_score": 0.7668229937553406,
+          "target_score": 0.6914143562316895,
+          "source_score": 0.5393022894859314,
+          "direction_margin": 0.15211206674575806,
+          "quality_score": 0.867566101181857,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B00CBWJSRG",
+          "target": "B00CB8WQY2",
+          "source_caption": "a women's t - shirt with the words keep calm and carry on",
+          "target_caption": "a women's red t - shirt with the words keep calm and carry on",
+          "modification_text": "add red",
+          "pair_score": 0.735846221446991,
+          "target_score": 0.780566930770874,
+          "source_score": 0.6276805400848389,
+          "direction_margin": 0.15288639068603516,
+          "quality_score": 0.8609778752247297,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B00CBWJSRG",
+          "target": "B00CBWJMLS",
+          "source_caption": "a women's t - shirt with the words keep calm and carry on",
+          "target_caption": "a women's pink t - shirt with the words keep calm and carry on",
+          "modification_text": "add pink",
+          "pair_score": 0.7067676186561584,
+          "target_score": 0.7660603523254395,
+          "source_score": 0.5996668338775635,
+          "direction_margin": 0.16639351844787598,
+          "quality_score": 0.8608833851520119,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B0083KGFLC",
+          "target": "B0013OZ47Q",
+          "source_caption": "a black t - shirt with a cross on it",
+          "target_caption": "a black t - shirt with a red cross on it",
+          "modification_text": "add red",
+          "pair_score": 0.8000208735466003,
+          "target_score": 0.7597953081130981,
+          "source_score": 0.6358146071434021,
+          "direction_margin": 0.12398070096969604,
+          "quality_score": 0.8603130051422343,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B00CBIFZYA",
+          "target": "B00CBIHGP6",
+          "source_caption": "a baby t - shirt that says baby loading please wait",
+          "target_caption": "a purple t - shirt that says baby loading please wait",
+          "modification_text": "add purple",
+          "pair_score": 0.7542979121208191,
+          "target_score": 0.7498413324356079,
+          "source_score": 0.6065837144851685,
+          "direction_margin": 0.14325761795043945,
+          "quality_score": 0.8602937741468455,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B003FOAVV6",
+          "target": "B0046W0A6W",
+          "source_caption": "tie dye t-shirt with a spiral design",
+          "target_caption": "a purple tie dye t - shirt with a spiral design",
+          "modification_text": "add purple",
+          "pair_score": 0.7897211313247681,
+          "target_score": 0.8272237777709961,
+          "source_score": 0.7118927240371704,
+          "direction_margin": 0.11533105373382568,
+          "quality_score": 0.8531407564713476,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B004W4C4M2",
+          "target": "B004W4E59W",
+          "source_caption": "a tie dye t - shirt with a spiral design",
+          "target_caption": "a green tie dye t - shirt with a spiral design",
+          "modification_text": "add green",
+          "pair_score": 0.6437216997146606,
+          "target_score": 0.7103143334388733,
+          "source_score": 0.5351458191871643,
+          "direction_margin": 0.17516851425170898,
+          "quality_score": 0.8506765867973265,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B00DJZQ5LG",
+          "target": "B00DJZQ8JU",
+          "source_caption": "a woman in black leather pants and top",
+          "target_caption": "a woman in black leather pants and a pink top",
+          "modification_text": "add pink",
+          "pair_score": 0.735301673412323,
+          "target_score": 0.695525586605072,
+          "source_score": 0.564716100692749,
+          "direction_margin": 0.130809485912323,
+          "quality_score": 0.8494770361024635,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B0058LXWE2",
+          "target": "B008ZBLL9A",
+          "source_caption": "a woman in a red and black sweater",
+          "target_caption": "a woman in a red and black striped sweater",
+          "modification_text": "add striped",
+          "pair_score": 0.7720399498939514,
+          "target_score": 0.6930474638938904,
+          "source_score": 0.5790257453918457,
+          "direction_margin": 0.11402171850204468,
+          "quality_score": 0.8484146592056219,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    }
+  },
+  "sweep": {
+    "t055_dress": {
+      "category": "dress",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/dress/dress_stageA3_best_model.pt",
+      "input_images": 11452,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 31889,
+      "pairs_kept_before_rebalance": 1074,
+      "pairs_kept": 1074,
+      "score_threshold": 0.55,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7211770698198532,
+      "avg_direction_margin": 0.04929818647256333,
+      "num_changes_distribution": {
+        "1": 220,
+        "2": 854
+      },
+      "unique_modification_count": 499,
+      "top_modifications": [
+        [
+          "replace sequins with sequin",
+          24
+        ],
+        [
+          "replace stripes with striped",
+          21
+        ],
+        [
+          "add blue",
+          20
+        ],
+        [
+          "replace black with blue",
+          19
+        ],
+        [
+          "add black white",
+          15
+        ],
+        [
+          "replace it with black",
+          14
+        ],
+        [
+          "add white",
+          13
+        ],
+        [
+          "add floral",
+          13
+        ],
+        [
+          "replace long with black",
+          12
+        ],
+        [
+          "add green",
+          11
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "black",
+          40
+        ],
+        [
+          "white",
+          39
+        ],
+        [
+          "blue",
+          29
+        ],
+        [
+          "green",
+          20
+        ],
+        [
+          "red",
+          16
+        ],
+        [
+          "floral",
+          14
+        ],
+        [
+          "pink",
+          12
+        ],
+        [
+          "camera",
+          12
+        ],
+        [
+          "striped",
+          11
+        ],
+        [
+          "brown",
+          11
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          12
+        ],
+        [
+          "black",
+          8
+        ],
+        [
+          "camera",
+          7
+        ],
+        [
+          "pattern",
+          6
+        ],
+        [
+          "stripes",
+          4
+        ],
+        [
+          "print",
+          4
+        ],
+        [
+          "silver",
+          4
+        ],
+        [
+          "posing",
+          3
+        ],
+        [
+          "gold",
+          3
+        ],
+        [
+          "up",
+          3
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "dress",
+          "candidate": "B00B81XW5A",
+          "target": "B00DPEC2JU",
+          "source_caption": "a woman in a dress with an abstract design",
+          "target_caption": "a woman in a purple dress with an abstract design",
+          "modification_text": "add purple",
+          "pair_score": 0.6474616527557373,
+          "target_score": 0.6182231903076172,
+          "source_score": 0.3609698712825775,
+          "direction_margin": 0.2572533190250397,
+          "quality_score": 0.8810435237157841,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B00FB65DI2",
+          "target": "B008GS7C2M",
+          "source_caption": "a woman in a dress with a patterned design",
+          "target_caption": "a woman in a purple dress with a patterned design",
+          "modification_text": "add purple",
+          "pair_score": 0.7636963129043579,
+          "target_score": 0.7057358026504517,
+          "source_score": 0.5237252116203308,
+          "direction_margin": 0.18201059103012085,
+          "quality_score": 0.880658260177372,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ATDHUU",
+          "target": "B00ATZ3GYI",
+          "source_caption": "a woman in a red and white dress",
+          "target_caption": "a woman in a red and white striped dress",
+          "modification_text": "add striped",
+          "pair_score": 0.7753558158874512,
+          "target_score": 0.6798005104064941,
+          "source_score": 0.5046467781066895,
+          "direction_margin": 0.1751537322998047,
+          "quality_score": 0.8802877001694016,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B008006EU2",
+          "target": "B008COE28W",
+          "source_caption": "a woman in a red and black dress",
+          "target_caption": "a woman in a red and black striped dress",
+          "modification_text": "add striped",
+          "pair_score": 0.7346912026405334,
+          "target_score": 0.655955970287323,
+          "source_score": 0.4637468457221985,
+          "direction_margin": 0.1922091245651245,
+          "quality_score": 0.8783996880507852,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B008HQKQB2",
+          "target": "B009N9YZYQ",
+          "source_caption": "a woman in a black dress with sequins",
+          "target_caption": "a woman in a black dress with gold sequins",
+          "modification_text": "add gold",
+          "pair_score": 0.8007493019104004,
+          "target_score": 0.5815825462341309,
+          "source_score": 0.42541128396987915,
+          "direction_margin": 0.1561712622642517,
+          "quality_score": 0.877185374013838,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B00E499874",
+          "target": "B009AAR4GE",
+          "source_caption": "a dress with a bow on the waist",
+          "target_caption": "a dress with a green bow on the waist",
+          "modification_text": "add green",
+          "pair_score": 0.6698620915412903,
+          "target_score": 0.6991814374923706,
+          "source_score": 0.4923487901687622,
+          "direction_margin": 0.2068326473236084,
+          "quality_score": 0.8695509801626753,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B0044BBN52",
+          "target": "B008ZAYKPS",
+          "source_caption": "a woman in a dress with sequins",
+          "target_caption": "a woman in a blue dress with sequins",
+          "modification_text": "add blue",
+          "pair_score": 0.7625081539154053,
+          "target_score": 0.6553609371185303,
+          "source_score": 0.5122753977775574,
+          "direction_margin": 0.1430855393409729,
+          "quality_score": 0.8620528608668294,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006L1U2ZA",
+          "target": "B006ZIN4ZY",
+          "source_caption": "a woman in a dress posing for the camera",
+          "target_caption": "a woman in a white dress posing for the camera",
+          "modification_text": "add white",
+          "pair_score": 0.7038867473602295,
+          "target_score": 0.6712844371795654,
+          "source_score": 0.5036923885345459,
+          "direction_margin": 0.16759204864501953,
+          "quality_score": 0.8607883731559525,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ZU1JYU",
+          "target": "B0051931YC",
+          "source_caption": "a woman in a dress posing for the camera",
+          "target_caption": "a woman in a purple dress posing for the camera",
+          "modification_text": "add purple",
+          "pair_score": 0.7143142223358154,
+          "target_score": 0.5268589854240417,
+          "source_score": 0.3701001703739166,
+          "direction_margin": 0.15675881505012512,
+          "quality_score": 0.8580219923365409,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B007MO67HM",
+          "target": "B007VIJ1YU",
+          "source_caption": "a woman in a dress with flowers on it",
+          "target_caption": "a woman in a blue dress with flowers on it",
+          "modification_text": "add blue",
+          "pair_score": 0.7130306959152222,
+          "target_score": 0.6122764348983765,
+          "source_score": 0.45604777336120605,
+          "direction_margin": 0.1562286615371704,
+          "quality_score": 0.8574765148903023,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "t055_shirt": {
+      "category": "shirt",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/shirt/shirt_stageA3_best_model.pt",
+      "input_images": 19036,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 26254,
+      "pairs_kept_before_rebalance": 934,
+      "pairs_kept": 934,
+      "score_threshold": 0.55,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7268003939718307,
+      "avg_direction_margin": 0.041782652891422495,
+      "num_changes_distribution": {
+        "1": 234,
+        "2": 700
+      },
+      "unique_modification_count": 538,
+      "top_modifications": [
+        [
+          "replace t with polo",
+          22
+        ],
+        [
+          "add green",
+          21
+        ],
+        [
+          "add blue",
+          21
+        ],
+        [
+          "replace jeans with polo",
+          16
+        ],
+        [
+          "add polo",
+          15
+        ],
+        [
+          "add long sleeve",
+          15
+        ],
+        [
+          "add v neck",
+          15
+        ],
+        [
+          "replace black with blue",
+          12
+        ],
+        [
+          "add nirvana",
+          11
+        ],
+        [
+          "add red",
+          11
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "blue",
+          37
+        ],
+        [
+          "black",
+          36
+        ],
+        [
+          "green",
+          28
+        ],
+        [
+          "white",
+          26
+        ],
+        [
+          "red",
+          24
+        ],
+        [
+          "polo",
+          22
+        ],
+        [
+          "striped",
+          17
+        ],
+        [
+          "neck",
+          16
+        ],
+        [
+          "long",
+          15
+        ],
+        [
+          "sleeve",
+          15
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          9
+        ],
+        [
+          "black",
+          6
+        ],
+        [
+          "brown",
+          5
+        ],
+        [
+          "khaki",
+          3
+        ],
+        [
+          "batman",
+          3
+        ],
+        [
+          "dj",
+          2
+        ],
+        [
+          "blue",
+          2
+        ],
+        [
+          "jeans",
+          2
+        ],
+        [
+          "pants",
+          2
+        ],
+        [
+          "print",
+          1
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "shirt",
+          "candidate": "B00COCMJ2O",
+          "target": "B001SAY0IY",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6722167134284973,
+          "target_score": 0.7292537689208984,
+          "source_score": 0.5141124129295349,
+          "direction_margin": 0.21514135599136353,
+          "quality_score": 0.873144814297274,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B007FUGZI4",
+          "target": "B007FUFUPI",
+          "source_caption": "a t - shirt with the word believe on it",
+          "target_caption": "a maroon t - shirt with the word believe on it",
+          "modification_text": "add maroon",
+          "pair_score": 0.7066909074783325,
+          "target_score": 0.8141897320747375,
+          "source_score": 0.6240262389183044,
+          "direction_margin": 0.1901634931564331,
+          "quality_score": 0.8712613046856936,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00B1FK06C",
+          "target": "B00ANUAFCU",
+          "source_caption": "a man wearing a blue striped t - shirt",
+          "target_caption": "a man wearing a blue and green striped t - shirt",
+          "modification_text": "add green",
+          "pair_score": 0.8011898994445801,
+          "target_score": 0.5285118222236633,
+          "source_score": 0.38670310378074646,
+          "direction_margin": 0.14180871844291687,
+          "quality_score": 0.8700997184361234,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00A7PJTNW",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8669056296348572,
+          "target_score": 0.644262433052063,
+          "source_score": 0.5368002653121948,
+          "direction_margin": 0.10746216773986816,
+          "quality_score": 0.8659628624496112,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0045KG1C2",
+          "target": "B001SAY0IY",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6736735105514526,
+          "target_score": 0.7336294651031494,
+          "source_score": 0.5388677716255188,
+          "direction_margin": 0.19476169347763062,
+          "quality_score": 0.8657044066214841,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00DD3OWOG",
+          "target": "B00DD3JNKY",
+          "source_caption": "a t - shirt that says 'of course i'm right i'm bob '",
+          "target_caption": "a green t - shirt that says of course i'm right i'm bob",
+          "modification_text": "add green",
+          "pair_score": 0.6823383569717407,
+          "target_score": 0.75114905834198,
+          "source_score": 0.5632677674293518,
+          "direction_margin": 0.18788129091262817,
+          "quality_score": 0.8648362736876134,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0038MPGBA",
+          "target": "B006R7OPYW",
+          "source_caption": "a man in a polo shirt and khaki pants",
+          "target_caption": "a man in a green polo shirt and khaki pants",
+          "modification_text": "add green",
+          "pair_score": 0.7515910863876343,
+          "target_score": 0.7907595038414001,
+          "source_score": 0.6401232481002808,
+          "direction_margin": 0.15063625574111938,
+          "quality_score": 0.863408157206605,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B006Z2GIV2",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8222483992576599,
+          "target_score": 0.5753693580627441,
+          "source_score": 0.45489928126335144,
+          "direction_margin": 0.1204700767993927,
+          "quality_score": 0.8633618285608258,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00COCMJ2O",
+          "target": "B008GFGNM0",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6528493165969849,
+          "target_score": 0.7131213545799255,
+          "source_score": 0.5141124129295349,
+          "direction_margin": 0.19900894165039062,
+          "quality_score": 0.8627086700274447,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0045KG1C2",
+          "target": "B008GFGNM0",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6636090874671936,
+          "target_score": 0.7242240905761719,
+          "source_score": 0.5388677716255188,
+          "direction_margin": 0.18535631895065308,
+          "quality_score": 0.8595630084592738,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "t055_toptee": {
+      "category": "toptee",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/toptee/toptee_stageA3_best_model.pt",
+      "input_images": 16121,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 27385,
+      "pairs_kept_before_rebalance": 571,
+      "pairs_kept": 571,
+      "score_threshold": 0.55,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.726627696235821,
+      "avg_direction_margin": 0.04293589453146044,
+      "num_changes_distribution": {
+        "1": 131,
+        "2": 440
+      },
+      "unique_modification_count": 359,
+      "top_modifications": [
+        [
+          "replace black with green",
+          12
+        ],
+        [
+          "add striped",
+          11
+        ],
+        [
+          "add blue",
+          11
+        ],
+        [
+          "add tank",
+          10
+        ],
+        [
+          "remove wearing",
+          10
+        ],
+        [
+          "add pink",
+          10
+        ],
+        [
+          "replace wearing with striped",
+          9
+        ],
+        [
+          "add v neck",
+          8
+        ],
+        [
+          "replace black with blue",
+          8
+        ],
+        [
+          "add red",
+          6
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "pink",
+          23
+        ],
+        [
+          "white",
+          21
+        ],
+        [
+          "black",
+          20
+        ],
+        [
+          "striped",
+          18
+        ],
+        [
+          "blue",
+          17
+        ],
+        [
+          "tank",
+          13
+        ],
+        [
+          "purple",
+          11
+        ],
+        [
+          "wearing",
+          11
+        ],
+        [
+          "red",
+          9
+        ],
+        [
+          "jeans",
+          9
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "wearing",
+          12
+        ],
+        [
+          "black",
+          10
+        ],
+        [
+          "white",
+          8
+        ],
+        [
+          "leggings",
+          7
+        ],
+        [
+          "jeans",
+          4
+        ],
+        [
+          "pants",
+          4
+        ],
+        [
+          "straps",
+          2
+        ],
+        [
+          "printed",
+          2
+        ],
+        [
+          "red",
+          2
+        ],
+        [
+          "grey",
+          2
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B003TL4A30",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7847766876220703,
+          "target_score": 0.609207272529602,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.1760532557964325,
+          "quality_score": 0.8828059046102559,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B0059MU0AY",
+          "target": "B007WHW5CU",
+          "source_caption": "a woman wearing jeans and a white tank top",
+          "target_caption": "a woman in jeans and a white tank top",
+          "modification_text": "remove wearing",
+          "pair_score": 0.7975811958312988,
+          "target_score": 0.7330681681632996,
+          "source_score": 0.5741966962814331,
+          "direction_margin": 0.15887147188186646,
+          "quality_score": 0.8777739380991894,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B0049O8JGK",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7820565104484558,
+          "target_score": 0.586140513420105,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.15298649668693542,
+          "quality_score": 0.8714244235503505,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B0083KGFLC",
+          "target": "B0013OZ47Q",
+          "source_caption": "a black t - shirt with a cross on it",
+          "target_caption": "a black t - shirt with a red cross on it",
+          "modification_text": "add red",
+          "pair_score": 0.7882630825042725,
+          "target_score": 0.7637808322906494,
+          "source_score": 0.6157644391059875,
+          "direction_margin": 0.14801639318466187,
+          "quality_score": 0.8703506171012969,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B006UHA56G",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7484754920005798,
+          "target_score": 0.5891515612602234,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.15599754452705383,
+          "quality_score": 0.8653395050827712,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008FELY2Q",
+          "target": "B0090SGPKW",
+          "source_caption": "a woman wearing a white top and blue jeans",
+          "target_caption": "a woman wearing jeans and a white and blue striped top",
+          "modification_text": "add striped",
+          "pair_score": 0.7258991003036499,
+          "target_score": 0.7286961674690247,
+          "source_score": 0.5694957971572876,
+          "direction_margin": 0.15920037031173706,
+          "quality_score": 0.861802909690242,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B00CBIFZYA",
+          "target": "B00CBIHGP6",
+          "source_caption": "a baby t - shirt that says baby loading please wait",
+          "target_caption": "a purple t - shirt that says baby loading please wait",
+          "modification_text": "add purple",
+          "pair_score": 0.6933363676071167,
+          "target_score": 0.791384220123291,
+          "source_score": 0.6214724183082581,
+          "direction_margin": 0.16991180181503296,
+          "quality_score": 0.8594764318915442,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B004W4C4M2",
+          "target": "B004W4E59W",
+          "source_caption": "a tie dye t - shirt with a spiral design",
+          "target_caption": "a green tie dye t - shirt with a spiral design",
+          "modification_text": "add green",
+          "pair_score": 0.6496598720550537,
+          "target_score": 0.7399762868881226,
+          "source_score": 0.548831582069397,
+          "direction_margin": 0.19114470481872559,
+          "quality_score": 0.8588325328495501,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B008NFMQ06",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7631348371505737,
+          "target_score": 0.5675983428955078,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.13444432616233826,
+          "quality_score": 0.8576834729040543,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B008NFIQYQ",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7281249761581421,
+          "target_score": 0.5818648338317871,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.14871081709861755,
+          "quality_score": 0.8571678685488422,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "t065_dress": {
+      "category": "dress",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/dress/dress_stageA3_best_model.pt",
+      "input_images": 11452,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 31889,
+      "pairs_kept_before_rebalance": 1060,
+      "pairs_kept": 1060,
+      "score_threshold": 0.65,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7222473552218377,
+      "avg_direction_margin": 0.04977159732074108,
+      "num_changes_distribution": {
+        "1": 220,
+        "2": 840
+      },
+      "unique_modification_count": 491,
+      "top_modifications": [
+        [
+          "replace sequins with sequin",
+          24
+        ],
+        [
+          "replace stripes with striped",
+          21
+        ],
+        [
+          "add blue",
+          20
+        ],
+        [
+          "replace black with blue",
+          18
+        ],
+        [
+          "add black white",
+          15
+        ],
+        [
+          "replace it with black",
+          14
+        ],
+        [
+          "add white",
+          13
+        ],
+        [
+          "add floral",
+          13
+        ],
+        [
+          "replace long with black",
+          12
+        ],
+        [
+          "add green",
+          11
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "white",
+          39
+        ],
+        [
+          "black",
+          38
+        ],
+        [
+          "blue",
+          29
+        ],
+        [
+          "green",
+          20
+        ],
+        [
+          "red",
+          15
+        ],
+        [
+          "floral",
+          14
+        ],
+        [
+          "pink",
+          12
+        ],
+        [
+          "camera",
+          12
+        ],
+        [
+          "striped",
+          11
+        ],
+        [
+          "brown",
+          11
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          12
+        ],
+        [
+          "black",
+          8
+        ],
+        [
+          "camera",
+          7
+        ],
+        [
+          "pattern",
+          6
+        ],
+        [
+          "stripes",
+          4
+        ],
+        [
+          "print",
+          4
+        ],
+        [
+          "silver",
+          4
+        ],
+        [
+          "posing",
+          3
+        ],
+        [
+          "gold",
+          3
+        ],
+        [
+          "up",
+          3
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "dress",
+          "candidate": "B00B81XW5A",
+          "target": "B00DPEC2JU",
+          "source_caption": "a woman in a dress with an abstract design",
+          "target_caption": "a woman in a purple dress with an abstract design",
+          "modification_text": "add purple",
+          "pair_score": 0.6474616527557373,
+          "target_score": 0.6182231903076172,
+          "source_score": 0.3609698712825775,
+          "direction_margin": 0.2572533190250397,
+          "quality_score": 0.8810435237157841,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B00FB65DI2",
+          "target": "B008GS7C2M",
+          "source_caption": "a woman in a dress with a patterned design",
+          "target_caption": "a woman in a purple dress with a patterned design",
+          "modification_text": "add purple",
+          "pair_score": 0.7636963129043579,
+          "target_score": 0.7057358026504517,
+          "source_score": 0.5237252116203308,
+          "direction_margin": 0.18201059103012085,
+          "quality_score": 0.880658260177372,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ATDHUU",
+          "target": "B00ATZ3GYI",
+          "source_caption": "a woman in a red and white dress",
+          "target_caption": "a woman in a red and white striped dress",
+          "modification_text": "add striped",
+          "pair_score": 0.7753558158874512,
+          "target_score": 0.6798005104064941,
+          "source_score": 0.5046467781066895,
+          "direction_margin": 0.1751537322998047,
+          "quality_score": 0.8802877001694016,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B008006EU2",
+          "target": "B008COE28W",
+          "source_caption": "a woman in a red and black dress",
+          "target_caption": "a woman in a red and black striped dress",
+          "modification_text": "add striped",
+          "pair_score": 0.7346912026405334,
+          "target_score": 0.655955970287323,
+          "source_score": 0.4637468457221985,
+          "direction_margin": 0.1922091245651245,
+          "quality_score": 0.8783996880507852,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B008HQKQB2",
+          "target": "B009N9YZYQ",
+          "source_caption": "a woman in a black dress with sequins",
+          "target_caption": "a woman in a black dress with gold sequins",
+          "modification_text": "add gold",
+          "pair_score": 0.8007493019104004,
+          "target_score": 0.5815825462341309,
+          "source_score": 0.42541128396987915,
+          "direction_margin": 0.1561712622642517,
+          "quality_score": 0.877185374013838,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B00E499874",
+          "target": "B009AAR4GE",
+          "source_caption": "a dress with a bow on the waist",
+          "target_caption": "a dress with a green bow on the waist",
+          "modification_text": "add green",
+          "pair_score": 0.6698620915412903,
+          "target_score": 0.6991814374923706,
+          "source_score": 0.4923487901687622,
+          "direction_margin": 0.2068326473236084,
+          "quality_score": 0.8695509801626753,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B0044BBN52",
+          "target": "B008ZAYKPS",
+          "source_caption": "a woman in a dress with sequins",
+          "target_caption": "a woman in a blue dress with sequins",
+          "modification_text": "add blue",
+          "pair_score": 0.7625081539154053,
+          "target_score": 0.6553609371185303,
+          "source_score": 0.5122753977775574,
+          "direction_margin": 0.1430855393409729,
+          "quality_score": 0.8620528608668294,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006L1U2ZA",
+          "target": "B006ZIN4ZY",
+          "source_caption": "a woman in a dress posing for the camera",
+          "target_caption": "a woman in a white dress posing for the camera",
+          "modification_text": "add white",
+          "pair_score": 0.7038867473602295,
+          "target_score": 0.6712844371795654,
+          "source_score": 0.5036923885345459,
+          "direction_margin": 0.16759204864501953,
+          "quality_score": 0.8607883731559525,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ZU1JYU",
+          "target": "B0051931YC",
+          "source_caption": "a woman in a dress posing for the camera",
+          "target_caption": "a woman in a purple dress posing for the camera",
+          "modification_text": "add purple",
+          "pair_score": 0.7143142223358154,
+          "target_score": 0.5268589854240417,
+          "source_score": 0.3701001703739166,
+          "direction_margin": 0.15675881505012512,
+          "quality_score": 0.8580219923365409,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B007MO67HM",
+          "target": "B007VIJ1YU",
+          "source_caption": "a woman in a dress with flowers on it",
+          "target_caption": "a woman in a blue dress with flowers on it",
+          "modification_text": "add blue",
+          "pair_score": 0.7130306959152222,
+          "target_score": 0.6122764348983765,
+          "source_score": 0.45604777336120605,
+          "direction_margin": 0.1562286615371704,
+          "quality_score": 0.8574765148903023,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "t065_shirt": {
+      "category": "shirt",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/shirt/shirt_stageA3_best_model.pt",
+      "input_images": 19036,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 26254,
+      "pairs_kept_before_rebalance": 909,
+      "pairs_kept": 909,
+      "score_threshold": 0.65,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7291675703614882,
+      "avg_direction_margin": 0.04265638799032625,
+      "num_changes_distribution": {
+        "1": 234,
+        "2": 675
+      },
+      "unique_modification_count": 516,
+      "top_modifications": [
+        [
+          "add green",
+          21
+        ],
+        [
+          "add blue",
+          21
+        ],
+        [
+          "replace t with polo",
+          21
+        ],
+        [
+          "replace jeans with polo",
+          16
+        ],
+        [
+          "add polo",
+          15
+        ],
+        [
+          "add v neck",
+          15
+        ],
+        [
+          "add long sleeve",
+          14
+        ],
+        [
+          "replace black with blue",
+          12
+        ],
+        [
+          "add nirvana",
+          11
+        ],
+        [
+          "add red",
+          11
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "blue",
+          37
+        ],
+        [
+          "black",
+          36
+        ],
+        [
+          "green",
+          28
+        ],
+        [
+          "white",
+          26
+        ],
+        [
+          "red",
+          24
+        ],
+        [
+          "polo",
+          22
+        ],
+        [
+          "striped",
+          16
+        ],
+        [
+          "neck",
+          16
+        ],
+        [
+          "v",
+          15
+        ],
+        [
+          "yellow",
+          14
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          9
+        ],
+        [
+          "black",
+          6
+        ],
+        [
+          "brown",
+          5
+        ],
+        [
+          "khaki",
+          3
+        ],
+        [
+          "batman",
+          3
+        ],
+        [
+          "dj",
+          2
+        ],
+        [
+          "blue",
+          2
+        ],
+        [
+          "jeans",
+          2
+        ],
+        [
+          "pants",
+          2
+        ],
+        [
+          "print",
+          1
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "shirt",
+          "candidate": "B00COCMJ2O",
+          "target": "B001SAY0IY",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6722167134284973,
+          "target_score": 0.7292537689208984,
+          "source_score": 0.5141124129295349,
+          "direction_margin": 0.21514135599136353,
+          "quality_score": 0.873144814297274,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B007FUGZI4",
+          "target": "B007FUFUPI",
+          "source_caption": "a t - shirt with the word believe on it",
+          "target_caption": "a maroon t - shirt with the word believe on it",
+          "modification_text": "add maroon",
+          "pair_score": 0.7066909074783325,
+          "target_score": 0.8141897320747375,
+          "source_score": 0.6240262389183044,
+          "direction_margin": 0.1901634931564331,
+          "quality_score": 0.8712613046856936,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00B1FK06C",
+          "target": "B00ANUAFCU",
+          "source_caption": "a man wearing a blue striped t - shirt",
+          "target_caption": "a man wearing a blue and green striped t - shirt",
+          "modification_text": "add green",
+          "pair_score": 0.8011898994445801,
+          "target_score": 0.5285118222236633,
+          "source_score": 0.38670310378074646,
+          "direction_margin": 0.14180871844291687,
+          "quality_score": 0.8700997184361234,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00A7PJTNW",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8669056296348572,
+          "target_score": 0.644262433052063,
+          "source_score": 0.5368002653121948,
+          "direction_margin": 0.10746216773986816,
+          "quality_score": 0.8659628624496112,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0045KG1C2",
+          "target": "B001SAY0IY",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6736735105514526,
+          "target_score": 0.7336294651031494,
+          "source_score": 0.5388677716255188,
+          "direction_margin": 0.19476169347763062,
+          "quality_score": 0.8657044066214841,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00DD3OWOG",
+          "target": "B00DD3JNKY",
+          "source_caption": "a t - shirt that says 'of course i'm right i'm bob '",
+          "target_caption": "a green t - shirt that says of course i'm right i'm bob",
+          "modification_text": "add green",
+          "pair_score": 0.6823383569717407,
+          "target_score": 0.75114905834198,
+          "source_score": 0.5632677674293518,
+          "direction_margin": 0.18788129091262817,
+          "quality_score": 0.8648362736876134,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0038MPGBA",
+          "target": "B006R7OPYW",
+          "source_caption": "a man in a polo shirt and khaki pants",
+          "target_caption": "a man in a green polo shirt and khaki pants",
+          "modification_text": "add green",
+          "pair_score": 0.7515910863876343,
+          "target_score": 0.7907595038414001,
+          "source_score": 0.6401232481002808,
+          "direction_margin": 0.15063625574111938,
+          "quality_score": 0.863408157206605,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B006Z2GIV2",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8222483992576599,
+          "target_score": 0.5753693580627441,
+          "source_score": 0.45489928126335144,
+          "direction_margin": 0.1204700767993927,
+          "quality_score": 0.8633618285608258,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00COCMJ2O",
+          "target": "B008GFGNM0",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6528493165969849,
+          "target_score": 0.7131213545799255,
+          "source_score": 0.5141124129295349,
+          "direction_margin": 0.19900894165039062,
+          "quality_score": 0.8627086700274447,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0045KG1C2",
+          "target": "B008GFGNM0",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6636090874671936,
+          "target_score": 0.7242240905761719,
+          "source_score": 0.5388677716255188,
+          "direction_margin": 0.18535631895065308,
+          "quality_score": 0.8595630084592738,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "t065_toptee": {
+      "category": "toptee",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/toptee/toptee_stageA3_best_model.pt",
+      "input_images": 16121,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 27385,
+      "pairs_kept_before_rebalance": 567,
+      "pairs_kept": 567,
+      "score_threshold": 0.65,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7272403435544817,
+      "avg_direction_margin": 0.0431445295638298,
+      "num_changes_distribution": {
+        "1": 131,
+        "2": 436
+      },
+      "unique_modification_count": 355,
+      "top_modifications": [
+        [
+          "replace black with green",
+          12
+        ],
+        [
+          "add striped",
+          11
+        ],
+        [
+          "add blue",
+          11
+        ],
+        [
+          "add tank",
+          10
+        ],
+        [
+          "remove wearing",
+          10
+        ],
+        [
+          "add pink",
+          10
+        ],
+        [
+          "replace wearing with striped",
+          9
+        ],
+        [
+          "add v neck",
+          8
+        ],
+        [
+          "replace black with blue",
+          8
+        ],
+        [
+          "add red",
+          6
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "pink",
+          23
+        ],
+        [
+          "white",
+          21
+        ],
+        [
+          "black",
+          20
+        ],
+        [
+          "striped",
+          18
+        ],
+        [
+          "blue",
+          17
+        ],
+        [
+          "tank",
+          13
+        ],
+        [
+          "purple",
+          11
+        ],
+        [
+          "wearing",
+          11
+        ],
+        [
+          "red",
+          9
+        ],
+        [
+          "jeans",
+          9
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "wearing",
+          12
+        ],
+        [
+          "black",
+          10
+        ],
+        [
+          "white",
+          8
+        ],
+        [
+          "leggings",
+          7
+        ],
+        [
+          "jeans",
+          4
+        ],
+        [
+          "pants",
+          4
+        ],
+        [
+          "straps",
+          2
+        ],
+        [
+          "printed",
+          2
+        ],
+        [
+          "red",
+          2
+        ],
+        [
+          "grey",
+          2
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B003TL4A30",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7847766876220703,
+          "target_score": 0.609207272529602,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.1760532557964325,
+          "quality_score": 0.8828059046102559,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B0059MU0AY",
+          "target": "B007WHW5CU",
+          "source_caption": "a woman wearing jeans and a white tank top",
+          "target_caption": "a woman in jeans and a white tank top",
+          "modification_text": "remove wearing",
+          "pair_score": 0.7975811958312988,
+          "target_score": 0.7330681681632996,
+          "source_score": 0.5741966962814331,
+          "direction_margin": 0.15887147188186646,
+          "quality_score": 0.8777739380991894,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B0049O8JGK",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7820565104484558,
+          "target_score": 0.586140513420105,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.15298649668693542,
+          "quality_score": 0.8714244235503505,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B0083KGFLC",
+          "target": "B0013OZ47Q",
+          "source_caption": "a black t - shirt with a cross on it",
+          "target_caption": "a black t - shirt with a red cross on it",
+          "modification_text": "add red",
+          "pair_score": 0.7882630825042725,
+          "target_score": 0.7637808322906494,
+          "source_score": 0.6157644391059875,
+          "direction_margin": 0.14801639318466187,
+          "quality_score": 0.8703506171012969,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B006UHA56G",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7484754920005798,
+          "target_score": 0.5891515612602234,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.15599754452705383,
+          "quality_score": 0.8653395050827712,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008FELY2Q",
+          "target": "B0090SGPKW",
+          "source_caption": "a woman wearing a white top and blue jeans",
+          "target_caption": "a woman wearing jeans and a white and blue striped top",
+          "modification_text": "add striped",
+          "pair_score": 0.7258991003036499,
+          "target_score": 0.7286961674690247,
+          "source_score": 0.5694957971572876,
+          "direction_margin": 0.15920037031173706,
+          "quality_score": 0.861802909690242,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B00CBIFZYA",
+          "target": "B00CBIHGP6",
+          "source_caption": "a baby t - shirt that says baby loading please wait",
+          "target_caption": "a purple t - shirt that says baby loading please wait",
+          "modification_text": "add purple",
+          "pair_score": 0.6933363676071167,
+          "target_score": 0.791384220123291,
+          "source_score": 0.6214724183082581,
+          "direction_margin": 0.16991180181503296,
+          "quality_score": 0.8594764318915442,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B004W4C4M2",
+          "target": "B004W4E59W",
+          "source_caption": "a tie dye t - shirt with a spiral design",
+          "target_caption": "a green tie dye t - shirt with a spiral design",
+          "modification_text": "add green",
+          "pair_score": 0.6496598720550537,
+          "target_score": 0.7399762868881226,
+          "source_score": 0.548831582069397,
+          "direction_margin": 0.19114470481872559,
+          "quality_score": 0.8588325328495501,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B008NFMQ06",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7631348371505737,
+          "target_score": 0.5675983428955078,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.13444432616233826,
+          "quality_score": 0.8576834729040543,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B008NFIQYQ",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7281249761581421,
+          "target_score": 0.5818648338317871,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.14871081709861755,
+          "quality_score": 0.8571678685488422,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    }
+  },
+  "distribution": {
+    "main_dress": {
+      "category": "dress",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/dress/dress_stageA3_best_model.pt",
+      "input_images": 11452,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 31889,
+      "pairs_kept_before_rebalance": 1074,
+      "pairs_kept": 1074,
+      "score_threshold": 0.6,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7211770698198532,
+      "avg_direction_margin": 0.04929818647256333,
+      "num_changes_distribution": {
+        "1": 220,
+        "2": 854
+      },
+      "unique_modification_count": 499,
+      "top_modifications": [
+        [
+          "replace sequins with sequin",
+          24
+        ],
+        [
+          "replace stripes with striped",
+          21
+        ],
+        [
+          "add blue",
+          20
+        ],
+        [
+          "replace black with blue",
+          19
+        ],
+        [
+          "add black white",
+          15
+        ],
+        [
+          "replace it with black",
+          14
+        ],
+        [
+          "add white",
+          13
+        ],
+        [
+          "add floral",
+          13
+        ],
+        [
+          "replace long with black",
+          12
+        ],
+        [
+          "add green",
+          11
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "black",
+          40
+        ],
+        [
+          "white",
+          39
+        ],
+        [
+          "blue",
+          29
+        ],
+        [
+          "green",
+          20
+        ],
+        [
+          "red",
+          16
+        ],
+        [
+          "floral",
+          14
+        ],
+        [
+          "pink",
+          12
+        ],
+        [
+          "camera",
+          12
+        ],
+        [
+          "striped",
+          11
+        ],
+        [
+          "brown",
+          11
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          12
+        ],
+        [
+          "black",
+          8
+        ],
+        [
+          "camera",
+          7
+        ],
+        [
+          "pattern",
+          6
+        ],
+        [
+          "stripes",
+          4
+        ],
+        [
+          "print",
+          4
+        ],
+        [
+          "silver",
+          4
+        ],
+        [
+          "posing",
+          3
+        ],
+        [
+          "gold",
+          3
+        ],
+        [
+          "up",
+          3
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "dress",
+          "candidate": "B00B81XW5A",
+          "target": "B00DPEC2JU",
+          "source_caption": "a woman in a dress with an abstract design",
+          "target_caption": "a woman in a purple dress with an abstract design",
+          "modification_text": "add purple",
+          "pair_score": 0.6474616527557373,
+          "target_score": 0.6182231903076172,
+          "source_score": 0.3609698712825775,
+          "direction_margin": 0.2572533190250397,
+          "quality_score": 0.8810435237157841,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B00FB65DI2",
+          "target": "B008GS7C2M",
+          "source_caption": "a woman in a dress with a patterned design",
+          "target_caption": "a woman in a purple dress with a patterned design",
+          "modification_text": "add purple",
+          "pair_score": 0.7636963129043579,
+          "target_score": 0.7057358026504517,
+          "source_score": 0.5237252116203308,
+          "direction_margin": 0.18201059103012085,
+          "quality_score": 0.880658260177372,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ATDHUU",
+          "target": "B00ATZ3GYI",
+          "source_caption": "a woman in a red and white dress",
+          "target_caption": "a woman in a red and white striped dress",
+          "modification_text": "add striped",
+          "pair_score": 0.7753558158874512,
+          "target_score": 0.6798005104064941,
+          "source_score": 0.5046467781066895,
+          "direction_margin": 0.1751537322998047,
+          "quality_score": 0.8802877001694016,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B008006EU2",
+          "target": "B008COE28W",
+          "source_caption": "a woman in a red and black dress",
+          "target_caption": "a woman in a red and black striped dress",
+          "modification_text": "add striped",
+          "pair_score": 0.7346912026405334,
+          "target_score": 0.655955970287323,
+          "source_score": 0.4637468457221985,
+          "direction_margin": 0.1922091245651245,
+          "quality_score": 0.8783996880507852,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B008HQKQB2",
+          "target": "B009N9YZYQ",
+          "source_caption": "a woman in a black dress with sequins",
+          "target_caption": "a woman in a black dress with gold sequins",
+          "modification_text": "add gold",
+          "pair_score": 0.8007493019104004,
+          "target_score": 0.5815825462341309,
+          "source_score": 0.42541128396987915,
+          "direction_margin": 0.1561712622642517,
+          "quality_score": 0.877185374013838,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B00E499874",
+          "target": "B009AAR4GE",
+          "source_caption": "a dress with a bow on the waist",
+          "target_caption": "a dress with a green bow on the waist",
+          "modification_text": "add green",
+          "pair_score": 0.6698620915412903,
+          "target_score": 0.6991814374923706,
+          "source_score": 0.4923487901687622,
+          "direction_margin": 0.2068326473236084,
+          "quality_score": 0.8695509801626753,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B0044BBN52",
+          "target": "B008ZAYKPS",
+          "source_caption": "a woman in a dress with sequins",
+          "target_caption": "a woman in a blue dress with sequins",
+          "modification_text": "add blue",
+          "pair_score": 0.7625081539154053,
+          "target_score": 0.6553609371185303,
+          "source_score": 0.5122753977775574,
+          "direction_margin": 0.1430855393409729,
+          "quality_score": 0.8620528608668294,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006L1U2ZA",
+          "target": "B006ZIN4ZY",
+          "source_caption": "a woman in a dress posing for the camera",
+          "target_caption": "a woman in a white dress posing for the camera",
+          "modification_text": "add white",
+          "pair_score": 0.7038867473602295,
+          "target_score": 0.6712844371795654,
+          "source_score": 0.5036923885345459,
+          "direction_margin": 0.16759204864501953,
+          "quality_score": 0.8607883731559525,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B006ZU1JYU",
+          "target": "B0051931YC",
+          "source_caption": "a woman in a dress posing for the camera",
+          "target_caption": "a woman in a purple dress posing for the camera",
+          "modification_text": "add purple",
+          "pair_score": 0.7143142223358154,
+          "target_score": 0.5268589854240417,
+          "source_score": 0.3701001703739166,
+          "direction_margin": 0.15675881505012512,
+          "quality_score": 0.8580219923365409,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "dress",
+          "candidate": "B007MO67HM",
+          "target": "B007VIJ1YU",
+          "source_caption": "a woman in a dress with flowers on it",
+          "target_caption": "a woman in a blue dress with flowers on it",
+          "modification_text": "add blue",
+          "pair_score": 0.7130306959152222,
+          "target_score": 0.6122764348983765,
+          "source_score": 0.45604777336120605,
+          "direction_margin": 0.1562286615371704,
+          "quality_score": 0.8574765148903023,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "main_shirt": {
+      "category": "shirt",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/shirt/shirt_stageA3_best_model.pt",
+      "input_images": 19036,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 26254,
+      "pairs_kept_before_rebalance": 934,
+      "pairs_kept": 934,
+      "score_threshold": 0.6,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.7268003939718307,
+      "avg_direction_margin": 0.041782652891422495,
+      "num_changes_distribution": {
+        "1": 234,
+        "2": 700
+      },
+      "unique_modification_count": 538,
+      "top_modifications": [
+        [
+          "replace t with polo",
+          22
+        ],
+        [
+          "add green",
+          21
+        ],
+        [
+          "add blue",
+          21
+        ],
+        [
+          "replace jeans with polo",
+          16
+        ],
+        [
+          "add polo",
+          15
+        ],
+        [
+          "add long sleeve",
+          15
+        ],
+        [
+          "add v neck",
+          15
+        ],
+        [
+          "replace black with blue",
+          12
+        ],
+        [
+          "add nirvana",
+          11
+        ],
+        [
+          "add red",
+          11
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "blue",
+          37
+        ],
+        [
+          "black",
+          36
+        ],
+        [
+          "green",
+          28
+        ],
+        [
+          "white",
+          26
+        ],
+        [
+          "red",
+          24
+        ],
+        [
+          "polo",
+          22
+        ],
+        [
+          "striped",
+          17
+        ],
+        [
+          "neck",
+          16
+        ],
+        [
+          "long",
+          15
+        ],
+        [
+          "sleeve",
+          15
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "white",
+          9
+        ],
+        [
+          "black",
+          6
+        ],
+        [
+          "brown",
+          5
+        ],
+        [
+          "khaki",
+          3
+        ],
+        [
+          "batman",
+          3
+        ],
+        [
+          "dj",
+          2
+        ],
+        [
+          "blue",
+          2
+        ],
+        [
+          "jeans",
+          2
+        ],
+        [
+          "pants",
+          2
+        ],
+        [
+          "print",
+          1
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "shirt",
+          "candidate": "B00COCMJ2O",
+          "target": "B001SAY0IY",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6722167134284973,
+          "target_score": 0.7292537689208984,
+          "source_score": 0.5141124129295349,
+          "direction_margin": 0.21514135599136353,
+          "quality_score": 0.873144814297274,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B007FUGZI4",
+          "target": "B007FUFUPI",
+          "source_caption": "a t - shirt with the word believe on it",
+          "target_caption": "a maroon t - shirt with the word believe on it",
+          "modification_text": "add maroon",
+          "pair_score": 0.7066909074783325,
+          "target_score": 0.8141897320747375,
+          "source_score": 0.6240262389183044,
+          "direction_margin": 0.1901634931564331,
+          "quality_score": 0.8712613046856936,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00B1FK06C",
+          "target": "B00ANUAFCU",
+          "source_caption": "a man wearing a blue striped t - shirt",
+          "target_caption": "a man wearing a blue and green striped t - shirt",
+          "modification_text": "add green",
+          "pair_score": 0.8011898994445801,
+          "target_score": 0.5285118222236633,
+          "source_score": 0.38670310378074646,
+          "direction_margin": 0.14180871844291687,
+          "quality_score": 0.8700997184361234,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00A7PJTNW",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8669056296348572,
+          "target_score": 0.644262433052063,
+          "source_score": 0.5368002653121948,
+          "direction_margin": 0.10746216773986816,
+          "quality_score": 0.8659628624496112,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0045KG1C2",
+          "target": "B001SAY0IY",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6736735105514526,
+          "target_score": 0.7336294651031494,
+          "source_score": 0.5388677716255188,
+          "direction_margin": 0.19476169347763062,
+          "quality_score": 0.8657044066214841,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00DD3OWOG",
+          "target": "B00DD3JNKY",
+          "source_caption": "a t - shirt that says 'of course i'm right i'm bob '",
+          "target_caption": "a green t - shirt that says of course i'm right i'm bob",
+          "modification_text": "add green",
+          "pair_score": 0.6823383569717407,
+          "target_score": 0.75114905834198,
+          "source_score": 0.5632677674293518,
+          "direction_margin": 0.18788129091262817,
+          "quality_score": 0.8648362736876134,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0038MPGBA",
+          "target": "B006R7OPYW",
+          "source_caption": "a man in a polo shirt and khaki pants",
+          "target_caption": "a man in a green polo shirt and khaki pants",
+          "modification_text": "add green",
+          "pair_score": 0.7515910863876343,
+          "target_score": 0.7907595038414001,
+          "source_score": 0.6401232481002808,
+          "direction_margin": 0.15063625574111938,
+          "quality_score": 0.863408157206605,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B006Z2GIV2",
+          "target": "B0060GXLZO",
+          "source_caption": "a man in a short sleeve shirt and brown pants",
+          "target_caption": "a man in a short sleeve shirt and pants",
+          "modification_text": "remove brown",
+          "pair_score": 0.8222483992576599,
+          "target_score": 0.5753693580627441,
+          "source_score": 0.45489928126335144,
+          "direction_margin": 0.1204700767993927,
+          "quality_score": 0.8633618285608258,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "shirt",
+          "candidate": "B00COCMJ2O",
+          "target": "B008GFGNM0",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6528493165969849,
+          "target_score": 0.7131213545799255,
+          "source_score": 0.5141124129295349,
+          "direction_margin": 0.19900894165039062,
+          "quality_score": 0.8627086700274447,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "shirt",
+          "candidate": "B0045KG1C2",
+          "target": "B008GFGNM0",
+          "source_caption": "the smiley face t shirt",
+          "target_caption": "the nirvana smiley face t shirt",
+          "modification_text": "add nirvana",
+          "pair_score": 0.6636090874671936,
+          "target_score": 0.7242240905761719,
+          "source_score": 0.5388677716255188,
+          "direction_margin": 0.18535631895065308,
+          "quality_score": 0.8595630084592738,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    },
+    "main_toptee": {
+      "category": "toptee",
+      "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/toptee/toptee_stageA3_best_model.pt",
+      "input_images": 16121,
+      "neighbor_topk": 10,
+      "pairs_considered_after_text_rules": 27385,
+      "pairs_kept_before_rebalance": 571,
+      "pairs_kept": 571,
+      "score_threshold": 0.6,
+      "min_num_changes": 1,
+      "max_num_changes": 2,
+      "keep_top_n": 0,
+      "max_records_per_modification": 150,
+      "avg_quality_score": 0.726627696235821,
+      "avg_direction_margin": 0.04293589453146044,
+      "num_changes_distribution": {
+        "1": 131,
+        "2": 440
+      },
+      "unique_modification_count": 359,
+      "top_modifications": [
+        [
+          "replace black with green",
+          12
+        ],
+        [
+          "add striped",
+          11
+        ],
+        [
+          "add blue",
+          11
+        ],
+        [
+          "add tank",
+          10
+        ],
+        [
+          "remove wearing",
+          10
+        ],
+        [
+          "add pink",
+          10
+        ],
+        [
+          "replace wearing with striped",
+          9
+        ],
+        [
+          "add v neck",
+          8
+        ],
+        [
+          "replace black with blue",
+          8
+        ],
+        [
+          "add red",
+          6
+        ]
+      ],
+      "top_added_tokens": [
+        [
+          "pink",
+          23
+        ],
+        [
+          "white",
+          21
+        ],
+        [
+          "black",
+          20
+        ],
+        [
+          "striped",
+          18
+        ],
+        [
+          "blue",
+          17
+        ],
+        [
+          "tank",
+          13
+        ],
+        [
+          "purple",
+          11
+        ],
+        [
+          "wearing",
+          11
+        ],
+        [
+          "red",
+          9
+        ],
+        [
+          "jeans",
+          9
+        ]
+      ],
+      "top_removed_tokens": [
+        [
+          "wearing",
+          12
+        ],
+        [
+          "black",
+          10
+        ],
+        [
+          "white",
+          8
+        ],
+        [
+          "leggings",
+          7
+        ],
+        [
+          "jeans",
+          4
+        ],
+        [
+          "pants",
+          4
+        ],
+        [
+          "straps",
+          2
+        ],
+        [
+          "printed",
+          2
+        ],
+        [
+          "red",
+          2
+        ],
+        [
+          "grey",
+          2
+        ]
+      ],
+      "top_examples": [
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B003TL4A30",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7847766876220703,
+          "target_score": 0.609207272529602,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.1760532557964325,
+          "quality_score": 0.8828059046102559,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B0059MU0AY",
+          "target": "B007WHW5CU",
+          "source_caption": "a woman wearing jeans and a white tank top",
+          "target_caption": "a woman in jeans and a white tank top",
+          "modification_text": "remove wearing",
+          "pair_score": 0.7975811958312988,
+          "target_score": 0.7330681681632996,
+          "source_score": 0.5741966962814331,
+          "direction_margin": 0.15887147188186646,
+          "quality_score": 0.8777739380991894,
+          "num_removed_tokens": 1,
+          "num_added_tokens": 0
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B0049O8JGK",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7820565104484558,
+          "target_score": 0.586140513420105,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.15298649668693542,
+          "quality_score": 0.8714244235503505,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B0083KGFLC",
+          "target": "B0013OZ47Q",
+          "source_caption": "a black t - shirt with a cross on it",
+          "target_caption": "a black t - shirt with a red cross on it",
+          "modification_text": "add red",
+          "pair_score": 0.7882630825042725,
+          "target_score": 0.7637808322906494,
+          "source_score": 0.6157644391059875,
+          "direction_margin": 0.14801639318466187,
+          "quality_score": 0.8703506171012969,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B006UHA56G",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7484754920005798,
+          "target_score": 0.5891515612602234,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.15599754452705383,
+          "quality_score": 0.8653395050827712,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008FELY2Q",
+          "target": "B0090SGPKW",
+          "source_caption": "a woman wearing a white top and blue jeans",
+          "target_caption": "a woman wearing jeans and a white and blue striped top",
+          "modification_text": "add striped",
+          "pair_score": 0.7258991003036499,
+          "target_score": 0.7286961674690247,
+          "source_score": 0.5694957971572876,
+          "direction_margin": 0.15920037031173706,
+          "quality_score": 0.861802909690242,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B00CBIFZYA",
+          "target": "B00CBIHGP6",
+          "source_caption": "a baby t - shirt that says baby loading please wait",
+          "target_caption": "a purple t - shirt that says baby loading please wait",
+          "modification_text": "add purple",
+          "pair_score": 0.6933363676071167,
+          "target_score": 0.791384220123291,
+          "source_score": 0.6214724183082581,
+          "direction_margin": 0.16991180181503296,
+          "quality_score": 0.8594764318915442,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B004W4C4M2",
+          "target": "B004W4E59W",
+          "source_caption": "a tie dye t - shirt with a spiral design",
+          "target_caption": "a green tie dye t - shirt with a spiral design",
+          "modification_text": "add green",
+          "pair_score": 0.6496598720550537,
+          "target_score": 0.7399762868881226,
+          "source_score": 0.548831582069397,
+          "direction_margin": 0.19114470481872559,
+          "quality_score": 0.8588325328495501,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B008NFMQ06",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7631348371505737,
+          "target_score": 0.5675983428955078,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.13444432616233826,
+          "quality_score": 0.8576834729040543,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        },
+        {
+          "category": "toptee",
+          "candidate": "B008K2AC76",
+          "target": "B008NFIQYQ",
+          "source_caption": "a women's top with a floral print",
+          "target_caption": "a women's tank top with floral print",
+          "modification_text": "add tank",
+          "pair_score": 0.7281249761581421,
+          "target_score": 0.5818648338317871,
+          "source_score": 0.43315401673316956,
+          "direction_margin": 0.14871081709861755,
+          "quality_score": 0.8571678685488422,
+          "num_removed_tokens": 0,
+          "num_added_tokens": 1
+        }
+      ]
+    }
+  }
+}

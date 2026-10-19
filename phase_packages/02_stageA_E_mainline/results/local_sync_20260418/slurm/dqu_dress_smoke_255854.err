@@ -1,0 +1,19 @@
+/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading the datasets and model...
+Loaded ViT-H-14 model config.
+Loading pretrained ViT-H-14 weights (/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin).
+Traceback (most recent call last):
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/train.py", line 256, in <module>
+    dataset_list = load_dataset()
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/train.py", line 93, in load_dataset
+    fashioniq_dataset = datasets.FashionIQ(path = args.fashioniq_path, category = args.dataset, transform = [preprocess_train, preprocess_val], split = args.fashioniq_split)
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/datasets.py", line 83, in __init__
+    self.train_init_process()
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/datasets.py", line 101, in train_init_process
+    with open(os.path.join(self.caption_dir, 'correction_dict_{}.json'.format(self.category)), 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/user/hqi881/CIR/dataset/FashionIQ/captions/correction_dict_dress.json'
+
+ERROR conda.cli.main_run:execute(125): `conda run python src/train.py --dataset dress --fashioniq_split val-split --fashioniq_path /data/user/hqi881/CIR/dataset/FashionIQ --lr 1e-4 --clip_lr 1e-6 --batch_size 16 --num_epochs 1 --num_workers 8 --backbone ViT-H-14 --pretrained /data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin --model_dir /data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/fashioniq/dress_smoke --i smoke1` failed. (See above for error)

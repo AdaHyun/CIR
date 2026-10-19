@@ -1,0 +1,9 @@
+/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+AttributeError: module 'open_clip' has no attribute '__version__'
+
+ERROR conda.cli.main_run:execute(125): `conda run python -c import open_clip; print(open_clip.__version__)` failed. (See above for error)

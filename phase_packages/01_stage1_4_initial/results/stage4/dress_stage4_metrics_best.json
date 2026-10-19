@@ -1,0 +1,8 @@
+{
+    "dress_r1": 22.359940505701537,
+    "dress_r10": 54.63559742191374,
+    "dress_r50": 76.35101636093208,
+    "model_variant": "dqu_pfp",
+    "pseudo_label": "filtered_pseudo",
+    "pseudo_path": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stage3/pseudo_dress.jsonl"
+}

@@ -1,0 +1,19 @@
+{
+  "epoch": 38,
+  "train_loss": 0.0002305013691514743,
+  "score": 127.8135845314824,
+  "dress_r10": 52.20624690133862,
+  "dress_r50": 75.60733763014377,
+  "dress_r100": 84.53148239960338,
+  "seed": 42,
+  "hidden_dim": 1024,
+  "dropout": 0.1,
+  "lr": 0.0005,
+  "weight_decay": 0.0001,
+  "train_k": 16,
+  "train_pool": 64,
+  "val_k": 100,
+  "distill_weight": 0.0,
+  "distill_temperature": 0.07,
+  "base_score_scale": 1.0993460416793823
+}

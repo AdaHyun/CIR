@@ -1,0 +1,301 @@
+[Sat Apr 18 02:02:14 CST 2026] category=shirt checkpoint=/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/shirt/shirt_stageA3_best_model.pt threshold=0.65 min_changes=1 max_changes=2 keep_top_n=0 max_records_per_modification=150
+{
+  "category": "shirt",
+  "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/shirt/shirt_stageA3_best_model.pt",
+  "input_images": 19036,
+  "neighbor_topk": 10,
+  "pairs_considered_after_text_rules": 26254,
+  "pairs_kept_before_rebalance": 909,
+  "pairs_kept": 909,
+  "score_threshold": 0.65,
+  "min_num_changes": 1,
+  "max_num_changes": 2,
+  "keep_top_n": 0,
+  "max_records_per_modification": 150,
+  "avg_quality_score": 0.7291675703614882,
+  "avg_direction_margin": 0.04265638799032625,
+  "num_changes_distribution": {
+    "1": 234,
+    "2": 675
+  },
+  "unique_modification_count": 516,
+  "top_modifications": [
+    [
+      "add green",
+      21
+    ],
+    [
+      "add blue",
+      21
+    ],
+    [
+      "replace t with polo",
+      21
+    ],
+    [
+      "replace jeans with polo",
+      16
+    ],
+    [
+      "add polo",
+      15
+    ],
+    [
+      "add v neck",
+      15
+    ],
+    [
+      "add long sleeve",
+      14
+    ],
+    [
+      "replace black with blue",
+      12
+    ],
+    [
+      "add nirvana",
+      11
+    ],
+    [
+      "add red",
+      11
+    ]
+  ],
+  "top_added_tokens": [
+    [
+      "blue",
+      37
+    ],
+    [
+      "black",
+      36
+    ],
+    [
+      "green",
+      28
+    ],
+    [
+      "white",
+      26
+    ],
+    [
+      "red",
+      24
+    ],
+    [
+      "polo",
+      22
+    ],
+    [
+      "striped",
+      16
+    ],
+    [
+      "neck",
+      16
+    ],
+    [
+      "v",
+      15
+    ],
+    [
+      "yellow",
+      14
+    ]
+  ],
+  "top_removed_tokens": [
+    [
+      "white",
+      9
+    ],
+    [
+      "black",
+      6
+    ],
+    [
+      "brown",
+      5
+    ],
+    [
+      "khaki",
+      3
+    ],
+    [
+      "batman",
+      3
+    ],
+    [
+      "dj",
+      2
+    ],
+    [
+      "blue",
+      2
+    ],
+    [
+      "jeans",
+      2
+    ],
+    [
+      "pants",
+      2
+    ],
+    [
+      "print",
+      1
+    ]
+  ],
+  "top_examples": [
+    {
+      "category": "shirt",
+      "candidate": "B00COCMJ2O",
+      "target": "B001SAY0IY",
+      "source_caption": "the smiley face t shirt",
+      "target_caption": "the nirvana smiley face t shirt",
+      "modification_text": "add nirvana",
+      "pair_score": 0.6722167134284973,
+      "target_score": 0.7292537689208984,
+      "source_score": 0.5141124129295349,
+      "direction_margin": 0.21514135599136353,
+      "quality_score": 0.873144814297274,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "shirt",
+      "candidate": "B007FUGZI4",
+      "target": "B007FUFUPI",
+      "source_caption": "a t - shirt with the word believe on it",
+      "target_caption": "a maroon t - shirt with the word believe on it",
+      "modification_text": "add maroon",
+      "pair_score": 0.7066909074783325,
+      "target_score": 0.8141897320747375,
+      "source_score": 0.6240262389183044,
+      "direction_margin": 0.1901634931564331,
+      "quality_score": 0.8712613046856936,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "shirt",
+      "candidate": "B00B1FK06C",
+      "target": "B00ANUAFCU",
+      "source_caption": "a man wearing a blue striped t - shirt",
+      "target_caption": "a man wearing a blue and green striped t - shirt",
+      "modification_text": "add green",
+      "pair_score": 0.8011898994445801,
+      "target_score": 0.5285118222236633,
+      "source_score": 0.38670310378074646,
+      "direction_margin": 0.14180871844291687,
+      "quality_score": 0.8700997184361234,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "shirt",
+      "candidate": "B00A7PJTNW",
+      "target": "B0060GXLZO",
+      "source_caption": "a man in a short sleeve shirt and brown pants",
+      "target_caption": "a man in a short sleeve shirt and pants",
+      "modification_text": "remove brown",
+      "pair_score": 0.8669056296348572,
+      "target_score": 0.644262433052063,
+      "source_score": 0.5368002653121948,
+      "direction_margin": 0.10746216773986816,
+      "quality_score": 0.8659628624496112,
+      "num_removed_tokens": 1,
+      "num_added_tokens": 0
+    },
+    {
+      "category": "shirt",
+      "candidate": "B0045KG1C2",
+      "target": "B001SAY0IY",
+      "source_caption": "the smiley face t shirt",
+      "target_caption": "the nirvana smiley face t shirt",
+      "modification_text": "add nirvana",
+      "pair_score": 0.6736735105514526,
+      "target_score": 0.7336294651031494,
+      "source_score": 0.5388677716255188,
+      "direction_margin": 0.19476169347763062,
+      "quality_score": 0.8657044066214841,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "shirt",
+      "candidate": "B00DD3OWOG",
+      "target": "B00DD3JNKY",
+      "source_caption": "a t - shirt that says 'of course i'm right i'm bob '",
+      "target_caption": "a green t - shirt that says of course i'm right i'm bob",
+      "modification_text": "add green",
+      "pair_score": 0.6823383569717407,
+      "target_score": 0.75114905834198,
+      "source_score": 0.5632677674293518,
+      "direction_margin": 0.18788129091262817,
+      "quality_score": 0.8648362736876134,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "shirt",
+      "candidate": "B0038MPGBA",
+      "target": "B006R7OPYW",
+      "source_caption": "a man in a polo shirt and khaki pants",
+      "target_caption": "a man in a green polo shirt and khaki pants",
+      "modification_text": "add green",
+      "pair_score": 0.7515910863876343,
+      "target_score": 0.7907595038414001,
+      "source_score": 0.6401232481002808,
+      "direction_margin": 0.15063625574111938,
+      "quality_score": 0.863408157206605,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "shirt",
+      "candidate": "B006Z2GIV2",
+      "target": "B0060GXLZO",
+      "source_caption": "a man in a short sleeve shirt and brown pants",
+      "target_caption": "a man in a short sleeve shirt and pants",
+      "modification_text": "remove brown",
+      "pair_score": 0.8222483992576599,
+      "target_score": 0.5753693580627441,
+      "source_score": 0.45489928126335144,
+      "direction_margin": 0.1204700767993927,
+      "quality_score": 0.8633618285608258,
+      "num_removed_tokens": 1,
+      "num_added_tokens": 0
+    },
+    {
+      "category": "shirt",
+      "candidate": "B00COCMJ2O",
+      "target": "B008GFGNM0",
+      "source_caption": "the smiley face t shirt",
+      "target_caption": "the nirvana smiley face t shirt",
+      "modification_text": "add nirvana",
+      "pair_score": 0.6528493165969849,
+      "target_score": 0.7131213545799255,
+      "source_score": 0.5141124129295349,
+      "direction_margin": 0.19900894165039062,
+      "quality_score": 0.8627086700274447,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "shirt",
+      "candidate": "B0045KG1C2",
+      "target": "B008GFGNM0",
+      "source_caption": "the smiley face t shirt",
+      "target_caption": "the nirvana smiley face t shirt",
+      "modification_text": "add nirvana",
+      "pair_score": 0.6636090874671936,
+      "target_score": 0.7242240905761719,
+      "source_score": 0.5388677716255188,
+      "direction_margin": 0.18535631895065308,
+      "quality_score": 0.8595630084592738,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    }
+  ]
+}
+

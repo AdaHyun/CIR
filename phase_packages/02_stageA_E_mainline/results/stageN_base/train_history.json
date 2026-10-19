@@ -1,0 +1,32 @@
+{
+  "dress_last_epoch": {
+    "epoch": 9,
+    "train_loss": 0.10051564487814903,
+    "score": 129.1026276648488,
+    "best_score": 131.48239960337133,
+    "used_pseudo": false,
+    "dress_r1": 21.715418939018345,
+    "dress_r10": 53.04908279623203,
+    "dress_r50": 76.05354486861675
+  },
+  "shirt_last_epoch": {
+    "epoch": 6,
+    "train_loss": 0.11284641600896915,
+    "score": 139.05789990186457,
+    "best_score": 143.08145240431796,
+    "used_pseudo": false,
+    "shirt_r1": 28.851815505397447,
+    "shirt_r10": 60.10794896957802,
+    "shirt_r50": 78.94995093228655
+  },
+  "toptee_last_epoch": {
+    "epoch": 8,
+    "train_loss": 0.08411497703755882,
+    "score": 147.7817440081591,
+    "best_score": 151.50433452320243,
+    "used_pseudo": false,
+    "toptee_r1": 30.90260071392147,
+    "toptee_r10": 63.488016318205,
+    "toptee_r50": 84.29372768995411
+  }
+}

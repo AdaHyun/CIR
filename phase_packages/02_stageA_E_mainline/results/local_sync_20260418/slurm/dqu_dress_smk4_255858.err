@@ -1,0 +1,10 @@
+/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading the datasets and model...
+Loaded ViT-H-14 model config.
+Loading pretrained ViT-H-14 weights (/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin).
+Loaded ViT-H-14 model config.
+Loading pretrained ViT-H-14 weights (/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin).
+slurmstepd: error: *** JOB 255858 ON ACD1-25 CANCELLED AT 2026-04-05T23:48:08 ***

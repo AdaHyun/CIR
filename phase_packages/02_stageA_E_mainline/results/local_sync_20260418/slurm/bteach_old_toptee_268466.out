@@ -1,0 +1,301 @@
+[Sat Apr 18 01:59:02 CST 2026] category=toptee checkpoint=/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/fashioniq_stage2/toptee/toptee_stage2_best_model.pt threshold=0.60 min_changes=1 max_changes=2 keep_top_n=0 max_records_per_modification=150
+{
+  "category": "toptee",
+  "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/fashioniq_stage2/toptee/toptee_stage2_best_model.pt",
+  "input_images": 16121,
+  "neighbor_topk": 10,
+  "pairs_considered_after_text_rules": 27532,
+  "pairs_kept_before_rebalance": 522,
+  "pairs_kept": 522,
+  "score_threshold": 0.6,
+  "min_num_changes": 1,
+  "max_num_changes": 2,
+  "keep_top_n": 0,
+  "max_records_per_modification": 150,
+  "avg_quality_score": 0.7244287868646933,
+  "avg_direction_margin": 0.04085395322448906,
+  "num_changes_distribution": {
+    "1": 112,
+    "2": 410
+  },
+  "unique_modification_count": 336,
+  "top_modifications": [
+    [
+      "add striped",
+      11
+    ],
+    [
+      "add tank",
+      9
+    ],
+    [
+      "remove white jeans",
+      9
+    ],
+    [
+      "add red",
+      8
+    ],
+    [
+      "add pink",
+      8
+    ],
+    [
+      "add white",
+      6
+    ],
+    [
+      "replace wearing with striped",
+      6
+    ],
+    [
+      "add black white",
+      6
+    ],
+    [
+      "add purple",
+      5
+    ],
+    [
+      "add blue",
+      5
+    ]
+  ],
+  "top_added_tokens": [
+    [
+      "white",
+      22
+    ],
+    [
+      "pink",
+      21
+    ],
+    [
+      "black",
+      21
+    ],
+    [
+      "striped",
+      17
+    ],
+    [
+      "red",
+      13
+    ],
+    [
+      "tank",
+      11
+    ],
+    [
+      "purple",
+      11
+    ],
+    [
+      "wearing",
+      11
+    ],
+    [
+      "green",
+      10
+    ],
+    [
+      "yellow",
+      9
+    ]
+  ],
+  "top_removed_tokens": [
+    [
+      "white",
+      16
+    ],
+    [
+      "jeans",
+      9
+    ],
+    [
+      "wearing",
+      6
+    ],
+    [
+      "black",
+      5
+    ],
+    [
+      "pants",
+      4
+    ],
+    [
+      "leggings",
+      3
+    ],
+    [
+      "straps",
+      2
+    ],
+    [
+      "green",
+      2
+    ],
+    [
+      "denim",
+      2
+    ],
+    [
+      "t",
+      1
+    ]
+  ],
+  "top_examples": [
+    {
+      "category": "toptee",
+      "candidate": "B008K2AC76",
+      "target": "B003TL4A30",
+      "source_caption": "a women's top with a floral print",
+      "target_caption": "a women's tank top with floral print",
+      "modification_text": "add tank",
+      "pair_score": 0.8264783024787903,
+      "target_score": 0.6354073882102966,
+      "source_score": 0.4966970682144165,
+      "direction_margin": 0.13871031999588013,
+      "quality_score": 0.8741820921817132,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B008FELY2Q",
+      "target": "B0090SGPKW",
+      "source_caption": "a woman wearing a white top and blue jeans",
+      "target_caption": "a woman wearing jeans and a white and blue striped top",
+      "modification_text": "add striped",
+      "pair_score": 0.7668229937553406,
+      "target_score": 0.6914143562316895,
+      "source_score": 0.5393022894859314,
+      "direction_margin": 0.15211206674575806,
+      "quality_score": 0.867566101181857,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B00CBWJSRG",
+      "target": "B00CB8WQY2",
+      "source_caption": "a women's t - shirt with the words keep calm and carry on",
+      "target_caption": "a women's red t - shirt with the words keep calm and carry on",
+      "modification_text": "add red",
+      "pair_score": 0.735846221446991,
+      "target_score": 0.780566930770874,
+      "source_score": 0.6276805400848389,
+      "direction_margin": 0.15288639068603516,
+      "quality_score": 0.8609778752247297,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B00CBWJSRG",
+      "target": "B00CBWJMLS",
+      "source_caption": "a women's t - shirt with the words keep calm and carry on",
+      "target_caption": "a women's pink t - shirt with the words keep calm and carry on",
+      "modification_text": "add pink",
+      "pair_score": 0.7067676186561584,
+      "target_score": 0.7660603523254395,
+      "source_score": 0.5996668338775635,
+      "direction_margin": 0.16639351844787598,
+      "quality_score": 0.8608833851520119,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0083KGFLC",
+      "target": "B0013OZ47Q",
+      "source_caption": "a black t - shirt with a cross on it",
+      "target_caption": "a black t - shirt with a red cross on it",
+      "modification_text": "add red",
+      "pair_score": 0.8000208735466003,
+      "target_score": 0.7597953081130981,
+      "source_score": 0.6358146071434021,
+      "direction_margin": 0.12398070096969604,
+      "quality_score": 0.8603130051422343,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B00CBIFZYA",
+      "target": "B00CBIHGP6",
+      "source_caption": "a baby t - shirt that says baby loading please wait",
+      "target_caption": "a purple t - shirt that says baby loading please wait",
+      "modification_text": "add purple",
+      "pair_score": 0.7542979121208191,
+      "target_score": 0.7498413324356079,
+      "source_score": 0.6065837144851685,
+      "direction_margin": 0.14325761795043945,
+      "quality_score": 0.8602937741468455,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B003FOAVV6",
+      "target": "B0046W0A6W",
+      "source_caption": "tie dye t-shirt with a spiral design",
+      "target_caption": "a purple tie dye t - shirt with a spiral design",
+      "modification_text": "add purple",
+      "pair_score": 0.7897211313247681,
+      "target_score": 0.8272237777709961,
+      "source_score": 0.7118927240371704,
+      "direction_margin": 0.11533105373382568,
+      "quality_score": 0.8531407564713476,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B004W4C4M2",
+      "target": "B004W4E59W",
+      "source_caption": "a tie dye t - shirt with a spiral design",
+      "target_caption": "a green tie dye t - shirt with a spiral design",
+      "modification_text": "add green",
+      "pair_score": 0.6437216997146606,
+      "target_score": 0.7103143334388733,
+      "source_score": 0.5351458191871643,
+      "direction_margin": 0.17516851425170898,
+      "quality_score": 0.8506765867973265,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B00DJZQ5LG",
+      "target": "B00DJZQ8JU",
+      "source_caption": "a woman in black leather pants and top",
+      "target_caption": "a woman in black leather pants and a pink top",
+      "modification_text": "add pink",
+      "pair_score": 0.735301673412323,
+      "target_score": 0.695525586605072,
+      "source_score": 0.564716100692749,
+      "direction_margin": 0.130809485912323,
+      "quality_score": 0.8494770361024635,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0058LXWE2",
+      "target": "B008ZBLL9A",
+      "source_caption": "a woman in a red and black sweater",
+      "target_caption": "a woman in a red and black striped sweater",
+      "modification_text": "add striped",
+      "pair_score": 0.7720399498939514,
+      "target_score": 0.6930474638938904,
+      "source_score": 0.5790257453918457,
+      "direction_margin": 0.11402171850204468,
+      "quality_score": 0.8484146592056219,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    }
+  ]
+}
+

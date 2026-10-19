@@ -1,0 +1,23 @@
+{
+  "category": "dress",
+  "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageP_bankdistill_20260423/v3_safe/dress/dress_dress_stagePbd3_best_model.pt",
+  "model_variant": "dqu_pfp_refcond",
+  "backbone": "ViT-H-14",
+  "pretrained": "/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin",
+  "train_topk_summary": {
+    "num_queries": 5985,
+    "top10_coverage": 91.82957393483709,
+    "top50_coverage": 99.3483709273183,
+    "top64_coverage": 99.63241436925648,
+    "mean_target_rank": 3.981620718462824,
+    "median_target_rank": 1.0
+  },
+  "val_topk_summary": {
+    "num_queries": 2017,
+    "top10_coverage": 53.84234010907288,
+    "top50_coverage": 77.14427367377293,
+    "top100_coverage": 84.53148239960338,
+    "mean_target_rank": 80.72384729796728,
+    "median_target_rank": 8.0
+  }
+}

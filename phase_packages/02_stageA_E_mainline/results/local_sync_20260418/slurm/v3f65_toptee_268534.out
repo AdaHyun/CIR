@@ -1,0 +1,302 @@
+[Sat Apr 18 03:17:02 CST 2026] category=toptee checkpoint=/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/toptee/toptee_stageA3_best_model.pt threshold=0.65 min_direction_margin=0.03 min_changes=1 max_changes=2 keep_top_n=0 max_records_per_modification=0
+{
+  "category": "toptee",
+  "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/toptee/toptee_stageA3_best_model.pt",
+  "input_images": 16121,
+  "neighbor_topk": 10,
+  "pairs_considered_after_text_rules": 47432,
+  "pairs_kept_before_rebalance": 588,
+  "pairs_kept": 588,
+  "score_threshold": 0.65,
+  "min_direction_margin": 0.03,
+  "min_num_changes": 1,
+  "max_num_changes": 2,
+  "keep_top_n": 0,
+  "max_records_per_modification": 0,
+  "avg_quality_score": 0.7476732015314997,
+  "avg_direction_margin": 0.07502911179041376,
+  "num_changes_distribution": {
+    "1": 177,
+    "2": 411
+  },
+  "unique_modification_count": 349,
+  "top_modifications": [
+    [
+      "add blue",
+      21
+    ],
+    [
+      "add striped",
+      21
+    ],
+    [
+      "add pink",
+      18
+    ],
+    [
+      "add vneck",
+      15
+    ],
+    [
+      "add green",
+      11
+    ],
+    [
+      "add red",
+      11
+    ],
+    [
+      "add black white",
+      10
+    ],
+    [
+      "replace shirt with tshirt",
+      8
+    ],
+    [
+      "add purple",
+      7
+    ],
+    [
+      "replace top with tanktop",
+      7
+    ]
+  ],
+  "top_added_tokens": [
+    [
+      "blue",
+      38
+    ],
+    [
+      "white",
+      37
+    ],
+    [
+      "pink",
+      34
+    ],
+    [
+      "black",
+      34
+    ],
+    [
+      "striped",
+      30
+    ],
+    [
+      "red",
+      21
+    ],
+    [
+      "green",
+      20
+    ],
+    [
+      "vneck",
+      18
+    ],
+    [
+      "purple",
+      17
+    ],
+    [
+      "gray",
+      10
+    ]
+  ],
+  "top_removed_tokens": [
+    [
+      "white",
+      4
+    ],
+    [
+      "straps",
+      3
+    ],
+    [
+      "black",
+      3
+    ],
+    [
+      "pink",
+      3
+    ],
+    [
+      "purple",
+      1
+    ],
+    [
+      "burgundy",
+      1
+    ],
+    [
+      "grey",
+      1
+    ],
+    [
+      "turtleneck",
+      1
+    ],
+    [
+      "striped",
+      1
+    ],
+    [
+      "vneck",
+      1
+    ]
+  ],
+  "top_examples": [
+    {
+      "category": "toptee",
+      "candidate": "B003WQ5E64",
+      "target": "B003WQC6UQ",
+      "source_caption": "a women's tie dye t - shirt with a peace sign",
+      "target_caption": "a green tie dye t - shirt with a peace sign",
+      "modification_text": "add green",
+      "pair_score": 0.7439337968826294,
+      "target_score": 0.8258355259895325,
+      "source_score": 0.6102907657623291,
+      "direction_margin": 0.21554476022720337,
+      "quality_score": 0.8894263710363643,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B003WQ52SO",
+      "target": "B003WQC6UQ",
+      "source_caption": "a women's tie dye t - shirt with a peace sign",
+      "target_caption": "a green tie dye t - shirt with a peace sign",
+      "modification_text": "add green",
+      "pair_score": 0.7755992412567139,
+      "target_score": 0.8151642084121704,
+      "source_score": 0.6234265565872192,
+      "direction_margin": 0.19173765182495117,
+      "quality_score": 0.8874115663434705,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B008TAU57G",
+      "target": "B005LCQWR2",
+      "source_caption": "a woman in a striped shirt and black pants",
+      "target_caption": "a woman in a blue and black striped shirt",
+      "modification_text": "add blue",
+      "pair_score": 0.7454319596290588,
+      "target_score": 0.8168932199478149,
+      "source_score": 0.613349199295044,
+      "direction_margin": 0.203544020652771,
+      "quality_score": 0.8853025128202594,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B004W4J7IG",
+      "target": "B003WQC6UQ",
+      "source_caption": "a women's tie dye t - shirt with a peace sign",
+      "target_caption": "a green tie dye t - shirt with a peace sign",
+      "modification_text": "add green",
+      "pair_score": 0.7239677906036377,
+      "target_score": 0.7588542699813843,
+      "source_score": 0.5526303052902222,
+      "direction_margin": 0.2062239646911621,
+      "quality_score": 0.8814947673487961,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B007AAVNQS",
+      "target": "B009JQ6GKO",
+      "source_caption": "a women's hawaiian shirt with white flowers",
+      "target_caption": "a purple hawaiian shirt with white flowers",
+      "modification_text": "add purple",
+      "pair_score": 0.7922636270523071,
+      "target_score": 0.8372306823730469,
+      "source_score": 0.6710450649261475,
+      "direction_margin": 0.16618561744689941,
+      "quality_score": 0.8800237148335923,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B007AAVNQS",
+      "target": "B007ABCB7M",
+      "source_caption": "a women's hawaiian shirt with white flowers",
+      "target_caption": "a blue hawaiian shirt with white flowers",
+      "modification_text": "add blue",
+      "pair_score": 0.8677593469619751,
+      "target_score": 0.8767169713973999,
+      "source_score": 0.7558689713478088,
+      "direction_margin": 0.12084800004959106,
+      "quality_score": 0.8738131590104699,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0081OYHHY",
+      "target": "B0076FPZ52",
+      "source_caption": "a woman in a green and white top",
+      "target_caption": "a woman in white jeans and a green striped top",
+      "modification_text": "add striped",
+      "pair_score": 0.74739670753479,
+      "target_score": 0.7474090456962585,
+      "source_score": 0.5760427117347717,
+      "direction_margin": 0.17136633396148682,
+      "quality_score": 0.8722999257839155,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0083KGFLC",
+      "target": "B0013OZ47Q",
+      "source_caption": "a black t - shirt with a cross on it",
+      "target_caption": "a black t - shirt with a red cross on it",
+      "modification_text": "add red",
+      "pair_score": 0.7882630825042725,
+      "target_score": 0.7637808322906494,
+      "source_score": 0.6157644391059875,
+      "direction_margin": 0.14801639318466187,
+      "quality_score": 0.8703506171012969,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B003B5HX7E",
+      "target": "B003BFXFAI",
+      "source_caption": "a womens tank top with the om symbol on it",
+      "target_caption": "a womens red tank top with the om symbol",
+      "modification_text": "add red",
+      "pair_score": 0.7616137266159058,
+      "target_score": 0.8250958919525146,
+      "source_score": 0.6671764850616455,
+      "direction_margin": 0.15791940689086914,
+      "quality_score": 0.8692241929099023,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B008FELY2Q",
+      "target": "B0090SGPKW",
+      "source_caption": "a woman wearing a white top and blue jeans",
+      "target_caption": "a woman wearing jeans and a white and blue striped top",
+      "modification_text": "add striped",
+      "pair_score": 0.7258991003036499,
+      "target_score": 0.7286961674690247,
+      "source_score": 0.5694957971572876,
+      "direction_margin": 0.15920037031173706,
+      "quality_score": 0.861802909690242,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    }
+  ]
+}
+

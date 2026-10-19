@@ -1,0 +1,36 @@
+{
+  "previous_internal_best": {
+    "mean_r10": 61.349394765479325,
+    "mean_r50": 80.89517577836169
+  },
+  "dqu_paper_reported": {
+    "mean_r10": 61.97,
+    "mean_r50": 81.56
+  },
+  "best_mean_r10_combo": {
+    "dress": "dress_toprank_v6_blend0.07",
+    "shirt": "shirt_toprank_v2_blend0.04",
+    "toptee": "toptee_toprank_v2_blend0.03",
+    "mean_r10": 62.10666583575331,
+    "mean_r50": 80.92622362438458,
+    "sum_score": 143.03288946013788,
+    "sources": {
+      "dress": "dress_toprank_v6 blend=0.07",
+      "shirt": "shirt_toprank_v2 blend=0.04",
+      "toptee": "toptee_toprank_v2 blend=0.03"
+    }
+  },
+  "best_sum_combo": {
+    "dress": "human_wide_v3_blend0.05",
+    "shirt": "shirt_toprank_v2_blend0.04",
+    "toptee": "toptee_toprank_v2_blend0.03",
+    "mean_r10": 62.04056105968323,
+    "mean_r50": 81.09148556455976,
+    "sum_score": 143.132046624243,
+    "sources": {
+      "dress": "human_wide_v3 blend=0.05",
+      "shirt": "shirt_toprank_v2 blend=0.04",
+      "toptee": "toptee_toprank_v2 blend=0.03"
+    }
+  }
+}

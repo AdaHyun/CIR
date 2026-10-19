@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.pytest_cache/
+.mypy_cache/
+
+checkpoints/
+slurm/*.out
+slurm/*.err
+
+data/FashionIQ/resized_image/
+
+.DS_Store
