@@ -1,0 +1,305 @@
+{
+  "dress": {
+    "cn": {
+      "count": 2017,
+      "identity_order_verified": true,
+      "archived_topk_lengths": [
+        100
+      ],
+      "rank_difference_count": 14,
+      "differences": [
+        {
+          "query_index": 228,
+          "source_id": "B0087PLHB6",
+          "target_id": "B004HX2DYW",
+          "archived_rank": 1,
+          "current_top100_rank": 2,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 230,
+          "source_id": "B0036DE0R2",
+          "target_id": "B00A16DXWK",
+          "archived_rank": 8,
+          "current_top100_rank": 5,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 253,
+          "source_id": "B00BEJ34Q8",
+          "target_id": "B00AWKKHOC",
+          "archived_rank": 3,
+          "current_top100_rank": 4,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 311,
+          "source_id": "B009TM8IG8",
+          "target_id": "B00BEJ34Q8",
+          "archived_rank": 7,
+          "current_top100_rank": 10,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 331,
+          "source_id": "B00A16KWZ6",
+          "target_id": "B00CAKLNY0",
+          "archived_rank": 1,
+          "current_top100_rank": 2,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 365,
+          "source_id": "B005X4RMW2",
+          "target_id": "B00APYBFPK",
+          "archived_rank": 2,
+          "current_top100_rank": 1,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 411,
+          "source_id": "B00BXZ1PW8",
+          "target_id": "B009HK2P2A",
+          "archived_rank": 2,
+          "current_top100_rank": 1,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 471,
+          "source_id": "B007V0LBW8",
+          "target_id": "B00CO2NVFS",
+          "archived_rank": 2,
+          "current_top100_rank": 1,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 848,
+          "source_id": "B00CL0VWTA",
+          "target_id": "B00BQX461E",
+          "archived_rank": 16,
+          "current_top100_rank": 9,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1066,
+          "source_id": "B00BG4M4BM",
+          "target_id": "B00B2JIFRS",
+          "archived_rank": 1,
+          "current_top100_rank": 2,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1077,
+          "source_id": "B00B2JHXOE",
+          "target_id": "B00BI3DRHG",
+          "archived_rank": 3,
+          "current_top100_rank": 7,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1105,
+          "source_id": "B004LQ0GZ8",
+          "target_id": "B00AKB3PCY",
+          "archived_rank": 2,
+          "current_top100_rank": 1,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1362,
+          "source_id": "B00A16KWZ6",
+          "target_id": "B00AYXA5D0",
+          "archived_rank": 4,
+          "current_top100_rank": 10,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1549,
+          "source_id": "B00BEJ34Q8",
+          "target_id": "B00AWKKMWE",
+          "archived_rank": 3,
+          "current_top100_rank": 4,
+          "score_span_in_reordered_segment": 0.0
+        }
+      ]
+    },
+    "rmean": {
+      "count": 2017,
+      "identity_order_verified": true,
+      "archived_topk_lengths": [
+        100
+      ],
+      "rank_difference_count": 1,
+      "differences": [
+        {
+          "query_index": 1987,
+          "source_id": "B00BG3HJKY",
+          "target_id": "B00CG5QJF2",
+          "archived_rank": 3,
+          "current_top100_rank": 2
+        }
+      ]
+    }
+  },
+  "shirt": {
+    "cn": {
+      "count": 2038,
+      "identity_order_verified": true,
+      "archived_topk_lengths": [
+        100
+      ],
+      "rank_difference_count": 6,
+      "differences": [
+        {
+          "query_index": 86,
+          "source_id": "B00461228C",
+          "target_id": "B00C5RAHMW",
+          "archived_rank": 4,
+          "current_top100_rank": 3,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 174,
+          "source_id": "B004ZC5RL6",
+          "target_id": "B004ZC5PXG",
+          "archived_rank": 1,
+          "current_top100_rank": 2,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1140,
+          "source_id": "B004ZC5RWK",
+          "target_id": "B004ZC5QLC",
+          "archived_rank": 1,
+          "current_top100_rank": 2,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1307,
+          "source_id": "B00CX6BDFU",
+          "target_id": "B005DIJJBK",
+          "archived_rank": 4,
+          "current_top100_rank": 3,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1584,
+          "source_id": "B003H8KK0M",
+          "target_id": "B0013FPI8K",
+          "archived_rank": 6,
+          "current_top100_rank": 5,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1736,
+          "source_id": "B007HRO9B0",
+          "target_id": "B005DIJKXW",
+          "archived_rank": 4,
+          "current_top100_rank": 3,
+          "score_span_in_reordered_segment": 0.0
+        }
+      ]
+    },
+    "rmean": {
+      "count": 2038,
+      "identity_order_verified": true,
+      "archived_topk_lengths": [
+        100
+      ],
+      "rank_difference_count": 0,
+      "differences": []
+    }
+  },
+  "toptee": {
+    "cn": {
+      "count": 1961,
+      "identity_order_verified": true,
+      "archived_topk_lengths": [
+        100
+      ],
+      "rank_difference_count": 9,
+      "differences": [
+        {
+          "query_index": 107,
+          "source_id": "B003EACZ9M",
+          "target_id": "B000YVMK30",
+          "archived_rank": 1,
+          "current_top100_rank": 2,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 406,
+          "source_id": "B003EACZ9M",
+          "target_id": "B000YVF80C",
+          "archived_rank": 2,
+          "current_top100_rank": 1,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 459,
+          "source_id": "B00AL1QEPS",
+          "target_id": "B00C7APZP6",
+          "archived_rank": 4,
+          "current_top100_rank": 5,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 473,
+          "source_id": "B00C7AFSIA",
+          "target_id": "B00D48X886",
+          "archived_rank": 1,
+          "current_top100_rank": 2,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 592,
+          "source_id": "B00APE63FM",
+          "target_id": "B00EK6N7XM",
+          "archived_rank": 2,
+          "current_top100_rank": 1,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 717,
+          "source_id": "B00AL1QEXU",
+          "target_id": "B00C7AFSIA",
+          "archived_rank": 1,
+          "current_top100_rank": 2,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 959,
+          "source_id": "B007WA3P44",
+          "target_id": "B00AFVH8P4",
+          "archived_rank": 1,
+          "current_top100_rank": 2,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1100,
+          "source_id": "B0038KABPI",
+          "target_id": "B007J7J65C",
+          "archived_rank": 28,
+          "current_top100_rank": 29,
+          "score_span_in_reordered_segment": 0.0
+        },
+        {
+          "query_index": 1606,
+          "source_id": "B00C7AFSIA",
+          "target_id": "B00AAMOH3Y",
+          "archived_rank": 2,
+          "current_top100_rank": 1,
+          "score_span_in_reordered_segment": 0.0
+        }
+      ]
+    },
+    "rmean": {
+      "count": 1961,
+      "identity_order_verified": true,
+      "archived_topk_lengths": [
+        100
+      ],
+      "rank_difference_count": 0,
+      "differences": []
+    }
+  }
+}

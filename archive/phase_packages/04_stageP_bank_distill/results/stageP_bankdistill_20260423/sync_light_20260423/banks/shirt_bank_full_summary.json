@@ -1,0 +1,10 @@
+{
+  "category": "shirt",
+  "query_count": 5988,
+  "accepted_count": 4675,
+  "accepted_ratio": 0.7807281229124916,
+  "soft_bank_size": 5,
+  "rank_gate": 20,
+  "teacher_a_variant": "dqu_pfp_refcond",
+  "teacher_b_variant": "dqu"
+}

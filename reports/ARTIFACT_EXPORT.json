@@ -1,0 +1,10 @@
+{
+  "archive_filename": "CIR-artifacts-20261019.tar.gz",
+  "size_bytes": 597444013,
+  "sha256": "c6fe0f8121f85981c091d853051c34f644ad2c407ba9f3653a02418daedf1e31",
+  "files_verified_against_embedded_and_Git_manifest": 10776,
+  "uncompressed_bytes": 1240966961,
+  "export_only": "local file, not uploaded to A100 or GitHub",
+  "git_delivery": "source and original core artifacts in branch; ignored complete run/asset evidence in this separate package",
+  "restore": "extract within checkout root after independently verifying archive SHA and checking existing-file conflicts"
+}

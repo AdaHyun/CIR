@@ -1,0 +1,12 @@
+./assets/dress/dress_val_image_features.pt: OK
+./assets/dress/dress_val_query_features.pt: OK
+./assets/dress/dress_val_topk.pt: OK
+./assets/shirt/shirt_val_image_features.pt: OK
+./assets/shirt/shirt_val_query_features.pt: OK
+./assets/shirt/shirt_val_topk.pt: OK
+./assets/toptee/toptee_val_image_features.pt: OK
+./assets/toptee/toptee_val_query_features.pt: OK
+./assets/toptee/toptee_val_topk.pt: OK
+./checkpoints/reranker/dress/dress_best.pt: OK
+./checkpoints/reranker/shirt/shirt_best.pt: OK
+./checkpoints/reranker/toptee/toptee_best.pt: OK

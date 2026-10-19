@@ -1,0 +1,8 @@
+{
+  "num_queries": 5988,
+  "top10_coverage": 85.42084168336673,
+  "top50_coverage": 97.34468937875752,
+  "top64_coverage": 98.32999331997328,
+  "mean_target_rank": 7.1062124248497,
+  "median_target_rank": 2.0
+}

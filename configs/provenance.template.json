@@ -1,0 +1,35 @@
+{
+  "NOTE": "Template only. Do not invent producer identities. Store the completed file as assets/<category>/provenance.json after recovering authentic evidence.",
+  "train": {
+    "producer_checkpoint_sha256": "REQUIRED_REAL_CN_CHECKPOINT_SHA256",
+    "feature_definition": {
+      "model_variant": "REQUIRED",
+      "backbone": "REQUIRED",
+      "preprocessing": "REQUIRED",
+      "query_construction": "REQUIRED",
+      "normalization": "L2 unit"
+    },
+    "files": {
+      "<category>_train_query_features.pt": "SHA256",
+      "<category>_train_image_features.pt": "SHA256",
+      "<category>_train_topk.pt": "SHA256"
+    },
+    "gallery_protocol": "explicit train mapping; reference excluded"
+  },
+  "val": {
+    "producer_checkpoint_sha256": "SAME_REAL_CN_CHECKPOINT_SHA256",
+    "feature_definition": {
+      "model_variant": "REQUIRED",
+      "backbone": "REQUIRED",
+      "preprocessing": "REQUIRED",
+      "query_construction": "REQUIRED",
+      "normalization": "L2 unit"
+    },
+    "files": {
+      "<category>_val_query_features.pt": "SHA256",
+      "<category>_val_image_features.pt": "SHA256",
+      "<category>_val_topk.pt": "SHA256"
+    },
+    "gallery_protocol": "query-union / VAL-Split; reference excluded"
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "category": "shirt",
+  "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageD_refcond/shirt/shirt_stageD_refcond_best_model.pt",
+  "input_images": 19036,
+  "neighbor_topk": 12,
+  "pairs_considered_after_structured_diff": 96399,
+  "pairs_kept_before_rebalance": 2856,
+  "pairs_kept": 2757,
+  "score_threshold": 0.6,
+  "min_direction_margin": 0.0,
+  "min_num_changes": 1,
+  "max_num_changes": 2,
+  "keep_top_n": 0,
+  "max_records_per_change": 120,
+  "avg_quality_score": 0.7066419888605454,
+  "avg_direction_margin": 0.03173096109915351,
+  "num_changes_distribution": {
+    "1": 2300,
+    "2": 457
+  },
+  "unique_change_count": 281,
+  "top_changes": [
+    [
+      "neckline=v-neck",
+      120
+    ],
+    [
+      "color=white, blue",
+      120
+    ],
+    [
+      "sleeve=long sleeve",
+      120
+    ],
+    [
+      "color=green",
+      113
+    ],
+    [
+      "pattern=plaid",
+      106
+    ],
+    [
+      "pattern=striped",
+      98
+    ],
+    [
+      "color=blue",
+      98
+    ],
+    [
+      "color=brown",
+      92
+    ],
+    [
+      "color=black, red",
+      91
+    ],
+    [
+      "color=black, blue",
+      80
+    ]
+  ],
+  "top_attribute_values": [
+    [
+      "color:blue",
+      797
+    ],
+    [
+      "color:white",
+      627
+    ],
+    [
+      "color:black",
+      511
+    ],
+    [
+      "color:red",
+      330
+    ],
+    [
+      "color:green",
+      318
+    ],
+    [
+      "pattern:plaid",
+      213
+    ],
+    [
+      "color:yellow",
+      205
+    ],
+    [
+      "pattern:striped",
+      180
+    ],
+    [
+      "color:gray",
+      173
+    ],
+    [
+      "neckline:v-neck",
+      170
+    ]
+  ],
+  "hardest_coverage_count": 17351,
+  "top_examples": [
+    {
+      "category": "shirt",
+      "candidate": "B008OV9CUG",
+      "target": "B006DI2KM4",
+      "source_caption": "a man in a white t - shirt and jeans",
+      "target_caption": "a man in a white v - neck t - shirt",
+      "modification_text": "keep color=white. change neckline=v-neck.",
+      "pair_score": 0.5355350971221924,
+      "target_score": 0.6538844108581543,
+      "source_score": 0.32973524928092957,
+      "direction_margin": 0.32414916157722473,
+      "quality_score": 0.8276997539835603,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "neckline=v-neck",
+      "retain_slots": {
+        "color": [
+          "white"
+        ]
+      },
+      "modify_slots": {
+        "neckline": [
+          "v-neck"
+        ]
+      }
+    },
+    {
+      "category": "shirt",
+      "candidate": "B008OV9CUG",
+      "target": "B0030GG74Y",
+      "source_caption": "a man in a white t - shirt and jeans",
+      "target_caption": "a man in a white v - neck t - shirt",
+      "modification_text": "keep color=white. change neckline=v-neck.",
+      "pair_score": 0.5189059376716614,
+      "target_score": 0.647952675819397,
+      "source_score": 0.32973524928092957,
+      "direction_margin": 0.3182174265384674,
+      "quality_score": 0.823692239343106,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "neckline=v-neck",
+      "retain_slots": {
+        "color": [
+          "white"
+        ]
+      },
+      "modify_slots": {
+        "neckline": [
+          "v-neck"
+        ]
+      }
+    },
+    {
+      "category": "shirt",
+      "candidate": "B00CYS592U",
+      "target": "B0087EBBYA",
+      "source_caption": "a shirt with a grey and white striped pattern",
+      "target_caption": "the men's shirt is white and black with a striped pattern",
+      "modification_text": "keep pattern=striped. change color=black, white.",
+      "pair_score": 0.7601634860038757,
+      "target_score": 0.6350817680358887,
+      "source_score": 0.47697168588638306,
+      "direction_margin": 0.15811008214950562,
+      "quality_score": 0.8143147428912249,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "color=black, white",
+      "retain_slots": {
+        "pattern": [
+          "striped"
+        ]
+      },
+      "modify_slots": {
+        "color": [
+          "black",
+          "white"
+        ]
+      }
+    },
+    {
+      "category": "shirt",
+      "candidate": "B004GGSWN6",
+      "target": "B00AOIB3LI",
+      "source_caption": "a man in a green and black striped shirt",
+      "target_caption": "a man in a blue and brown striped shirt",
+      "modification_text": "keep pattern=striped. change color=blue, brown.",
+      "pair_score": 0.746494710445404,
+      "target_score": 0.7134301662445068,
+      "source_score": 0.5503716468811035,
+      "direction_margin": 0.16305851936340332,
+      "quality_score": 0.8142750096824597,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "color=blue, brown",
+      "retain_slots": {
+        "pattern": [
+          "striped"
+        ]
+      },
+      "modify_slots": {
+        "color": [
+          "blue",
+          "brown"
+        ]
+      }
+    },
+    {
+      "category": "shirt",
+      "candidate": "B00EAT39UA",
+      "target": "B005900NAS",
+      "source_caption": "a man wearing a gray t - shirt",
+      "target_caption": "a man in a grey v - neck t - shirt",
+      "modification_text": "keep color=gray. change neckline=v-neck.",
+      "pair_score": 0.7632125616073608,
+      "target_score": 0.7331732511520386,
+      "source_score": 0.5864074230194092,
+      "direction_margin": 0.1467658281326294,
+      "quality_score": 0.8092570709707788,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "neckline=v-neck",
+      "retain_slots": {
+        "color": [
+          "gray"
+        ]
+      },
+      "modify_slots": {
+        "neckline": [
+          "v-neck"
+        ]
+      }
+    },
+    {
+      "category": "shirt",
+      "candidate": "B006P8ZDVM",
+      "target": "B009IRQK00",
+      "source_caption": "a man in a light blue v - neck t - shirt",
+      "target_caption": "a man in a blue striped v - neck t - shirt",
+      "modification_text": "keep color=blue; neckline=v-neck. change pattern=striped.",
+      "pair_score": 0.7231321334838867,
+      "target_score": 0.7411783933639526,
+      "source_score": 0.6472921371459961,
+      "direction_margin": 0.09388625621795654,
+      "quality_score": 0.8060104492298386,
+      "num_changes": 1,
+      "num_retained": 2,
+      "change_key": "pattern=striped",
+      "retain_slots": {
+        "color": [
+          "blue"
+        ],
+        "neckline": [
+          "v-neck"
+        ]
+      },
+      "modify_slots": {
+        "pattern": [
+          "striped"
+        ]
+      }
+    },
+    {
+      "category": "shirt",
+      "candidate": "B00B1FK06C",
+      "target": "B009IRQK00",
+      "source_caption": "a man wearing a blue striped t - shirt",
+      "target_caption": "a man in a blue striped v - neck t - shirt",
+      "modification_text": "keep color=blue; pattern=striped. change neckline=v-neck.",
+      "pair_score": 0.7846013307571411,
+      "target_score": 0.6920454502105713,
+      "source_score": 0.617650032043457,
+      "direction_margin": 0.07439541816711426,
+      "quality_score": 0.8045640418212097,
+      "num_changes": 1,
+      "num_retained": 2,
+      "change_key": "neckline=v-neck",
+      "retain_slots": {
+        "color": [
+          "blue"
+        ],
+        "pattern": [
+          "striped"
+        ]
+      },
+      "modify_slots": {
+        "neckline": [
+          "v-neck"
+        ]
+      }
+    },
+    {
+      "category": "shirt",
+      "candidate": "B009NR19C4",
+      "target": "B007ZKB9A8",
+      "source_caption": "a man in a shirt with a checkered pattern",
+      "target_caption": "a man in a blue and white checkered shirt",
+      "modification_text": "keep pattern=checked. change color=white, blue.",
+      "pair_score": 0.7915964126586914,
+      "target_score": 0.7709046006202698,
+      "source_score": 0.6466244459152222,
+      "direction_margin": 0.12428015470504761,
+      "quality_score": 0.8023363966737428,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "color=white, blue",
+      "retain_slots": {
+        "pattern": [
+          "checked"
+        ]
+      },
+      "modify_slots": {
+        "color": [
+          "white",
+          "blue"
+        ]
+      }
+    },
+    {
+      "category": "shirt",
+      "candidate": "B00B1FK06C",
+      "target": "B00880ZRUW",
+      "source_caption": "a man wearing a blue striped t - shirt",
+      "target_caption": "a man wearing a blue striped v - neck t - shirt",
+      "modification_text": "keep color=blue; pattern=striped. change neckline=v-neck.",
+      "pair_score": 0.791179358959198,
+      "target_score": 0.6849489212036133,
+      "source_score": 0.617650032043457,
+      "direction_margin": 0.06729888916015625,
+      "quality_score": 0.8011263791150125,
+      "num_changes": 1,
+      "num_retained": 2,
+      "change_key": "neckline=v-neck",
+      "retain_slots": {
+        "color": [
+          "blue"
+        ],
+        "pattern": [
+          "striped"
+        ]
+      },
+      "modify_slots": {
+        "neckline": [
+          "v-neck"
+        ]
+      }
+    },
+    {
+      "category": "shirt",
+      "candidate": "B0001WCY74",
+      "target": "B00493VVPM",
+      "source_caption": "the men's short sleeve shirt is light grey",
+      "target_caption": "the men's short sleeve shirt is khaki green",
+      "modification_text": "keep sleeve=short sleeve. change color=green, brown.",
+      "pair_score": 0.6463823914527893,
+      "target_score": 0.5337439775466919,
+      "source_score": 0.364892840385437,
+      "direction_margin": 0.16885113716125488,
+      "quality_score": 0.7994419078163341,
+      "num_changes": 1,
+      "num_retained": 1,
+      "change_key": "color=green, brown",
+      "retain_slots": {
+        "sleeve": [
+          "short sleeve"
+        ]
+      },
+      "modify_slots": {
+        "color": [
+          "green",
+          "brown"
+        ]
+      }
+    }
+  ]
+}

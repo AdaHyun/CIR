@@ -1,0 +1,28 @@
+usage: full.py [-h] [--config CONFIG] [--category {dress,shirt,toptee,all}]
+               [--run-id RUN_ID] [--run-dir RUN_DIR] [--resume]
+               [--device DEVICE] [--stop-after-steps STOP_AFTER_STEPS]
+               [--benchmark-method {dqu,rc,cn}] [--data-dir DATA_DIR]
+               [--output-dir OUTPUT_DIR] [--pretrained PRETRAINED]
+               [--log-every LOG_EVERY] [--rerank-ks RERANK_KS]
+               {doctor,dqu,rc,export-dqu,export-rc,bank,cn,export-cn,rr-train,rr-eval,analysis,report,pipeline,benchmark,experiments,online-cost,legacy-control}
+
+New raw-image CIR pipeline. No old upstream checkpoints required.
+
+positional arguments:
+  {doctor,dqu,rc,export-dqu,export-rc,bank,cn,export-cn,rr-train,rr-eval,analysis,report,pipeline,benchmark,experiments,online-cost,legacy-control}
+
+options:
+  -h, --help            show this help message and exit
+  --config CONFIG
+  --category {dress,shirt,toptee,all}
+  --run-id RUN_ID
+  --run-dir RUN_DIR
+  --resume
+  --device DEVICE
+  --stop-after-steps STOP_AFTER_STEPS
+  --benchmark-method {dqu,rc,cn}
+  --data-dir DATA_DIR
+  --output-dir OUTPUT_DIR
+  --pretrained PRETRAINED
+  --log-every LOG_EVERY
+  --rerank-ks RERANK_KS

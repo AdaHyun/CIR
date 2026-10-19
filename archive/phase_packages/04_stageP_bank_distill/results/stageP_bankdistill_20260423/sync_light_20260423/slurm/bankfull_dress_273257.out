@@ -1,0 +1,12 @@
+[Thu Apr 23 02:40:19 CST 2026] build bank category=dress output=/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageP_bankdistill_20260423/banks_full/dress_bank_full.jsonl max_queries=0
+{
+  "category": "dress",
+  "query_count": 5985,
+  "accepted_count": 5089,
+  "accepted_ratio": 0.8502923976608188,
+  "soft_bank_size": 5,
+  "rank_gate": 20,
+  "teacher_a_variant": "dqu_pfp_refcond",
+  "teacher_b_variant": "dqu"
+}
+

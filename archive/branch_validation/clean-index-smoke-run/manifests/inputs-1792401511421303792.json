@@ -1,0 +1,26 @@
+{
+  "files": {
+    "assets/dress/dress_val_query_features.pt": {
+      "sha256": "0b5e85ba272d775901d1cd07288221a295b3efcdc16cb740b54bce2e940095cb",
+      "bytes": 8343025
+    },
+    "assets/dress/dress_val_image_features.pt": {
+      "sha256": "2303d4a30a2109d314df8d490cffea717cb16058a02ce9687f6f647ff0e8ecfd",
+      "bytes": 10817521
+    },
+    "assets/dress/dress_val_topk.pt": {
+      "sha256": "5a2d17be1b3aa3f9fb7fa1dd55cc39999b2859db649236bc58e869752f11632d",
+      "bytes": 2923836
+    },
+    "checkpoints/reranker/dress/dress_best.pt": {
+      "sha256": "9c852122403ab6667a76742e15aadf7126f1ce41212c0fc4fc08447b6426a0f1",
+      "bytes": 15748579
+    }
+  },
+  "missing": [
+    "assets/dress/dress_train_query_features.pt",
+    "assets/dress/dress_train_image_features.pt",
+    "assets/dress/dress_train_topk.pt",
+    "assets/dress/provenance.json"
+  ]
+}

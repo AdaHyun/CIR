@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/train.py", line 8, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

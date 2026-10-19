@@ -1,0 +1,6 @@
+numpy<2
+Pillow>=9.0
+tqdm>=4.66
+opencv-python==4.9.0.80
+open-clip-torch==2.23.0
+joblib>=1.3

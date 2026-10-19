@@ -1,0 +1,71 @@
+{
+  "data_dir": "data/fashioniq",
+  "pretrained": "weights/clip/open_clip_pytorch_model.bin",
+  "backbone": "ViT-H-14",
+  "dimension": 1024,
+  "dropout": 0.5,
+  "seed": 42,
+  "batch_size": 16,
+  "export_batch_size": 16,
+  "weight_decay": 0.01,
+  "amp": true,
+  "deterministic": true,
+  "lr_decay": 8,
+  "lr_div": 0.1,
+  "max_decay_epoch": 10,
+  "patience": 5,
+  "log_every": 5,
+  "heartbeat_seconds": 15,
+  "save_every_steps": 100,
+  "save_every_seconds": 120,
+  "threads": 4,
+  "candidate_k": 100,
+  "cutoffs": [
+    5,
+    10,
+    20,
+    30,
+    50,
+    100
+  ],
+  "benchmark_steps": 30,
+  "benchmark_warmup": 5,
+  "output_dir": "runs/new",
+  "query": {
+    "visual_writing": true,
+    "keywords": "auto",
+    "caption_source": "imported-or-free-local-BLIP; recorded separately"
+  },
+  "stages": {
+    "dqu": {
+      "epochs": 100,
+      "lr": 0.0001,
+      "clip_lr": 1e-06
+    },
+    "rc": {
+      "epochs": 100,
+      "lr": 0.0001,
+      "clip_lr": 1e-06
+    },
+    "cn": {
+      "epochs": 24,
+      "lr": 5e-05,
+      "clip_lr": 5e-07,
+      "batch_size": 8,
+      "lr_decay": 12,
+      "max_decay_epoch": 24,
+      "patience": 8
+    }
+  },
+  "bank": {
+    "size": 5,
+    "train_size": 3,
+    "rank_gate": 20,
+    "soft_weight": 0.15,
+    "conflict_weight": 0.08,
+    "margin": 0.04,
+    "temperature": 0.07
+  },
+  "rr_overrides": {},
+  "rc_variant": "dqu_pfp_refcond"
+}

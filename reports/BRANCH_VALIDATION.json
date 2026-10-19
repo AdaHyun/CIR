@@ -1,0 +1,98 @@
+{
+  "A_real_assets": {
+    "queries": 6016,
+    "categories": {
+      "dress": {
+        "count": 2017,
+        "hits": {
+          "5": 912,
+          "10": 1107,
+          "20": 1304,
+          "30": 1419,
+          "50": 1560,
+          "100": 1705
+        },
+        "recall": {
+          "5": 45.21566683192861,
+          "10": 54.8834903321765,
+          "20": 64.6504709965295,
+          "30": 70.35200793257313,
+          "50": 77.34258800198315,
+          "100": 84.53148239960338
+        },
+        "category": "dress",
+        "method": "old",
+        "blend": 0.05
+      },
+      "shirt": {
+        "count": 2038,
+        "hits": {
+          "5": 1098,
+          "10": 1308,
+          "20": 1468,
+          "30": 1543,
+          "50": 1643,
+          "100": 1767
+        },
+        "recall": {
+          "5": 53.876349362119726,
+          "10": 64.18056918547596,
+          "20": 72.03140333660451,
+          "30": 75.71148184494602,
+          "50": 80.61825318940137,
+          "100": 86.702649656526
+        },
+        "category": "shirt",
+        "method": "old",
+        "blend": 0.04
+      },
+      "toptee": {
+        "count": 1961,
+        "hits": {
+          "5": 1111,
+          "10": 1315,
+          "20": 1478,
+          "30": 1575,
+          "50": 1673,
+          "100": 1774
+        },
+        "recall": {
+          "5": 56.654767975522695,
+          "10": 67.05762366139724,
+          "20": 75.36970933197348,
+          "30": 80.3161652218256,
+          "50": 85.31361550229475,
+          "100": 90.464048954615
+        },
+        "category": "toptee",
+        "method": "old",
+        "blend": 0.03
+      }
+    },
+    "macro_r10": 62.040561059683235,
+    "macro_r50": 81.09148556455976,
+    "mR": 71.5660233121215,
+    "log": "archive/branch_validation/final-old-real-evaluation.log",
+    "official_annotations_fixed_commit": "f71b16c3b09ef03b02c0fed160fa072fb3b8aa16",
+    "annotation_files_verified": 12
+  },
+  "B_code_CPU_simulated": {
+    "suite_tests": 10,
+    "suite_result": "passed",
+    "log": "archive/branch_validation/release-suite.log",
+    "actual_library_interface": "random ViT-B-32 CPU DQU/RC; not public pretrained performance",
+    "complete_chain": "tiny explicit synthetic image fixture DQU/RC/bank/CN/export/new RR + paired control/K/online+training benchmark",
+    "resume": "actual SIGTERM and sample/order/loss/model equality for upstream and RR; no duplicate committed records",
+    "relocation": "project/cwd moved checks passed"
+  },
+  "C_waiting_for_external_or_A100": {
+    "real_raw_images": "absent, authorized import required",
+    "public_CLIP_and_BLIP_weights": "not downloaded; HF API blocked in cloud, executable revision/LFS-SHA preparation provided",
+    "original_author_query_caches": "absent, import or explicit free-local BLIP/modification fallback",
+    "A100_formal_training_or_performance": "not executed",
+    "remote_server_connection_or_upload": "not performed",
+    "preflight_missing_input_test": "verified blocked before training, exit code 2"
+  },
+  "branch": "CIR-FULL",
+  "main_changes": false
+}

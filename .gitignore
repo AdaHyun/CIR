@@ -1,0 +1,18 @@
+# Portable source project: actual large/generated material remains local and is inventoried/exportable.
+__pycache__/
+*.pyc
+.venv/
+.cache/
+/runs/
+/tests/artifacts/
+/assets/
+/checkpoints/
+/weights/
+/data/fashioniq/*
+!/data/fashioniq/README.md
+/archive/onboarding/validation/
+/archive/**/*.pt
+# Temporary transactions never count as completed outputs.
+*.partial
+
+/.tools/

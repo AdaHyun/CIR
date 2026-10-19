@@ -1,0 +1,23 @@
+{
+  "category": "toptee",
+  "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageP_bankdistill_20260423/v3_safe/toptee/toptee_toptee_stagePbd3_best_model.pt",
+  "model_variant": "dqu_pfp_refcond",
+  "backbone": "ViT-H-14",
+  "pretrained": "/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin",
+  "train_topk_summary": {
+    "num_queries": 6027,
+    "top10_coverage": 91.65422266467563,
+    "top50_coverage": 99.17039986726398,
+    "top64_coverage": 99.50223992035839,
+    "mean_target_rank": 4.081466733034677,
+    "median_target_rank": 1.0
+  },
+  "val_topk_summary": {
+    "num_queries": 1961,
+    "top10_coverage": 67.00662927078021,
+    "top50_coverage": 85.36460989291177,
+    "top100_coverage": 90.464048954615,
+    "mean_target_rank": 43.78837327893932,
+    "median_target_rank": 4.0
+  }
+}

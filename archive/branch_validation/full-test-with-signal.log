@@ -1,0 +1,12 @@
+test_01_complete_pipeline (__main__.FullPipelineTests.test_01_complete_pipeline) ... ok
+test_02_upstream_resume (__main__.FullPipelineTests.test_02_upstream_resume) ... /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py:589: ResourceWarning: unclosed file <_io.TextIOWrapper name=3 encoding='UTF-8'>
+  if method() is not None:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_03_experiments_and_boundaries (__main__.FullPipelineTests.test_03_experiments_and_boundaries) ... ok
+test_04_corruption_and_relocation (__main__.FullPipelineTests.test_04_corruption_and_relocation) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 32.974s
+
+OK

@@ -1,0 +1,8 @@
+{
+    "toptee_r1": 24.783273839877612,
+    "toptee_r10": 57.9296277409485,
+    "toptee_r50": 78.93931667516573,
+    "model_variant": "dqu_zvep_cir_reg",
+    "pseudo_label": "none",
+    "pseudo_path": ""
+}

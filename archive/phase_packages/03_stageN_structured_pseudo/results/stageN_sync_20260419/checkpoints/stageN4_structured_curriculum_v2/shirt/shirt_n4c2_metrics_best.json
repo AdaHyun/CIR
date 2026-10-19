@@ -1,0 +1,8 @@
+{
+    "shirt_r1": 30.618253189401376,
+    "shirt_r10": 62.414131501472035,
+    "shirt_r50": 80.02944062806674,
+    "model_variant": "dqu_pfp_refcond",
+    "pseudo_label": "structured_n3",
+    "pseudo_path": "artifacts/stageN3_structured/raw/pseudo_shirt.jsonl"
+}

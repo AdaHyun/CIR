@@ -1,0 +1,173 @@
+/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading the datasets and model...
+Loaded ViT-H-14 model config.
+Loading pretrained ViT-H-14 weights (/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin).
+Loaded ViT-H-14 model config.
+Loading pretrained ViT-H-14 weights (/data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin).
+Resumed checkpoint from /data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageD_refcond/toptee/toptee_stageD_refcond_best_model.pt
+Starting train for 24 epoch(s)
+Dataset sizes: base=6027 mixed=6027 pseudo_path= pseudo_start_epoch=0 pseudo_repeat=1 pseudo_min_score=0.0000
+Bank settings: bank_path=/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageP_bankdistill_20260423/banks_full/toptee_bank_full.jsonl bank_start_epoch=0 soft_loss_weight=0.1500 conflict_loss_weight=0.0800 conflict_margin=0.0400 resume_checkpoint=/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageD_refcond/toptee/toptee_stageD_refcond_best_model.pt
+Epoch 1/24
+
+  0%|          | 0/377 [00:00<?, ?it/s]Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+Traceback (most recent call last):
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 725, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 725, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 725, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 681, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 681, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 681, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 679, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 725, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 725, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 679, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 681, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 679, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 681, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 679, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 725, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 679, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 681, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 679, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+OSError: [Errno 16] Device or resource busy: '.__dpc0000000184ae6bf10000143d'
+OSError: [Errno 16] Device or resource busy: '.__dpc0000000184ae9c3d0000143e'
+OSError: [Errno 16] Device or resource busy: '.__dpc0000000184ad7fd700001438'
+OSError: [Errno 16] Device or resource busy: '.__dpc0000000184b006f90000143c'
+OSError: [Errno 16] Device or resource busy: '.__dpc0000000184b0579000001439'
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 725, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 681, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 679, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.__dpc0000000184af19590000143b'
+OSError: [Errno 16] Device or resource busy: '.__dpc0000000184b0346c00001437'
+Traceback (most recent call last):
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 725, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 681, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/shutil.py", line 679, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.__dpc0000000184b0a3360000143a'
+
+  0%|          | 0/377 [00:06<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/train.py", line 492, in <module>
+    train_and_evaluate(net, optimizer, dataset_list)
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/train.py", line 446, in train_and_evaluate
+    train_loss = train_epoch(net, optimizer, train_loader, scaler, epoch)
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/train.py", line 293, in train_epoch
+    bank_loss_dict = _compute_bank_losses(net, batch, textual_query, visual_query, target_img)
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/train.py", line 266, in _compute_bank_losses
+    soft_features = net.extract_target(flat_soft).view(bsz, topk, -1)
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/model.py", line 68, in extract_target
+    target_img_fea = self.extract_img_fea(target_img)
+  File "/data/user/hqi881/CIR/project_stage1_dqu_baseline/src/model.py", line 47, in extract_img_fea
+    return self.clip.encode_image(x)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/open_clip/model.py", line 266, in encode_image
+    features = self.visual(image)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/open_clip/transformer.py", line 516, in forward
+    x = self.transformer(x)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/open_clip/transformer.py", line 324, in forward
+    x = r(x, attn_mask=attn_mask)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/open_clip/transformer.py", line 241, in forward
+    x = q_x + self.ls_1(self.attention(q_x=self.ln_1(q_x), k_x=k_x, v_x=v_x, attn_mask=attn_mask))
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/open_clip/transformer.py", line 29, in forward
+    x = F.layer_norm(x, self.normalized_shape, self.weight, self.bias, self.eps)
+  File "/data/user/hqi881/envs/dqu-stage1-cir/lib/python3.10/site-packages/torch/nn/functional.py", line 2576, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 102.00 MiB. GPU 0 has a total capacity of 79.19 GiB of which 77.06 MiB is free. Including non-PyTorch memory, this process has 79.11 GiB memory in use. Of the allocated memory 75.30 GiB is allocated by PyTorch, and 3.14 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+ERROR conda.cli.main_run:execute(125): `conda run python src/train.py --dataset toptee --fashioniq_split val-split --fashioniq_path /data/user/hqi881/CIR/project_stage1_dqu_baseline/data/FashionIQ --lr 5e-5 --clip_lr 5e-7 --batch_size 16 --num_epochs 24 --num_workers 8 --backbone ViT-H-14 --pretrained /data/user/hqi881/CIR/model/CLIP-ViT-H-14-laion2B-s32B-b79K/open_clip_pytorch_model.bin --model_variant dqu_pfp_refcond --model_dir /data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageP_bankdistill_20260423/v1/toptee --mix_mode concat --bank_path /data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageP_bankdistill_20260423/banks_full/toptee_bank_full.jsonl --bank_start_epoch 0 --soft_loss_weight 0.15 --conflict_loss_weight 0.08 --conflict_margin 0.04 --resume_checkpoint /data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageD_refcond/toptee/toptee_stageD_refcond_best_model.pt --tolerance_epoch 8 --lr_decay 12 --max_decay_epoch 24 --i toptee_stagePbd1` failed. (See above for error)

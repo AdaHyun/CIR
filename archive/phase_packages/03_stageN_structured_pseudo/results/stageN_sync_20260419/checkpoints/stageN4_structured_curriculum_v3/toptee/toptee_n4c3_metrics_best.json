@@ -1,0 +1,8 @@
+{
+    "toptee_r1": 33.350331463539014,
+    "toptee_r10": 66.59867414584396,
+    "toptee_r50": 85.36460989291177,
+    "model_variant": "dqu_pfp_refcond",
+    "pseudo_label": "structured_n3",
+    "pseudo_path": "artifacts/stageN3_structured/raw/pseudo_toptee.jsonl"
+}

@@ -1,0 +1,20 @@
+{
+  "human_train_counts": {
+    "dress": 5985,
+    "shirt": 5988,
+    "toptee": 6027
+  },
+  "all_pseudo_repeat": {
+    "dress": 4,
+    "shirt": 4,
+    "toptee": 5
+  },
+  "filtered_pseudo_repeat": {
+    "dress": 7,
+    "shirt": 8,
+    "toptee": 10
+  },
+  "curriculum_start_epoch": 3,
+  "all_pseudo_root": "artifacts/stageC_pseudo_v3/all_pseudo",
+  "filtered_pseudo_root": "artifacts/stageC_pseudo_v3/filtered_pseudo"
+}

@@ -1,0 +1,29 @@
+{
+  "asset_dir": "assets",
+  "checkpoint_dir": "checkpoints/reranker",
+  "data_dir": "data/fashioniq",
+  "output_dir": "runs",
+  "eval_batch_size": 16,
+  "log_every": 10,
+  "heartbeat_seconds": 15,
+  "threads": 4,
+  "topk": 100,
+  "topk_block_size": 128,
+  "training": {
+    "seed": 42,
+    "batch_size": 64,
+    "weight_decay": 0.0001,
+    "hidden_dim": 768,
+    "base_score_scale": 1.0,
+    "val_k": 100,
+    "distill_weight": 0.0,
+    "save_every_steps": 100,
+    "save_every_seconds": 120,
+    "deterministic": true
+  },
+  "categories": {
+    "dress": {"epochs": 36, "lr": 0.001, "dropout": 0.2, "train_k": 16, "train_pool": 64, "blend": 0.05},
+    "shirt": {"epochs": 40, "lr": 0.0007, "dropout": 0.1, "train_k": 8, "train_pool": 16, "blend": 0.04},
+    "toptee": {"epochs": 40, "lr": 0.0007, "dropout": 0.1, "train_k": 8, "train_pool": 16, "blend": 0.03}
+  }
+}

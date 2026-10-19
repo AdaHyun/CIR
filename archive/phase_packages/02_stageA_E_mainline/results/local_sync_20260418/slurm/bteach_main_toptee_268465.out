@@ -1,0 +1,301 @@
+[Sat Apr 18 01:59:04 CST 2026] category=toptee checkpoint=/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/toptee/toptee_stageA3_best_model.pt threshold=0.60 min_changes=1 max_changes=2 keep_top_n=0 max_records_per_modification=150
+{
+  "category": "toptee",
+  "checkpoint": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/checkpoints/stageA_dqu_baseline_v3/toptee/toptee_stageA3_best_model.pt",
+  "input_images": 16121,
+  "neighbor_topk": 10,
+  "pairs_considered_after_text_rules": 27385,
+  "pairs_kept_before_rebalance": 571,
+  "pairs_kept": 571,
+  "score_threshold": 0.6,
+  "min_num_changes": 1,
+  "max_num_changes": 2,
+  "keep_top_n": 0,
+  "max_records_per_modification": 150,
+  "avg_quality_score": 0.726627696235821,
+  "avg_direction_margin": 0.04293589453146044,
+  "num_changes_distribution": {
+    "1": 131,
+    "2": 440
+  },
+  "unique_modification_count": 359,
+  "top_modifications": [
+    [
+      "replace black with green",
+      12
+    ],
+    [
+      "add striped",
+      11
+    ],
+    [
+      "add blue",
+      11
+    ],
+    [
+      "add tank",
+      10
+    ],
+    [
+      "remove wearing",
+      10
+    ],
+    [
+      "add pink",
+      10
+    ],
+    [
+      "replace wearing with striped",
+      9
+    ],
+    [
+      "add v neck",
+      8
+    ],
+    [
+      "replace black with blue",
+      8
+    ],
+    [
+      "add red",
+      6
+    ]
+  ],
+  "top_added_tokens": [
+    [
+      "pink",
+      23
+    ],
+    [
+      "white",
+      21
+    ],
+    [
+      "black",
+      20
+    ],
+    [
+      "striped",
+      18
+    ],
+    [
+      "blue",
+      17
+    ],
+    [
+      "tank",
+      13
+    ],
+    [
+      "purple",
+      11
+    ],
+    [
+      "wearing",
+      11
+    ],
+    [
+      "red",
+      9
+    ],
+    [
+      "jeans",
+      9
+    ]
+  ],
+  "top_removed_tokens": [
+    [
+      "wearing",
+      12
+    ],
+    [
+      "black",
+      10
+    ],
+    [
+      "white",
+      8
+    ],
+    [
+      "leggings",
+      7
+    ],
+    [
+      "jeans",
+      4
+    ],
+    [
+      "pants",
+      4
+    ],
+    [
+      "straps",
+      2
+    ],
+    [
+      "printed",
+      2
+    ],
+    [
+      "red",
+      2
+    ],
+    [
+      "grey",
+      2
+    ]
+  ],
+  "top_examples": [
+    {
+      "category": "toptee",
+      "candidate": "B008K2AC76",
+      "target": "B003TL4A30",
+      "source_caption": "a women's top with a floral print",
+      "target_caption": "a women's tank top with floral print",
+      "modification_text": "add tank",
+      "pair_score": 0.7847766876220703,
+      "target_score": 0.609207272529602,
+      "source_score": 0.43315401673316956,
+      "direction_margin": 0.1760532557964325,
+      "quality_score": 0.8828059046102559,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0059MU0AY",
+      "target": "B007WHW5CU",
+      "source_caption": "a woman wearing jeans and a white tank top",
+      "target_caption": "a woman in jeans and a white tank top",
+      "modification_text": "remove wearing",
+      "pair_score": 0.7975811958312988,
+      "target_score": 0.7330681681632996,
+      "source_score": 0.5741966962814331,
+      "direction_margin": 0.15887147188186646,
+      "quality_score": 0.8777739380991894,
+      "num_removed_tokens": 1,
+      "num_added_tokens": 0
+    },
+    {
+      "category": "toptee",
+      "candidate": "B008K2AC76",
+      "target": "B0049O8JGK",
+      "source_caption": "a women's top with a floral print",
+      "target_caption": "a women's tank top with floral print",
+      "modification_text": "add tank",
+      "pair_score": 0.7820565104484558,
+      "target_score": 0.586140513420105,
+      "source_score": 0.43315401673316956,
+      "direction_margin": 0.15298649668693542,
+      "quality_score": 0.8714244235503505,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B0083KGFLC",
+      "target": "B0013OZ47Q",
+      "source_caption": "a black t - shirt with a cross on it",
+      "target_caption": "a black t - shirt with a red cross on it",
+      "modification_text": "add red",
+      "pair_score": 0.7882630825042725,
+      "target_score": 0.7637808322906494,
+      "source_score": 0.6157644391059875,
+      "direction_margin": 0.14801639318466187,
+      "quality_score": 0.8703506171012969,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B008K2AC76",
+      "target": "B006UHA56G",
+      "source_caption": "a women's top with a floral print",
+      "target_caption": "a women's tank top with floral print",
+      "modification_text": "add tank",
+      "pair_score": 0.7484754920005798,
+      "target_score": 0.5891515612602234,
+      "source_score": 0.43315401673316956,
+      "direction_margin": 0.15599754452705383,
+      "quality_score": 0.8653395050827712,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B008FELY2Q",
+      "target": "B0090SGPKW",
+      "source_caption": "a woman wearing a white top and blue jeans",
+      "target_caption": "a woman wearing jeans and a white and blue striped top",
+      "modification_text": "add striped",
+      "pair_score": 0.7258991003036499,
+      "target_score": 0.7286961674690247,
+      "source_score": 0.5694957971572876,
+      "direction_margin": 0.15920037031173706,
+      "quality_score": 0.861802909690242,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B00CBIFZYA",
+      "target": "B00CBIHGP6",
+      "source_caption": "a baby t - shirt that says baby loading please wait",
+      "target_caption": "a purple t - shirt that says baby loading please wait",
+      "modification_text": "add purple",
+      "pair_score": 0.6933363676071167,
+      "target_score": 0.791384220123291,
+      "source_score": 0.6214724183082581,
+      "direction_margin": 0.16991180181503296,
+      "quality_score": 0.8594764318915442,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B004W4C4M2",
+      "target": "B004W4E59W",
+      "source_caption": "a tie dye t - shirt with a spiral design",
+      "target_caption": "a green tie dye t - shirt with a spiral design",
+      "modification_text": "add green",
+      "pair_score": 0.6496598720550537,
+      "target_score": 0.7399762868881226,
+      "source_score": 0.548831582069397,
+      "direction_margin": 0.19114470481872559,
+      "quality_score": 0.8588325328495501,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B008K2AC76",
+      "target": "B008NFMQ06",
+      "source_caption": "a women's top with a floral print",
+      "target_caption": "a women's tank top with floral print",
+      "modification_text": "add tank",
+      "pair_score": 0.7631348371505737,
+      "target_score": 0.5675983428955078,
+      "source_score": 0.43315401673316956,
+      "direction_margin": 0.13444432616233826,
+      "quality_score": 0.8576834729040543,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    },
+    {
+      "category": "toptee",
+      "candidate": "B008K2AC76",
+      "target": "B008NFIQYQ",
+      "source_caption": "a women's top with a floral print",
+      "target_caption": "a women's tank top with floral print",
+      "modification_text": "add tank",
+      "pair_score": 0.7281249761581421,
+      "target_score": 0.5818648338317871,
+      "source_score": 0.43315401673316956,
+      "direction_margin": 0.14871081709861755,
+      "quality_score": 0.8571678685488422,
+      "num_removed_tokens": 0,
+      "num_added_tokens": 1
+    }
+  ]
+}
+

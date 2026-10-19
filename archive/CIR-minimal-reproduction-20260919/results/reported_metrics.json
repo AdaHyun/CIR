@@ -1,0 +1,18 @@
+{
+  "evaluation_protocol": "FashionIQ VAL-Split query-union gallery, reference removed before ranking",
+  "main_comparison_macro_percent": {
+    "CMAP_2024_paper": {"R@10": 37.64, "R@50": 64.42, "mR": 51.03},
+    "TG-CIR_2023_paper": {"R@10": 51.32, "R@50": 73.09, "mR": 62.21},
+    "SPIRIT_2024_paper": {"R@10": 50.98, "R@50": 74.10, "mR": 62.54},
+    "LIMN+_2024_paper": {"R@10": 57.43, "R@50": 78.60, "mR": 68.02},
+    "COMBINER_2026_paper": {"R@10": 63.26, "R@50": 82.27, "mR": 72.77},
+    "DQU_local": {"R@10": 61.0292, "R@50": 80.1985, "mR": 70.6139},
+    "proposed_local": {"R@10": 62.0406, "R@50": 81.0915, "mR": 71.5660}
+  },
+  "progressive_ablation_macro_percent": {
+    "DQU": {"R@10": 61.0292, "R@50": 80.1985, "mR": 70.6139},
+    "DQU_plus_reference_conditioning": {"R@10": 61.1446, "R@50": 80.8781, "mR": 71.0114},
+    "plus_candidate_neighbourhood": {"R@10": 61.3494, "R@50": 80.8952, "mR": 71.1223},
+    "plus_residual_reranking": {"R@10": 62.0406, "R@50": 81.0915, "mR": 71.5660}
+  }
+}

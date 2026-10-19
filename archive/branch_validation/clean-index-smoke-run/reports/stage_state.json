@@ -1,0 +1,96 @@
+{
+  "audit:dress": {
+    "fingerprint": "7513b1f086839f791e3c4ff3c5b32ac5cb1bc4c0bc095317b8ed8cf7af9f9189",
+    "identity": {
+      "config": {
+        "asset_dir": "assets",
+        "checkpoint_dir": "checkpoints/reranker",
+        "data_dir": "data/fashioniq",
+        "output_dir": "runs",
+        "eval_batch_size": 16,
+        "log_every": 10,
+        "heartbeat_seconds": 15,
+        "threads": 4,
+        "topk": 100,
+        "topk_block_size": 128,
+        "training": {
+          "seed": 42,
+          "batch_size": 64,
+          "weight_decay": 0.0001,
+          "hidden_dim": 768,
+          "base_score_scale": 1.0,
+          "val_k": 100,
+          "distill_weight": 0.0,
+          "save_every_steps": 100,
+          "save_every_seconds": 120,
+          "deterministic": true
+        },
+        "categories": {
+          "dress": {
+            "epochs": 36,
+            "lr": 0.001,
+            "dropout": 0.2,
+            "train_k": 16,
+            "train_pool": 64,
+            "blend": 0.05
+          },
+          "shirt": {
+            "epochs": 40,
+            "lr": 0.0007,
+            "dropout": 0.1,
+            "train_k": 8,
+            "train_pool": 16,
+            "blend": 0.04
+          },
+          "toptee": {
+            "epochs": 40,
+            "lr": 0.0007,
+            "dropout": 0.1,
+            "train_k": 8,
+            "train_pool": 16,
+            "blend": 0.03
+          }
+        },
+        "_code_fingerprint": "8241e4ff20c53272fa557e9d7339d1692394ed86b73d9f24775d3a92b7aeb80b"
+      },
+      "inputs": {
+        "assets/dress/dress_val_query_features.pt": {
+          "sha256": "0b5e85ba272d775901d1cd07288221a295b3efcdc16cb740b54bce2e940095cb",
+          "bytes": 8343025
+        },
+        "assets/dress/dress_val_image_features.pt": {
+          "sha256": "2303d4a30a2109d314df8d490cffea717cb16058a02ce9687f6f647ff0e8ecfd",
+          "bytes": 10817521
+        },
+        "assets/dress/dress_val_topk.pt": {
+          "sha256": "5a2d17be1b3aa3f9fb7fa1dd55cc39999b2859db649236bc58e869752f11632d",
+          "bytes": 2923836
+        },
+        "checkpoints/reranker/dress/dress_best.pt": {
+          "sha256": "9c852122403ab6667a76742e15aadf7126f1ce41212c0fc4fc08447b6426a0f1",
+          "bytes": 15748579
+        }
+      },
+      "missing": [
+        "assets/dress/dress_train_query_features.pt",
+        "assets/dress/dress_train_image_features.pt",
+        "assets/dress/dress_train_topk.pt"
+      ],
+      "category": "dress",
+      "stage": "audit"
+    },
+    "status": "completed",
+    "attempts": [
+      {
+        "start": "2026-10-19T09:18:31Z",
+        "status": "completed",
+        "fingerprint": "7513b1f086839f791e3c4ff3c5b32ac5cb1bc4c0bc095317b8ed8cf7af9f9189",
+        "end": "2026-10-19T09:18:32Z",
+        "reason": null
+      }
+    ],
+    "outputs": {
+      "reports/audit-dress.json": "0fdc07be98c063d6f5977dbb7674c52654314904ed5549aea91ee2ec340d4aba"
+    }
+  }
+}

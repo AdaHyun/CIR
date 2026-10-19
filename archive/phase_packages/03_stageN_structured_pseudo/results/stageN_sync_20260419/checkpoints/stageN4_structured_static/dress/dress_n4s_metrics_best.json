@@ -1,0 +1,8 @@
+{
+    "dress_r1": 22.40951908775409,
+    "dress_r10": 54.28854734754586,
+    "dress_r50": 76.49975210708973,
+    "model_variant": "dqu_pfp_refcond",
+    "pseudo_label": "structured_n3",
+    "pseudo_path": "artifacts/stageN3_structured/raw/pseudo_dress.jsonl"
+}

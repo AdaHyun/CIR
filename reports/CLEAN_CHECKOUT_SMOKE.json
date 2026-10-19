@@ -1,0 +1,24 @@
+{
+  "exported_index_root": "/tmp/cir-index-check-ktepf9rr",
+  "independent_from_working_directory": true,
+  "core_inputs_from_Git": true,
+  "steps": [
+    {
+      "name": "materialize",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "new-help",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "old-audit",
+      "exit_code": 0,
+      "expected": 0
+    }
+  ],
+  "nested_git_created": false,
+  "runtime": "existing CPU validation environment; no server/A100 access"
+}

@@ -1,0 +1,113 @@
+{
+  "scope": "accessible /workspace/CIR source packages; not D:\\Study\\cjf; no remote access",
+  "sources": {
+    "CIR-minimal-reproduction-20260919": {
+      "files": 170,
+      "bytes": 135508654,
+      "extensions": {
+        ".md": 5,
+        ".txt": 3,
+        ".py": 33,
+        ".sh": 14,
+        ".ps1": 1,
+        ".status": 1,
+        ".log": 1,
+        "": 3,
+        ".yml": 1,
+        ".json": 12,
+        ".pt": 12,
+        ".slurm": 18,
+        ".env": 6,
+        ".jsonl": 9,
+        ".png": 51
+      },
+      "containers": [
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/assets/dress/dress_val_topk.pt",
+          "type": "torch zip",
+          "members": 4
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/assets/dress/dress_val_image_features.pt",
+          "type": "torch zip",
+          "members": 5
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/assets/dress/dress_val_query_features.pt",
+          "type": "torch zip",
+          "members": 5
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/assets/shirt/shirt_val_query_features.pt",
+          "type": "torch zip",
+          "members": 5
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/assets/shirt/shirt_val_topk.pt",
+          "type": "torch zip",
+          "members": 4
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/assets/shirt/shirt_val_image_features.pt",
+          "type": "torch zip",
+          "members": 5
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/assets/toptee/toptee_val_topk.pt",
+          "type": "torch zip",
+          "members": 4
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/assets/toptee/toptee_val_query_features.pt",
+          "type": "torch zip",
+          "members": 5
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/assets/toptee/toptee_val_image_features.pt",
+          "type": "torch zip",
+          "members": 5
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/checkpoints/reranker/dress/dress_best.pt",
+          "type": "torch zip",
+          "members": 13
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/checkpoints/reranker/shirt/shirt_best.pt",
+          "type": "torch zip",
+          "members": 13
+        },
+        {
+          "path": "archive/CIR-minimal-reproduction-20260919/checkpoints/reranker/toptee/toptee_best.pt",
+          "type": "torch zip",
+          "members": 13
+        }
+      ],
+      "other_binary_or_compressed_candidates": []
+    },
+    "phase_packages": {
+      "files": 984,
+      "bytes": 57816120,
+      "extensions": {
+        ".md": 26,
+        ".py": 150,
+        ".slurm": 72,
+        ".sh": 78,
+        ".env": 36,
+        ".json": 133,
+        ".err": 173,
+        ".out": 173,
+        ".log": 50,
+        ".jsonl": 69,
+        ".csv": 24
+      },
+      "containers": [],
+      "other_binary_or_compressed_candidates": []
+    }
+  },
+  "missing_roots": [
+    "D:\\Study\\cjf",
+    "historical HPC path (not accessed)"
+  ],
+  "backup_search": "No non-torch compressed backup found in source packages or visible workspace CIR materials. PyTorch .pt ZIP containers inspected separately."
+}

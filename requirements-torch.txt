@@ -1,0 +1,4 @@
+# Tested locally: torch==2.3.1+cpu, Python 3.12.14.
+# Future Linux GPU: choose the official PyTorch build compatible with the host driver.
+# Suggested baseline version (not installed or verified on A100 in this task):
+torch==2.3.1

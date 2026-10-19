@@ -1,0 +1,8 @@
+{
+    "toptee_r1": 30.9535951045385,
+    "toptee_r10": 64.20193778684344,
+    "toptee_r50": 84.39571647118817,
+    "model_variant": "dqu_pfp",
+    "pseudo_label": "none",
+    "pseudo_path": ""
+}

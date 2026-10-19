@@ -1,0 +1,24 @@
+{"stage": "inventory", "files": 200, "current": "archive/onboarding/validation/assets/toptee/toptee_val_query_features.pt", "elapsed": 0.32592858699990757}
+{"stage": "inventory", "files": 400, "current": "archive/phase_packages/01_stage1_4_initial/code/slurm/generate_fashioniq_pseudo_hpc.slurm", "elapsed": 0.4127365039998949}
+{"stage": "inventory", "files": 600, "current": "archive/phase_packages/02_stageA_E_mainline/results/local_sync_20260418/slurm/bteach_main_dress_268461.out", "elapsed": 0.43240991499988013}
+{"stage": "inventory", "files": 800, "current": "archive/phase_packages/03_stageN_structured_pseudo/code/configs/fashioniq_shirt.env", "elapsed": 0.4691124389999004}
+{"stage": "inventory", "files": 1000, "current": "archive/phase_packages/03_stageN_structured_pseudo/results/stageN_sync_20260419/slurm/stageN/n4d_dress_269423.err", "elapsed": 0.5006989159999193}
+{"stage": "inventory", "files": 1200, "current": "archive/phase_packages/05_stageR_feature_rerank/results/stageR_feature_rerank_20260423_final/artifacts/stageR_feature_rerank_20260423/assets/shirt/shirt_asset_summary.json", "elapsed": 0.5171096399999442}
+{"stage": "inventory", "files": 1400, "current": "runs/delivery-check/config/code-1792398047126381201/git-head.txt", "elapsed": 0.6710005869999804}
+{"stage": "inventory", "files": 1600, "current": "runs/delivery-check/predictions/cn-shirt/chunks/00000816.json", "elapsed": 0.7771004969999922}
+{"stage": "inventory", "files": 1800, "current": "runs/delivery-check/predictions/cn-toptee/chunks/00001952.json", "elapsed": 0.8910962969998764}
+{"stage": "inventory", "files": 2000, "current": "runs/delivery-check/predictions/old-shirt/chunks/00001120.json", "elapsed": 1.0373238839999885}
+{"stage": "inventory", "files": 2200, "current": "runs/delivery-check/reports/failure-queries-old-toptee.jsonl", "elapsed": 1.2071671870000955}
+{"stage": "inventory", "files": 2400, "current": "runs/local-final/predictions/cn-shirt/chunks/00000384.json", "elapsed": 1.3112521149998884}
+{"stage": "inventory", "files": 2600, "current": "runs/local-final/predictions/cn-toptee/chunks/00001520.json", "elapsed": 1.4337695740000527}
+{"stage": "inventory", "files": 2800, "current": "runs/local-final/predictions/old-shirt/chunks/00000688.json", "elapsed": 1.5928988129999198}
+{"stage": "inventory", "files": 3000, "current": "runs/local-final/predictions/old-toptee/chunks/00001824.json", "elapsed": 1.716212750000068}
+{"stage": "inventory", "files": 3200, "current": "runs/local-validation/predictions/cn-shirt/chunks/00000272.json", "elapsed": 1.8944129639999119}
+{"stage": "inventory", "files": 3400, "current": "runs/local-validation/predictions/cn-toptee/chunks/00001408.json", "elapsed": 2.0208338229999754}
+{"stage": "inventory", "files": 3600, "current": "runs/local-validation/predictions/old-shirt/chunks/00000576.json", "elapsed": 2.1759553429999414}
+{"stage": "inventory", "files": 3800, "current": "runs/local-validation/predictions/old-toptee/chunks/00001712.json", "elapsed": 2.3011798420000105}
+{"stage": "inventory", "files": 4000, "current": "tests/artifacts/fixture-1639/resumed/config/code-1792397647824204256/model.py", "elapsed": 2.4018931759999305}
+{"stage": "inventory", "files": 4200, "current": "tests/artifacts/fixture-1954/eval/config/code-1792397810667577724/assets.py", "elapsed": 2.4216169960000116}
+{"stage": "inventory", "files": 4400, "current": "tests/artifacts/fixture-2293/moved project/tests/artifacts/test_outputs/relocated-fixture/predictions/cn-dress/chunks/00000000.json", "elapsed": 2.4430502259999685}
+{"stage": "inventory", "files": 4600, "current": "tests/artifacts/signal-fixture-2413/continuous-terminal.log", "elapsed": 2.5919705090000207}
+{"stage": "inventory-completed", "files": 4653, "bytes": 921233942, "elapsed": 2.6425711710000996}

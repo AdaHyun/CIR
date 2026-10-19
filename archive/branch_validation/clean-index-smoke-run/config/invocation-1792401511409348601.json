@@ -1,0 +1,18 @@
+{
+  "stage": "audit",
+  "config": null,
+  "category": "dress",
+  "run_id": "git-delivery-smoke",
+  "run_dir": null,
+  "resume": false,
+  "device": "cpu",
+  "asset_dir": null,
+  "checkpoint_dir": null,
+  "data_dir": null,
+  "output_dir": null,
+  "log_every": null,
+  "heartbeat_seconds": null,
+  "eval_batch_size": null,
+  "split": "train",
+  "stop_after_steps": null
+}

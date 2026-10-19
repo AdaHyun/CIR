@@ -1,0 +1,2 @@
+# Runtime for the portable cached-feature workflow. Install PyTorch separately.
+numpy==1.26.4

@@ -1,0 +1,829 @@
+Channels:
+ - http://harbor.internal.com:8081/repository/conda-hkust/r
+ - http://harbor.internal.com:8081/repository/conda-hkust/pro
+ - http://harbor.internal.com:8081/repository/conda-hkust/msys2
+ - http://harbor.internal.com:8081/repository/conda-hkust/free
+ - http://harbor.internal.com:8081/repository/conda-hkust/main
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /data/user/hqi881/envs/dqu-stage1-cir
+
+  added / updated specs:
+    - pip
+    - python=3.9.18
+    - pytorch==2.0.1[build=*cuda118*]
+    - torchvision==0.15.2[build=*cuda118*]
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    blas-1.0                   |              mkl           6 KB  http://harbor.internal.com:8081/repository/conda-hkust/free
+    brotli-python-1.0.9        |   py39h6a678d5_9         357 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    certifi-2025.1.31          |   py39h06a4308_0         162 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    cffi-1.17.1                |   py39h1fdaa30_1         249 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    charset-normalizer-3.3.2   |     pyhd3eb1b0_0          44 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    cudatoolkit-11.8.0         |       h6a678d5_0       630.7 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    cudnn-8.9.2.26             |         cuda11_0       469.4 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    cupti-11.8.0               |       he078b1a_0        18.9 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    filelock-3.17.0            |   py39h06a4308_0          32 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    freetype-2.13.3            |       h4a9f257_0         686 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    gmp-6.3.0                  |       h6a678d5_0         608 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    gmpy2-2.2.1                |   py39h5eee18b_0         249 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    idna-3.7                   |   py39h06a4308_0         113 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    intel-openmp-2023.1.0      |   hdb19cb5_46306        17.2 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    jinja2-3.1.6               |   py39h06a4308_0         274 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    jpeg-9e                    |       h5eee18b_3         262 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    lcms2-2.16                 |       h92b89f2_1         269 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    lerc-4.0.0                 |       h6a678d5_0         261 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    libdeflate-1.22            |       h5eee18b_0          68 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    libpng-1.6.39              |       h5eee18b_0         304 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    libprotobuf-3.20.3         |       he621ea3_0         2.4 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    libtiff-4.7.0              |       hde9077f_0         447 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    libwebp-base-1.3.2         |       h5eee18b_1         425 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    lz4-c-1.9.4                |       h6a678d5_1         156 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    magma-2.7.1                |       h2c23e93_0       104.8 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    markupsafe-3.0.2           |   py39h5eee18b_0          24 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    mkl-2023.1.0               |   h213fc3f_46344       171.5 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    mkl-service-2.4.0          |   py39h5eee18b_2          68 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    mkl_fft-1.3.11             |   py39h5eee18b_0         199 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    mkl_random-1.2.8           |   py39h1128e8f_0         319 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    mpc-1.3.1                  |       h5eee18b_0         129 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    mpfr-4.2.1                 |       h5eee18b_0         821 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    mpmath-1.3.0               |   py39h06a4308_0         829 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    networkx-3.2.1             |   py39h06a4308_0         2.4 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    ninja-1.7.2                |                0         939 KB  http://harbor.internal.com:8081/repository/conda-hkust/free
+    numpy-1.26.4               |   py39h5f9d8c6_0          10 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    numpy-base-1.26.4          |   py39hb5e798b_0         7.2 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    openjpeg-2.5.2             |       h0d4d230_1         373 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    pillow-11.1.0              |   py39hac6e08b_1         809 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    pip-25.0                   |   py39h06a4308_0         2.3 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    pycparser-2.21             |     pyhd3eb1b0_0          94 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    pysocks-1.7.1              |   py39h06a4308_0          31 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    python-3.9.18              |       h955ad1f_0        25.1 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    pytorch-2.0.1              |gpu_cuda118py39he342708_0       466.3 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    requests-2.32.3            |   py39h06a4308_1          99 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    setuptools-75.8.0          |   py39h06a4308_0         1.6 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    sympy-1.13.3               |   py39h06a4308_1        11.2 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    tbb-2021.8.0               |       hdb19cb5_0         1.6 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    torchvision-0.15.2         |cuda118py39h196c800_0        10.1 MB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    typing-extensions-4.12.2   |   py39h06a4308_0           9 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    typing_extensions-4.12.2   |   py39h06a4308_0          64 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    urllib3-2.3.0              |   py39h06a4308_0         187 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    wheel-0.45.1               |   py39h06a4308_0         114 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    zstd-1.5.6                 |       hc292b87_0         664 KB  http://harbor.internal.com:8081/repository/conda-hkust/main
+    ------------------------------------------------------------
+                                           Total:        1.91 GB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      repository/conda-hkust/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      repository/conda-hkust/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  blas               repository/conda-hkust/free/linux-64::blas-1.0-mkl 
+  brotli-python      repository/conda-hkust/main/linux-64::brotli-python-1.0.9-py39h6a678d5_9 
+  ca-certificates    repository/conda-hkust/main/linux-64::ca-certificates-2025.2.25-h06a4308_0 
+  certifi            repository/conda-hkust/main/linux-64::certifi-2025.1.31-py39h06a4308_0 
+  cffi               repository/conda-hkust/main/linux-64::cffi-1.17.1-py39h1fdaa30_1 
+  charset-normalizer repository/conda-hkust/main/noarch::charset-normalizer-3.3.2-pyhd3eb1b0_0 
+  cudatoolkit        repository/conda-hkust/main/linux-64::cudatoolkit-11.8.0-h6a678d5_0 
+  cudnn              repository/conda-hkust/main/linux-64::cudnn-8.9.2.26-cuda11_0 
+  cupti              repository/conda-hkust/main/linux-64::cupti-11.8.0-he078b1a_0 
+  filelock           repository/conda-hkust/main/linux-64::filelock-3.17.0-py39h06a4308_0 
+  freetype           repository/conda-hkust/main/linux-64::freetype-2.13.3-h4a9f257_0 
+  gmp                repository/conda-hkust/main/linux-64::gmp-6.3.0-h6a678d5_0 
+  gmpy2              repository/conda-hkust/main/linux-64::gmpy2-2.2.1-py39h5eee18b_0 
+  idna               repository/conda-hkust/main/linux-64::idna-3.7-py39h06a4308_0 
+  intel-openmp       repository/conda-hkust/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46306 
+  jinja2             repository/conda-hkust/main/linux-64::jinja2-3.1.6-py39h06a4308_0 
+  jpeg               repository/conda-hkust/main/linux-64::jpeg-9e-h5eee18b_3 
+  lcms2              repository/conda-hkust/main/linux-64::lcms2-2.16-h92b89f2_1 
+  ld_impl_linux-64   repository/conda-hkust/main/linux-64::ld_impl_linux-64-2.40-h12ee557_0 
+  lerc               repository/conda-hkust/main/linux-64::lerc-4.0.0-h6a678d5_0 
+  libdeflate         repository/conda-hkust/main/linux-64::libdeflate-1.22-h5eee18b_0 
+  libffi             repository/conda-hkust/main/linux-64::libffi-3.4.4-h6a678d5_1 
+  libgcc-ng          repository/conda-hkust/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            repository/conda-hkust/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libpng             repository/conda-hkust/main/linux-64::libpng-1.6.39-h5eee18b_0 
+  libprotobuf        repository/conda-hkust/main/linux-64::libprotobuf-3.20.3-he621ea3_0 
+  libstdcxx-ng       repository/conda-hkust/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  libtiff            repository/conda-hkust/main/linux-64::libtiff-4.7.0-hde9077f_0 
+  libwebp-base       repository/conda-hkust/main/linux-64::libwebp-base-1.3.2-h5eee18b_1 
+  lz4-c              repository/conda-hkust/main/linux-64::lz4-c-1.9.4-h6a678d5_1 
+  magma              repository/conda-hkust/main/linux-64::magma-2.7.1-h2c23e93_0 
+  markupsafe         repository/conda-hkust/main/linux-64::markupsafe-3.0.2-py39h5eee18b_0 
+  mkl                repository/conda-hkust/main/linux-64::mkl-2023.1.0-h213fc3f_46344 
+  mkl-service        repository/conda-hkust/main/linux-64::mkl-service-2.4.0-py39h5eee18b_2 
+  mkl_fft            repository/conda-hkust/main/linux-64::mkl_fft-1.3.11-py39h5eee18b_0 
+  mkl_random         repository/conda-hkust/main/linux-64::mkl_random-1.2.8-py39h1128e8f_0 
+  mpc                repository/conda-hkust/main/linux-64::mpc-1.3.1-h5eee18b_0 
+  mpfr               repository/conda-hkust/main/linux-64::mpfr-4.2.1-h5eee18b_0 
+  mpmath             repository/conda-hkust/main/linux-64::mpmath-1.3.0-py39h06a4308_0 
+  ncurses            repository/conda-hkust/main/linux-64::ncurses-6.4-h6a678d5_0 
+  networkx           repository/conda-hkust/main/linux-64::networkx-3.2.1-py39h06a4308_0 
+  ninja              repository/conda-hkust/free/linux-64::ninja-1.7.2-0 
+  numpy              repository/conda-hkust/main/linux-64::numpy-1.26.4-py39h5f9d8c6_0 
+  numpy-base         repository/conda-hkust/main/linux-64::numpy-base-1.26.4-py39hb5e798b_0 
+  openjpeg           repository/conda-hkust/main/linux-64::openjpeg-2.5.2-h0d4d230_1 
+  openssl            repository/conda-hkust/main/linux-64::openssl-3.0.16-h5eee18b_0 
+  pillow             repository/conda-hkust/main/linux-64::pillow-11.1.0-py39hac6e08b_1 
+  pip                repository/conda-hkust/main/linux-64::pip-25.0-py39h06a4308_0 
+  pycparser          repository/conda-hkust/main/noarch::pycparser-2.21-pyhd3eb1b0_0 
+  pysocks            repository/conda-hkust/main/linux-64::pysocks-1.7.1-py39h06a4308_0 
+  python             repository/conda-hkust/main/linux-64::python-3.9.18-h955ad1f_0 
+  pytorch            repository/conda-hkust/main/linux-64::pytorch-2.0.1-gpu_cuda118py39he342708_0 
+  readline           repository/conda-hkust/main/linux-64::readline-8.2-h5eee18b_0 
+  requests           repository/conda-hkust/main/linux-64::requests-2.32.3-py39h06a4308_1 
+  setuptools         repository/conda-hkust/main/linux-64::setuptools-75.8.0-py39h06a4308_0 
+  sqlite             repository/conda-hkust/main/linux-64::sqlite-3.45.3-h5eee18b_0 
+  sympy              repository/conda-hkust/main/linux-64::sympy-1.13.3-py39h06a4308_1 
+  tbb                repository/conda-hkust/main/linux-64::tbb-2021.8.0-hdb19cb5_0 
+  tk                 repository/conda-hkust/main/linux-64::tk-8.6.14-h39e8969_0 
+  torchvision        repository/conda-hkust/main/linux-64::torchvision-0.15.2-cuda118py39h196c800_0 
+  typing-extensions  repository/conda-hkust/main/linux-64::typing-extensions-4.12.2-py39h06a4308_0 
+  typing_extensions  repository/conda-hkust/main/linux-64::typing_extensions-4.12.2-py39h06a4308_0 
+  tzdata             repository/conda-hkust/main/noarch::tzdata-2025a-h04d1e81_0 
+  urllib3            repository/conda-hkust/main/linux-64::urllib3-2.3.0-py39h06a4308_0 
+  wheel              repository/conda-hkust/main/linux-64::wheel-0.45.1-py39h06a4308_0 
+  xz                 repository/conda-hkust/main/linux-64::xz-5.6.4-h5eee18b_1 
+  zlib               repository/conda-hkust/main/linux-64::zlib-1.2.13-h5eee18b_1 
+  zstd               repository/conda-hkust/main/linux-64::zstd-1.5.6-hc292b87_0 
+
+
+
+Downloading and Extracting Packages: ...working...cudatoolkit-11.8.0   | 630.7 MB  |            |   0% 
+cudnn-8.9.2.26       | 469.4 MB  |            |   0% [A
+
+pytorch-2.0.1        | 466.3 MB  |            |   0% [A[A
+
+
+mkl-2023.1.0         | 171.5 MB  |            |   0% [A[A[A
+
+
+
+magma-2.7.1          | 104.8 MB  |            |   0% [A[A[A[A
+
+
+
+
+python-3.9.18        | 25.1 MB   |            |   0% [A[A[A[A[A
+
+
+
+
+
+cupti-11.8.0         | 18.9 MB   |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+intel-openmp-2023.1. | 17.2 MB   |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+sympy-1.13.3         | 11.2 MB   |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+torchvision-0.15.2   | 10.1 MB   |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-base-1.26.4    | 7.2 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+networkx-3.2.1       | 2.4 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-3.20.3   | 2.4 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+pip-25.0             | 2.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setuptools-75.8.0    | 1.6 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ninja-1.7.2          | 939 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mpmath-1.3.0         | 829 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mpfr-4.2.1           | 821 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A done

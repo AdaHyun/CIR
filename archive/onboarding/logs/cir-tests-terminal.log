@@ -1,0 +1,55 @@
+test_01_true_similarity_and_resume (__main__.WorkflowTests.test_01_true_similarity_and_resume) ... {"time": "2026-10-19T08:13:38Z", "stage": "initialization", "event": "start", "run_id": "continuous", "output": "tests/artifacts/fixture-1566/continuous", "device": "cpu"}
+{"time": "2026-10-19T08:13:38Z", "stage": "initialization", "event": "load", "path": "tests/artifacts/fixture-1566/assets/dress/dress_train_query_features.pt", "bytes": 1851, "sha256": "ae28e4274eb9322d47392a037b1c814b1cf3423f2bd9203237d83b651b48c500"}
+{"time": "2026-10-19T08:13:38Z", "stage": "initialization", "event": "load", "path": "tests/artifacts/fixture-1566/assets/dress/dress_train_image_features.pt", "bytes": 1979, "sha256": "7f9b46804f7e8c0803ff8b945dfff92b5ea887663d554f23984e63655c980063"}
+{"time": "2026-10-19T08:13:38Z", "stage": "initialization", "event": "load", "path": "tests/artifacts/fixture-1566/assets/dress/dress_train_topk.pt", "bytes": 2244, "sha256": "ca706b00a7086dba16f029a8a7303837bf62e9cebf31e7491e616448b0db035a"}
+{"time": "2026-10-19T08:13:38Z", "stage": "initialization", "event": "progress", "processed": 9, "total": 9, "elapsed_seconds": 0.0004343209999433384, "items_per_second": 20722.00055068519, "eta_seconds": 0.0, "phase": "validate-mapping", "category": "dress", "split": "train", "gpu": null}
+{"time": "2026-10-19T08:13:38Z", "stage": "initialization", "event": "asset-validated", "category": "dress", "split": "train", "queries": 9, "gallery": 12, "dimension": 8, "dtype": "torch.float32", "max_score_error": 1.1920928955078125e-07, "rank_disagreements": 0}
+ERROR
+test_02_eval_chunk_reuse_and_topk (__main__.WorkflowTests.test_02_eval_chunk_reuse_and_topk) ... {"time": "2026-10-19T08:13:38Z", "stage": "initialization", "event": "start", "run_id": "eval", "output": "tests/artifacts/fixture-1566/eval", "device": "cpu"}
+ERROR
+test_03_mapping_rejected (__main__.WorkflowTests.test_03_mapping_rejected) ... ok
+test_04_relocated_entrypoint (__main__.WorkflowTests.test_04_relocated_entrypoint) ... ok
+
+======================================================================
+ERROR: test_01_true_similarity_and_resume (__main__.WorkflowTests.test_01_true_similarity_and_resume)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/CIR/CIR-FULL/tests/test_workflow.py", line 38, in test_01_true_similarity_and_resume
+    a=self.base/'continuous';z=self.base/'resumed';run_train(a,self.cfg)
+                                                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/CIR/CIR-FULL/tests/test_workflow.py", line 27, in run_train
+    try:return train(cfg,'dress',r,pause)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/CIR/CIR-FULL/src/cir_full/engine.py", line 85, in train
+    c={**cfg['training'],**cfg['categories'][cat]};b=load_bundle(cfg,cat,'train',run);val=load_bundle(cfg,cat,'val',run)
+                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/CIR/CIR-FULL/src/cir_full/assets.py", line 39, in load_bundle
+    files=paths(cfg,cat,split);q=load_pt(files[0],run);im=load_pt(files[1],run)
+                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/CIR/CIR-FULL/src/cir_full/assets.py", line 23, in load_pt
+    if p.as_posix().endswith('/'+name.lstrip('./')) and p.suffix=='.pt' and h!=expected:raise ValueError(f'published hash mismatch: {p}')
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: published hash mismatch: /workspace/CIR/CIR-FULL/tests/artifacts/fixture-1566/assets/dress/dress_val_query_features.pt
+
+======================================================================
+ERROR: test_02_eval_chunk_reuse_and_topk (__main__.WorkflowTests.test_02_eval_chunk_reuse_and_topk)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/CIR/CIR-FULL/tests/test_workflow.py", line 63, in test_02_eval_chunk_reuse_and_topk
+    out=evaluate(self.cfg,'dress',r,kind='cn');h=sha(out[1]);mtime=(p/'predictions/cn-dress/chunks/00000000.json').stat().st_mtime_ns
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/CIR/CIR-FULL/src/cir_full/engine.py", line 23, in evaluate
+    b=bundle or load_bundle(cfg,cat,'val',run);q,im,t=b['query'],b['image'],b['topk'];n=len(b['query_ids']);bs=cfg['eval_batch_size'];started=time.monotonic()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/CIR/CIR-FULL/src/cir_full/assets.py", line 39, in load_bundle
+    files=paths(cfg,cat,split);q=load_pt(files[0],run);im=load_pt(files[1],run)
+                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/CIR/CIR-FULL/src/cir_full/assets.py", line 23, in load_pt
+    if p.as_posix().endswith('/'+name.lstrip('./')) and p.suffix=='.pt' and h!=expected:raise ValueError(f'published hash mismatch: {p}')
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: published hash mismatch: /workspace/CIR/CIR-FULL/tests/artifacts/fixture-1566/assets/dress/dress_val_query_features.pt
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.406s
+
+FAILED (errors=2)

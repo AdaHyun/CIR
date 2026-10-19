@@ -1,0 +1,77 @@
+{
+  "validation_time_utc": "2026-10-19T08:24:13Z",
+  "runtime": "Python 3.12.14, torch 2.3.1+cpu, NumPy 1.26.4",
+  "real_pipeline": {
+    "run": "runs/delivery-final",
+    "exit_code": 2,
+    "completed": [
+      "audit:dress",
+      "audit:shirt",
+      "audit:toptee",
+      "old-eval:dress",
+      "old-eval:shirt",
+      "old-eval:toptee",
+      "multik:dress",
+      "multik:shirt",
+      "multik:toptee",
+      "diagnostics:dress",
+      "diagnostics:shirt",
+      "diagnostics:toptee",
+      "cost:dress",
+      "cost:shirt",
+      "cost:toptee",
+      "summary"
+    ],
+    "blocked": [
+      "train:dress",
+      "train:shirt",
+      "train:toptee",
+      "new-eval:dress",
+      "new-eval:shirt",
+      "new-eval:toptee",
+      "dqu-export:dress",
+      "dqu-export:shirt",
+      "dqu-export:toptee",
+      "visualization:dress",
+      "visualization:shirt",
+      "visualization:toptee"
+    ],
+    "failed": []
+  },
+  "unit_checks": {
+    "test_workflow.py": {
+      "tests": 4,
+      "status": "passed",
+      "log": "archive/onboarding/logs/cir-tests-release-terminal.log"
+    },
+    "test_signal_resume.py": {
+      "tests": 1,
+      "status": "passed",
+      "log": "archive/onboarding/logs/cir-signal-release-terminal.log"
+    }
+  },
+  "repeat_copy": {
+    "records_verified_skipped": 1166,
+    "copied": 0,
+    "failed": 0,
+    "log": "reports/organization"
+  },
+  "real_resume": {
+    "passed": true,
+    "log": "archive/onboarding/logs/cir-resume-final-terminal.log",
+    "completed_stage_skips": 16
+  },
+  "relocation": {
+    "fixture_cpu_evaluation": "passed; from arbitrary cwd and moved project containing space",
+    "real_dress_audit": "passed; copied actual query/gallery/topk/checkpoint, launched from /tmp",
+    "evidence": [
+      "tests/artifacts/real-relocation-1792398044758752926/relocation-terminal.log"
+    ]
+  },
+  "static_compile": "active src, scripts and tests passed compileall",
+  "a100_verified": false,
+  "windows_machine_verified": false,
+  "real_training_executed": false,
+  "remote_access_upload_or_gpu_install": false,
+  "known_repository_issues": "5 original source checksum mismatches; retained and separately reported"
+}

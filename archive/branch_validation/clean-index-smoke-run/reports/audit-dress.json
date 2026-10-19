@@ -1,0 +1,247 @@
+{
+  "category": "dress",
+  "sources_separate": true,
+  "splits": {
+    "val": {
+      "status": "已验证可用",
+      "schema": {
+        "assets/dress/dress_val_query_features.pt": {
+          "query_features": {
+            "type": "Tensor",
+            "shape": [
+              2017,
+              1024
+            ],
+            "dtype": "torch.float32",
+            "finite": true,
+            "norm_min": 0.9999998807907104,
+            "norm_max": 1.0000001192092896
+          },
+          "source_ids": {
+            "type": "list",
+            "length": 2017,
+            "first": "['B005X4PL1G']"
+          },
+          "target_ids": {
+            "type": "list",
+            "length": 2017,
+            "first": "['B0084Y8XIU']"
+          }
+        },
+        "assets/dress/dress_val_image_features.pt": {
+          "image_ids": {
+            "type": "list",
+            "length": 2628,
+            "first": "['B005X4PL1G']"
+          },
+          "features": {
+            "type": "Tensor",
+            "shape": [
+              2628,
+              1024
+            ],
+            "dtype": "torch.float32",
+            "finite": true,
+            "norm_min": 0.9999998211860657,
+            "norm_max": 1.0000001192092896
+          }
+        },
+        "assets/dress/dress_val_topk.pt": {
+          "sorted_ids": {
+            "type": "list",
+            "length": 2017,
+            "first": "[['B0084Y8XIU', 'B009ND97G8', 'B0076IKR66', 'B0087COXNS', 'B005FVRJMQ', 'B0069TD8DW', 'B00BSMGUPI', 'B0055TBPNC', 'B004YADUVS', 'B00DRCZHJC', 'B005FOPRRW', 'B006J42TFU', 'B005FLWZCA', 'B005UX57P0', 'B00466F2W0', 'B00ABXKO02', 'B00B5P4VG8', 'B0065W6F5"
+          },
+          "sorted_scores": {
+            "type": "list",
+            "length": 2017,
+            "first": "[[0.696129322052002, 0.6407489776611328, 0.6050840020179749, 0.5887050032615662, 0.5794605612754822, 0.577478289604187, 0.5434350371360779, 0.5258502960205078, 0.5029742121696472, 0.49345093965530396, 0.49135854840278625, 0.4687126576900482, 0.468432"
+          },
+          "source_ids": {
+            "type": "list",
+            "length": 2017,
+            "first": "['B005X4PL1G']"
+          },
+          "target_ids": {
+            "type": "list",
+            "length": 2017,
+            "first": "['B0084Y8XIU']"
+          },
+          "target_ranks": {
+            "type": "list",
+            "length": 2017,
+            "first": "[1]"
+          },
+          "target_in_topk": {
+            "type": "list",
+            "length": 2017,
+            "first": "[True]"
+          },
+          "coverage": {
+            "num_queries": 2017,
+            "top10_coverage": 53.84234010907288,
+            "top50_coverage": 77.14427367377293,
+            "top100_coverage": 84.53148239960338,
+            "mean_target_rank": 80.72384729796728,
+            "median_target_rank": 8.0
+          }
+        }
+      },
+      "query_count": 2017,
+      "gallery_count": 2628,
+      "gallery_is_query_union": true,
+      "score_max_abs_error": 4.76837158203125e-07,
+      "rank_disagreements": [],
+      "feature_space_provenance": "unconfirmed producer checkpoint hash; dimensional compatibility alone is insufficient"
+    },
+    "train": {
+      "status": "缺失",
+      "missing": [
+        "assets/dress/dress_train_query_features.pt",
+        "assets/dress/dress_train_image_features.pt",
+        "assets/dress/dress_train_topk.pt"
+      ],
+      "topk_rebuildable": false
+    }
+  },
+  "checkpoint": {
+    "status": "已验证可用",
+    "path": "checkpoints/reranker/dress/dress_best.pt",
+    "schema": {
+      "model_state_dict": {
+        "base_scale": {
+          "type": "Tensor",
+          "shape": [],
+          "dtype": "torch.float32",
+          "finite": true,
+          "norm_min": null,
+          "norm_max": null
+        },
+        "query_proj.weight": {
+          "type": "Tensor",
+          "shape": [
+            768,
+            1024
+          ],
+          "dtype": "torch.float32",
+          "finite": true,
+          "norm_min": 0.6739705204963684,
+          "norm_max": 1.1726007461547852
+        },
+        "query_proj.bias": {
+          "type": "Tensor",
+          "shape": [
+            768
+          ],
+          "dtype": "torch.float32",
+          "finite": true,
+          "norm_min": null,
+          "norm_max": null
+        },
+        "cand_proj.weight": {
+          "type": "Tensor",
+          "shape": [
+            768,
+            1024
+          ],
+          "dtype": "torch.float32",
+          "finite": true,
+          "norm_min": 0.6531462669372559,
+          "norm_max": 1.0430901050567627
+        },
+        "cand_proj.bias": {
+          "type": "Tensor",
+          "shape": [
+            768
+          ],
+          "dtype": "torch.float32",
+          "finite": true,
+          "norm_min": null,
+          "norm_max": null
+        },
+        "score_head.0.weight": {
+          "type": "Tensor",
+          "shape": [
+            768,
+            3073
+          ],
+          "dtype": "torch.float32",
+          "finite": true,
+          "norm_min": 0.5974366068840027,
+          "norm_max": 2.1963746547698975
+        },
+        "score_head.0.bias": {
+          "type": "Tensor",
+          "shape": [
+            768
+          ],
+          "dtype": "torch.float32",
+          "finite": true,
+          "norm_min": null,
+          "norm_max": null
+        },
+        "score_head.3.weight": {
+          "type": "Tensor",
+          "shape": [
+            1,
+            768
+          ],
+          "dtype": "torch.float32",
+          "finite": true,
+          "norm_min": 4.640999794006348,
+          "norm_max": 4.640999794006348
+        },
+        "score_head.3.bias": {
+          "type": "Tensor",
+          "shape": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "finite": true,
+          "norm_min": null,
+          "norm_max": null
+        }
+      },
+      "args": {
+        "category": "dress",
+        "asset_dir": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/assets/dress",
+        "output_dir": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageR_feature_rerank_20260423/runs/human_wide_v3/dress",
+        "seed": 42,
+        "epochs": 36,
+        "batch_size": 64,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "dropout": 0.2,
+        "hidden_dim": 768,
+        "train_k": 16,
+        "train_pool": 64,
+        "val_k": 100,
+        "distill_weight": 0.0,
+        "distill_temperature": 0.07,
+        "base_score_scale": 1.0
+      },
+      "best_metrics": {
+        "epoch": 30,
+        "train_loss": 0.00018898458776246864,
+        "score": 131.18492811105602,
+        "dress_r10": 54.33812592959841,
+        "dress_r50": 76.8468021814576,
+        "dress_r100": 84.53148239960338,
+        "seed": 42,
+        "hidden_dim": 768,
+        "dropout": 0.2,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "train_k": 16,
+        "train_pool": 64,
+        "val_k": 100,
+        "distill_weight": 0.0,
+        "distill_temperature": 0.07,
+        "base_score_scale": 1.1431989669799805
+      }
+    },
+    "strict_state_dict": true,
+    "train_resume_capable": false
+  },
+  "cross_package_compatibility": "model class matches strictly; assets of phase_packages absent, so feature-space identity unverified"
+}

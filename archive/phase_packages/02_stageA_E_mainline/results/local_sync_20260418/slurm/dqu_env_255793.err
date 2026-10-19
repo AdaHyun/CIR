@@ -1,0 +1,44 @@
+
+CondaHTTPError: HTTP 404 NOT FOUND for url <http://harbor.internal.com:8081/repository/conda-hkust/main/linux-64/cudnn-8.9.2.26-cuda11_0.conda>
+Elapsed: 00:00.037720
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+CondaHTTPError: HTTP 404 NOT FOUND for url <http://harbor.internal.com:8081/repository/conda-hkust/main/linux-64/pytorch-2.0.1-gpu_cuda118py39he342708_0.conda>
+Elapsed: 00:00.034295
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+CondaHTTPError: HTTP 404 NOT FOUND for url <http://harbor.internal.com:8081/repository/conda-hkust/main/linux-64/cudatoolkit-11.8.0-h6a678d5_0.conda>
+Elapsed: 00:00.040005
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+CondaHTTPError: HTTP 404 NOT FOUND for url <http://harbor.internal.com:8081/repository/conda-hkust/main/linux-64/cudnn-8.9.2.26-cuda11_0.conda>
+Elapsed: 00:00.037720
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+CondaHTTPError: HTTP 404 NOT FOUND for url <http://harbor.internal.com:8081/repository/conda-hkust/main/linux-64/magma-2.7.1-h2c23e93_0.conda>
+Elapsed: 00:00.042102
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+CondaHTTPError: HTTP 404 NOT FOUND for url <http://harbor.internal.com:8081/repository/conda-hkust/main/linux-64/cupti-11.8.0-he078b1a_0.conda>
+Elapsed: 00:00.030716
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+CondaHTTPError: HTTP 404 NOT FOUND for url <http://harbor.internal.com:8081/repository/conda-hkust/free/linux-64/blas-1.0-mkl.tar.bz2>
+Elapsed: 00:00.037153
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+

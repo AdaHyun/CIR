@@ -1,0 +1,11 @@
+# Install matching torch/torchvision wheels separately using setup_server.sh.
+numpy==1.26.4
+open-clip-torch==2.23.0
+timm==0.9.16
+transformers==4.44.2
+huggingface-hub==0.25.2
+safetensors==0.4.5
+Pillow==10.4.0
+opencv-python-headless==4.9.0.80
+tqdm==4.66.5
+ftfy==6.2.3

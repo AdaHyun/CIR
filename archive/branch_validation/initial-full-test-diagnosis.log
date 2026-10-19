@@ -1,0 +1,27 @@
+test_01_complete_pipeline (__main__.FullPipelineTests.test_01_complete_pipeline) ... FAIL
+test_02_upstream_resume (__main__.FullPipelineTests.test_02_upstream_resume) ... ok
+test_03_experiments_and_boundaries (__main__.FullPipelineTests.test_03_experiments_and_boundaries) ... ok
+test_04_corruption_and_relocation (__main__.FullPipelineTests.test_04_corruption_and_relocation) ... ok
+
+======================================================================
+FAIL: test_01_complete_pipeline (__main__.FullPipelineTests.test_01_complete_pipeline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/CIR/tests/test_full_workflow.py", line 39, in test_01_complete_pipeline
+    p=self.call('pipeline',extra=['--resume']);self.assertEqual(p.returncode,0,p.stdout+p.stderr);self.assertIn('"event": "skipped"',p.stdout)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : {"time": "2026-10-19T08:51:29Z", "stage": "initialization", "event": "restart", "run_id": "complete", "output": "tests/artifacts/full-fixture-1792399885476817870/outputs/complete", "device": "cpu"}
+{"time": "2026-10-19T08:51:29Z", "stage": "initialization", "event": "preflight-complete", "category": "dress", "train_queries": 8, "val_queries": 6, "train_gallery": 8, "val_gallery": 6, "train_val_image_overlap": 0, "free_bytes": 29839912960, "estimated_per_category_checkpoint_budget_bytes": 0, "query_config": {"visual_writing": true, "keywords": "modification", "caption_source": "imported-or-free-local-BLIP; recorded separately"}, "scope": "new raw-image workflow; no old CN or RR weights are prerequisites", "correction_cache": "present", "keywords_mode": "modification"}
+Traceback (most recent call last):
+  File "/workspace/CIR/src/cir_full/full_cli.py", line 132, in main
+    run.execute(stage+':'+cat,ident,fn)
+  File "/workspace/CIR/src/cir_full/runtime.py", line 80, in execute
+    if not all((self.path/k).is_file() and sha(self.path/k)==v for k,v in outputs.items()):raise ValueError(f'{key}: completed outputs changed or missing; new run required')
+                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: doctor:dress: completed outputs changed or missing; new run required
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 20.756s
+
+FAILED (failures=1)

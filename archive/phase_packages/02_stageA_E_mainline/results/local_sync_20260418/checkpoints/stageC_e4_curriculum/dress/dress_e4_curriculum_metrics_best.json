@@ -1,0 +1,8 @@
+{
+    "dress_r1": 22.756569162121963,
+    "dress_r10": 54.73475458601884,
+    "dress_r50": 75.95438770451165,
+    "model_variant": "dqu",
+    "pseudo_label": "filtered_curriculum",
+    "pseudo_path": "/data/user/hqi881/CIR/project_stage1_dqu_baseline/artifacts/stageC_pseudo_v3/filtered_pseudo/pseudo_dress.jsonl"
+}

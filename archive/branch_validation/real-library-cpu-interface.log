@@ -1,0 +1,9 @@
+test_openclip_dqu_rc_forward (__main__.RealLibraryInterfaceTest.test_openclip_dqu_rc_forward) ... There was a problem when trying to write in your cache folder (/home/agent/.cache/huggingface/hub). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+/workspace/cir-venv/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: DeprecationWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", DeprecationWarning)
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 4.925s
+
+OK

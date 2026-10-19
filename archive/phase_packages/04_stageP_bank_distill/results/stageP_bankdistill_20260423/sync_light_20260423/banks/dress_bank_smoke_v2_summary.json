@@ -1,0 +1,10 @@
+{
+  "category": "dress",
+  "query_count": 50,
+  "accepted_count": 37,
+  "accepted_ratio": 0.74,
+  "soft_bank_size": 5,
+  "rank_gate": 20,
+  "teacher_a_variant": "dqu_pfp_refcond",
+  "teacher_b_variant": "dqu"
+}

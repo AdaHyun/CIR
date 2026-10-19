@@ -1,0 +1,10 @@
+{
+  "category": "toptee",
+  "query_count": 6027,
+  "accepted_count": 5339,
+  "accepted_ratio": 0.8858470217355234,
+  "soft_bank_size": 5,
+  "rank_gate": 20,
+  "teacher_a_variant": "dqu_pfp_refcond",
+  "teacher_b_variant": "dqu"
+}

@@ -1,0 +1,31 @@
+{
+  "passed": 164,
+  "mismatches": [
+    {
+      "path": "./code/datasets.py",
+      "expected": "a41defb07d36bfab7c248065f7ee45dcb3f7f19ed7868a6bdb931740a504281c",
+      "actual": "224e4212de914c2978e96319160cc1264daf214e1fe43b9572181b5bec5d8122"
+    },
+    {
+      "path": "./code/scripts/run_fashioniq_mix_hpc.sh",
+      "expected": "b0a8e1168c67997d6c4f646cff5afb3f26f2f1064515678728831dbb8bfd6134",
+      "actual": "3c710b9ffebdd3234591cedf1ceec1855472a7aa06f89b3220400918779c8554"
+    },
+    {
+      "path": "./code/src/datasets.py",
+      "expected": "7f98795f9da55249c5385c9f4ee8af6e16d102a9b2db44cd424f5d8b883f9673",
+      "actual": "eba4639294b15d4afd73467ff3ccfbc66a5d15aac4d6d64e5876f850fb6f775e"
+    },
+    {
+      "path": "./code/src/test.py",
+      "expected": "5dc66fd8ad2e5b67d308a9bf10e5e2286b64ba8009af2f7c977282a659b58a34",
+      "actual": "4aee2d6b6266237d296cc2118768e56ff769c6b82c9b42684d4b81fe333e6752"
+    },
+    {
+      "path": "./code/src/utils.py",
+      "expected": "a4ce8a53d0d3eb9036160e22e3aca229e58eaa634762f9bf998716ddf4072ba0",
+      "actual": "56f0c6fe4b6ae5058d16d75a9adc3baebfc8d6b14c9c314012ba7cf8bfe56422"
+    }
+  ],
+  "action": "original bytes and hashes retained; model/feature artifacts separately verified"
+}

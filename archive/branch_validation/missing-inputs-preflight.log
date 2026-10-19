@@ -1,0 +1,5 @@
+{"time": "2026-10-19T09:12:45Z", "stage": "initialization", "event": "start", "run_id": "missing-inputs-preflight-check", "output": "runs/new/missing-inputs-preflight-check", "device": "cpu"}
+{"time": "2026-10-19T09:12:45Z", "stage": "preflight", "event": "running", "input_fingerprint": "b39fa54747ae75099f596b5c84b0688a2340645a1da1f5c82030a5815260abcf"}
+{"time": "2026-10-19T09:12:47Z", "stage": "preflight", "event": "blocked", "reason": "public pretrained weights missing; scripts/prepare.py model --kind clip"}
+{"time": "2026-10-19T09:12:47Z", "stage": "preflight", "event": "blocked", "reason": "public pretrained weights missing; scripts/prepare.py model --kind clip"}
+{"time": "2026-10-19T09:12:47Z", "stage": "preflight", "event": "blocked", "reason": "public pretrained weights missing; scripts/prepare.py model --kind clip"}

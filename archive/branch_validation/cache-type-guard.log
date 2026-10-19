@@ -1,0 +1,5 @@
+{"phase": "load-annotations", "category": "dress", "split": "train", "path": "tests/artifacts/full-fixture-1792401059876524572/data/captions/cap.dress.train.json", "bytes": 1419}
+{"phase": "verify-images", "category": "dress", "split": "train", "count": 8, "total": 8, "current": "tests/artifacts/full-fixture-1792401059876524572/data/resized_image/dress/EXPLICIT-TEST-train-7.pt"}
+{"phase": "load-annotations", "category": "dress", "split": "train", "path": "tests/artifacts/full-fixture-1792401059876524572/data/captions/cap.dress.train.json", "bytes": 1419}
+PASS invalid caption mapping rejected, original assets unchanged
+PASS existing valid fixture data still loads
